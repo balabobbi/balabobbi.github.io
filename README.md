@@ -9,9 +9,9 @@
 **Operating system:** Windows 8/10/11
 
 Electronic service tool Perkins EST 2024 diagnostic software for Perkins Engines & Generators designed to run on a personal computer (PC) under Microsoft Windows it will communicate with the Electronic Control Modules (ECMs) through a communication data link, allowing existing and potential problems to be diagnosed, products to be configured, and data to be obtained for analysis.
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Perkins-Electronic-Service-Tool-EST-2024a-with-FPKG](https://forum.balabobbi.com/Thread-Perkins-Electronic-Service-Tool-EST-2024a-with-FPKG)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -43,9 +43,9 @@ Collision Mitigation (FLC-20, FLR-20, FLR-21, and more)
 - The family of Bendix® Wingman® driver assistance systems, including Bendix Wingman ACB™, Wingman Advanced™, and Wingman Fusion™
 
 *Write us if you need Bendix ACom Pro 2023 V3*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Bendix-ACom-v1-2024](https://forum.balabobbi.com/Thread-Bendix-ACom-v1-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -67,9 +67,9 @@ Collision Mitigation (FLC-20, FLR-20, FLR-21, and more)
 **Operating system:** Windows 10, 8.1 8, 7 64 bit (x64) & 32 bit (x86)
 
 Bobcat Service Library contains service manuals, repair manuals, maintenance manuals, operator manuals, electrical diagrams, hydraulic diagrams, and more for all Models of Bobcat construction equipment, farm, and attachments all Contents are PDF-based.
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Bobcat-Service-Library-2022](https://forum.balabobbi.com/Thread-Bobcat-Service-Library-2022)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -95,9 +95,9 @@ Caterpillar Electronic Technician 2024A (Cat ET Software) communicates diagnoses
 To get the vehicle information the Cat ET software must be connected to the Electronic Control Module (ECM). For this purpose, you need a suitable diagnostic link adapter (DLA), for instance, Genuine CAT Comm Adapter III.
 
 The laptops with ARM CPUs (Snapdragon 8cx, Microsft SQ1, etc) type are not supported!
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Caterpillar-Electronic-Technician-ET-2024a-CAT-ET-2024](https://forum.balabobbi.com/Thread-Caterpillar-Electronic-Technician-ET-2024a-CAT-ET-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -156,9 +156,9 @@ The following brands of the CNH group are covered: 
 - Link-Belt
 
 *Write us if you need CNH EST 9.6/9.7/9.8/9.9 engineering*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-CNH-EST-9-10-Engineering](https://forum.balabobbi.com/Thread-CNH-EST-9-10-Engineering)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -207,9 +207,9 @@ Cummins INSITE 8.9.2.79 Pro Function:
 - Reflash ECU data, read & write ECU(Pro function included)
 
 *Write us if you need Cummins INSITE 8.9/8.7/8.6/8.5*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Cummins-Insite-8-9-2-79-Pro-level](https://forum.balabobbi.com/Thread-Cummins-Insite-8-9-2-79-Pro-level)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -231,9 +231,9 @@ Integated Diagnostic Software (**IDS**) - The factory Ford Motor Company vehicle
 Ford J2534 Diagnostic Software (**FJDS**) - The factory Ford Motor Company vehicle diagnostic tool designed for use with J2534 compatible Vehicle Communications Interfaces (VCI). FJDS software provides module reprogramming software (FMP) that covers 1996 to present Ford, Lincoln and Mercury module reprogramming functions, plus complete dealership level diagnostic software for all 2018 to present Ford and Lincoln vehicles. FJDS is a flexible diagnostic tool that utilizes standard computing platforms to **work with Ford's VCM II or J2534** compatible devices. The FJDS software license includes time based access to the FJDS software, software updates and calibration files.
 
 Ford Diagnostic & Repair System (**FDRS**) - The next generation factory Ford Motor Company vehicle diagnostic Software designed for **use with VCM II, VCMM and J2534** compatible Vehicle Communications Interfaces (VCI). FDRS provides complete dealership level vehicle diagnostic coverage for some 2018 and forward vehicles. FDRS provides superior capabilities, is more user-friendly and provides more diagnostic tools than IDS. The cloud-based system ensures the technician is provided the latest software every time FDRS logs into the Ford network.
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Ford-IDS-130-01-130-05-or-FJDS-130-01-130-05-or-FDRS-40-4-5](https://forum.balabobbi.com/Thread-Ford-IDS-130-01-130-05-or-FJDS-130-01-130-05-or-FDRS-40-4-5)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -260,9 +260,9 @@ The original equipment manufacturer (OEM) parts catalog includes full and necess
 Buick, Cadillac, Chevrolet, GM Daewoo, GMC, Hummer, Light Truck, Truck Buick, Truck Cadillac, Truck Chevrolet, Truck GMC, Truck Oldsmobile, Truck Pontiac, Medium Truck, Oldsmobile, Opel, Pontiac, Saab, Saab Exchange, Saturn
 
 *Write us if you need some other version of this catalog*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-GM-GMIO-EPC-02-2024](https://forum.balabobbi.com/Thread-GM-GMIO-EPC-02-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -320,9 +320,9 @@ HINO DX3&nbsp; DX III has the same functions as the conventional HINO DX3 as an 
 - 200 series (GD engine)
 
 *Please write to us if you need Hino DX3 1.22.10/ 1.23.3 / 1.24.3 or Hino DX2 1.1.21.3 or any other software or catalogs for Hino*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Hino-DX3-Ver-1-24-4-06-2024](https://forum.balabobbi.com/Thread-Hino-DX3-Ver-1-24-4-06-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -357,9 +357,9 @@ Electronic Parts Catalog consists of in-depth information about replacement part
 - ... 
 
 _Write us if you need other EPC or software for Hyundai_
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Hyundai-Robex-Heavy-Parts-Catalog-HCE-2017](https://forum.balabobbi.com/Thread-Hyundai-Robex-Heavy-Parts-Catalog-HCE-2017)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -414,9 +414,9 @@ This version provides an offline solution for effective heavy equipment service.
 - SCANIA DC16 XPI Inspection manual
 
 *Write us if you need some others manuals for Hyundai*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Hyundai-Heavy-Equipment-Service-Manual-05-2024](https://forum.balabobbi.com/Thread-Hyundai-Heavy-Equipment-Service-Manual-05-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -451,9 +451,9 @@ John Deere Parts ADVISOR makes doing that as comfortable and productive as possi
 - HITACHI
 
 _Write us if you need some other software or catalog for the John Deere_
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-John-Deere-Parts-Advisor-05-2024](https://forum.balabobbi.com/Thread-John-Deere-Parts-Advisor-05-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -556,9 +556,9 @@ NEW Bi-Directional support for Caterpillar engines:
 - Bi-Directional Support for Bendix TPMS: - TPMS Parameters: Antennae Configuration - тow supports Internal Antenna configuration for SmarTire™ NextGen TNC solutions- TPMS Service Replacement supported on all SmarTire™ TPMS solutions.
 
 _Write us if you need some another software or keygen for it_
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Noregon-JPRO-2024v2-Commercial-Fleet-Diagnostics](https://forum.balabobbi.com/Thread-Noregon-JPRO-2024v2-Commercial-Fleet-Diagnostics)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -584,9 +584,9 @@ MAN Mantis EPC is a catalog containing all spare parts for MAN trucks, tractors,
 Detailed list in the .txt
 
 _Write us if you need some other software of catalog for MAN_
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-MAN-Mantis-EPC-04-2024](https://forum.balabobbi.com/Thread-MAN-Mantis-EPC-04-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -615,9 +615,9 @@ The Mitchell Ultramate Estimating 06.2023 program is designed for creating car r
 - Standardizing estimates: The program helps ensure consistency and accuracy of estimates, which is especially important for insurance companies and auto repair shops with a high volume of customers.
 
 *Write us if you need some other EPC or software*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Mitchell-Ultramate-Estimating-06-2023](https://forum.balabobbi.com/Thread-Mitchell-Ultramate-Estimating-06-2023)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -645,9 +645,9 @@ Contains complete information on spare parts and additional equipment for cars a
 In the auto parts catalog, there is a search by VIN, model, number, name, and applicability of the part.
 
 _Write us if you need some other software or catalog for Mitsubishi_
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Mitsubishi-MMC-ASA-EPC-06-2024-General-Europe-USA-Japan](https://forum.balabobbi.com/Thread-Mitsubishi-MMC-ASA-EPC-06-2024-General-Europe-USA-Japan)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -684,9 +684,9 @@ The program supports the following engines:
 - E2011 (2010-)
 
 *Write us if you need  Scania SDP3 2.60 or some other software for Scania*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Scania-SDP3-2-61-1-5](https://forum.balabobbi.com/Thread-Scania-SDP3-2-61-1-5)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -722,9 +722,9 @@ The Doosan Monitoring Program (DMS) e-EPOS controller is mounted on the excavato
 - (DX225LC-7M, DX225LCA-7M DX490LCA-7M
 
 *Please write to us if you need any other software or catalogs for Doosan*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-DEVELON-DMS-5-3-1-9-for-Doosan](https://forum.balabobbi.com/Thread-DEVELON-DMS-5-3-1-9-for-Doosan)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -752,9 +752,9 @@ Subaru Parts Catalog describes, illustrates and helps to understand the procedur
 This directory is easy-to-use this software. There is nothing difficult in finding the details - enter the VIN code and the necessary information will be in front of you.
 
 _Write us if you need some other software or catalog for Subaru_
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Subaru-Japan-EPC3-06-2021](https://forum.balabobbi.com/Thread-Subaru-Japan-EPC3-06-2021)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -788,9 +788,9 @@ List:
 
 Detailed list on the .txt
 _Write us if you need some other software or catalog for Volvo_
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Volvo-Penta-EPC-03-2024-Marine-Industrial-Engine](https://forum.balabobbi.com/Thread-Volvo-Penta-EPC-03-2024-Marine-Industrial-Engine)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -892,9 +892,9 @@ Supported Engines:
 - SAE J1939 Engine Module
 
 _Write us if you need some other software or catalog for Navistar_
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Navistar-Engine-Diagnostics-NED-06-2024](https://forum.balabobbi.com/Thread-Navistar-Engine-Diagnostics-NED-06-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -949,9 +949,9 @@ The 4.12 release of ServiceRanger includes:
 - Fuller Advantage Series
 
 _Write us if you need some other software or catalog for EATON_
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Eaton-Service-Ranger-4-12-Engineering-Level-05-2024](https://forum.balabobbi.com/Thread-Eaton-Service-Ranger-4-12-Engineering-Level-05-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -1001,9 +1001,9 @@ Volvo Premium Tech Tool software is designed to diagnose and program Volvo truck
 **Please write to us if you need Volvo PTT 2.8.241 + APCI 0.7 / APCI 0.5 / with KG**
 
 *Write to us if you need any other software or catalogs for Volvo*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Volvo-Premium-Tech-Tool-PTT-2-8-260-0-7-APCI-2024-DevTool](https://forum.balabobbi.com/Thread-Volvo-Premium-Tech-Tool-PTT-2-8-260-0-7-APCI-2024-DevTool)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -1050,9 +1050,9 @@ VAG PETKA 8.3 EPC 06.2024 is an electronic parts catalog for vehicles of brands 
 - Caminhoes Onibus 07.2023 Spare Parts Catalog Software
 
 *Please write to us if you need any other software or catalogs for VAG*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-VAG-PETKA-8-3-EPC-07-2024](https://forum.balabobbi.com/Thread-VAG-PETKA-8-3-EPC-07-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -1101,9 +1101,9 @@ VAG PETKA 8.3 EPC 06.2024 is an electronic parts catalog for vehicles of brands 
 - Caminhoes Onibus 07.2023 Spare Parts Catalog Software
 
 *Please write to us if you need any other software or catalogs for VAG*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-VAG-PETKA-8-3-EPC-07-2024--35](https://forum.balabobbi.com/Thread-VAG-PETKA-8-3-EPC-07-2024--35)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -1152,9 +1152,9 @@ Contents:
 - Caminhoes Onibus 07.2023 Spare Parts Catalog Software
 
 *Please write to us if you need any other software or catalogs for VAG*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-VAG-PETKA-8-3-EPC-07-2024--36](https://forum.balabobbi.com/Thread-VAG-PETKA-8-3-EPC-07-2024--36)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -1203,9 +1203,9 @@ VAG PETKA 8.3 EPC 06.2024 is an electronic parts catalog for vehicles of brands 
 - Caminhoes Onibus 07.2023 Spare Parts Catalog Software
 
 *Please write to us if you need any other software or catalogs for VAG*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-VAG-PETKA-8-3-EPC-07-2024--37](https://forum.balabobbi.com/Thread-VAG-PETKA-8-3-EPC-07-2024--37)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -1254,9 +1254,9 @@ VAG PETKA 8.3 EPC 06.2024 is an electronic parts catalog for vehicles of brands 
 - Caminhoes Onibus 07.2023 Spare Parts Catalog Software
 
 *Please write to us if you need any other software or catalogs for VAG*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-VAG-PETKA-8-3-EPC-07-2024--38](https://forum.balabobbi.com/Thread-VAG-PETKA-8-3-EPC-07-2024--38)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -1299,9 +1299,9 @@ Features of Allison DOC 2023.3 (12.2023)
 - Setting up FuelSense® 2.0 parameters (training is optional)
 
 **_Write us if you nees some other software of catalog for Allison_**
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Allison-DOC-2023-3-12-2023-Gen-6-data-files-10-2023](https://forum.balabobbi.com/Thread-Allison-DOC-2023-3-12-2023-Gen-6-data-files-10-2023)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -1361,9 +1361,9 @@ Parts catalogs and repair manuals for the following brands of special equipment:
 - Volvo
 - Yanmar
 - ZF.
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Autodata-online-for-1-year-D-R-kit-Eng](https://forum.balabobbi.com/Thread-Autodata-online-for-1-year-D-R-kit-Eng)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -1402,9 +1402,9 @@ The software provides detailed descriptions of repair, operational tasks, and ma
 Additionally, the software contains information on part numbers and prices, labor costs, assembly and disassembly algorithms, diagnostic documentation, repair procedures, labor time calculations, wiring diagrams, and vacuum diagrams. You can find information on potential malfunctions and methods of their resolution, as well as much other information crucial for repairing foreign cars produced since 1982.
 
 With this software, you can not only carry out repairs but also diagnose malfunctions in the electronic systems of the car. The program includes data on the location of the diagnostic connector, detailed tables with fault code explanations, their possible causes, symptoms, and diagnostic procedures to eliminate faults. It also provides descriptions of the contents of readout blocks with current parameters and their standard values.
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-AllData-USA-Europe-USA-Europe-Online-1-year](https://forum.balabobbi.com/Thread-AllData-USA-Europe-USA-Europe-Online-1-year)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -1426,9 +1426,9 @@ With this software, you can not only carry out repairs but also diagnose malfunc
 It's the software for automotive repair information, vehicle maintenance, diagnostic data, and labor estimating.
 
 It includes technical specifications, repair procedures, wiring diagrams, maintenance schedules, and diagnostic trouble codes (DTCs). The service also offers tools for accurate repair estimates and keeps users updated on recalls and technical service bulletins (TSBs). It is essential for improving the efficiency and quality of auto repair services.
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Mitchell-Prodemand-USA-Online-1-year](https://forum.balabobbi.com/Thread-Mitchell-Prodemand-USA-Online-1-year)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -1458,9 +1458,9 @@ Cummins QuickServe Online is an online portal provided by Cummins Inc. to suppor
 - Troubleshooting and Diagnostics: Provides diagnostic tools and guides to help technicians identify and address issues with Cummins engines.
 - Service Manuals: Electronic versions of service manuals offering comprehensive instructions for maintaining and repairing Cummins engines.
 - Product Updates and Bulletins: Keeps users informed about the latest updates, service bulletins, and other relevant information about Cummins engines.
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Cummins-QuickServe-Online-1-week-1-month-1-Year-Subscription](https://forum.balabobbi.com/Thread-Cummins-QuickServe-Online-1-week-1-month-1-Year-Subscription)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -1493,9 +1493,9 @@ Allison TCM Reflash is advanced software designed specifically for updating and 
 **If you want to program or diagnose, ALLISON DOC&nbsp;is&nbsp;recommended**
 
 _Write us if you nees some other software of catalog for Allison_
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Allison-TCM-Reflash-6-3-2021](https://forum.balabobbi.com/Thread-Allison-TCM-Reflash-6-3-2021)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -1540,9 +1540,9 @@ Computer-aided analysis, EOL (End Of Line) programming, diagnosis and documentat
     - Digistar Scale Module: The flash package now detects the bootloader version and will provide appropriate steps to update if the hardware requires it.
 
 **__[Write us if you need some other software or catalog for AGCO](#)__**
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-AGCO-Electronic-Diagnostic-Tool-EDT-05-2024](https://forum.balabobbi.com/Thread-AGCO-Electronic-Diagnostic-Tool-EDT-05-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -1569,9 +1569,9 @@ Bobcat Advanced Troubleshooting System. All technical information for:
 - Bobcat excavators/loader/telescopic handlers. Wiring diagrams, error codes, service bulletins, modifications etc.
 
 **_Write us if you need some other software or catalog for Bobcat_**
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Bobcat-Advanced-Troubleshooting-System-BATS-2022-version-2-4](https://forum.balabobbi.com/Thread-Bobcat-Advanced-Troubleshooting-System-BATS-2022-version-2-4)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -1607,9 +1607,9 @@ Diagnostic tools Bobcat is intended for programming, diagnostic, service log, an
 - Interactive tests and etc.
 
 ***[size=medium]Write us if you need some other software or catalog for Bobcat***
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Bobcat-Service-Analyzer-92-02-Development-02-2024](https://forum.balabobbi.com/Thread-Bobcat-Service-Analyzer-92-02-Development-02-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -1663,9 +1663,9 @@ BOMAG is the world market leader in road construction equipment and machinery fo
 *Detailed list of brands in .txt*
 
 **Write us if you need some other software or catalog for BOMAG**
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-BOMAG-EPC-12-2022](https://forum.balabobbi.com/Thread-BOMAG-EPC-12-2022)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -1705,9 +1705,9 @@ The professional diagnostic software ESI[tronic] 2.0 from Bosch comprises vehicl
 - Supports the Bosch Connected Repair workshop network concept: For greater efficiency and effectiveness
 
 [Link to PDF](https://upm.bosch.com/News/2024_2/ESI_News_2024-2_en.pdf)
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Bosch-ESI-tronic-2-0-Master-with-1-year-updates](https://forum.balabobbi.com/Thread-Bosch-ESI-tronic-2-0-Master-with-1-year-updates)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -1756,9 +1756,9 @@ Each brand contains the following tabs:
 - Standard Repair Time
 
 ***Write us if you need some other version of CNH EST or eTimGo***
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-CNH-eTimGo-01-2024-for-All-brands-base-for-eTimGo](https://forum.balabobbi.com/Thread-CNH-eTimGo-01-2024-for-All-brands-base-for-eTimGo)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -1785,9 +1785,9 @@ Please check if your flash file is included using any desktop browser search fun
 *Detailed list of brands in the .txt*
 
 *Write us if you need some other software or catalog for Caterpillar*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Caterpillar-Flash-Files-2021](https://forum.balabobbi.com/Thread-Caterpillar-Flash-Files-2021)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -1830,9 +1830,9 @@ All Trucks
 **_Detailed list of models in the .txt_**
 
 **_Write us if you need some other software or catalog for Caterpillar_**
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Caterpillar-Forklift-MCFE-04-2024-Europe](https://forum.balabobbi.com/Thread-Caterpillar-Forklift-MCFE-04-2024-Europe)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -1868,9 +1868,9 @@ Models:
 **_Detailed list of models in the .txt_**
 
 **Write us if you need some other software or catalog for Caterpillar**
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Caterpillar-Forklift-MCFA-04-2024-USA](https://forum.balabobbi.com/Thread-Caterpillar-Forklift-MCFA-04-2024-USA)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -1906,9 +1906,9 @@ List:
 **Detailed list of models in the .txt**
 
 **Write us if you need some other software or catalog for Caterpillar**
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Caterpillar-Forklift-MCFS-04-2024-ASIA](https://forum.balabobbi.com/Thread-Caterpillar-Forklift-MCFS-04-2024-ASIA)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -1953,9 +1953,9 @@ Also, it has price book for FCA Canada & FCA US.
 It supports full decoding of VIN numbers.
 
 *Write us if you need some other software or catalog for Chrysler and Fiat*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Chrysler-Fiat-FCA-EPC5-10-2023-International](https://forum.balabobbi.com/Thread-Chrysler-Fiat-FCA-EPC5-10-2023-International)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2005,9 +2005,9 @@ Service Documentation:
 **Detailed list of models in the .txt**
 
 _Write us if you need some other software or catalog for CLAAS_
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-CLAAS-Webtic-Offline-07-2024-EN](https://forum.balabobbi.com/Thread-CLAAS-Webtic-Offline-07-2024-EN)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2036,9 +2036,9 @@ Daihatsu EPC includes a simple search function that allows the user to search sp
 European VIN types (17 digits) is decoding! NOT decoding Japan Frame types!!!
 
 ***Write us if you need some other software or catalog for Daihatsu***
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Daihatsu-EPC-02-2022](https://forum.balabobbi.com/Thread-Daihatsu-EPC-02-2022)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2066,9 +2066,9 @@ If you have a Chinese 1-board Autocom/Delphi device - you need the 2021 version.
 If you have a 2-board device - 2020 or older.
 
 **_Write us if you need some other software or catalog for different cars and trucks_**
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Autocom-Delphi-2021-Cars-Truck](https://forum.balabobbi.com/Thread-Autocom-Delphi-2021-Cars-Truck)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2098,9 +2098,9 @@ Another important distinction of WOW is that the software supports working with 
 The most important thing is: you must turn off the computer's anti-virus software and computer firewall before installation, otherwise you will not be able to open any files!
 
 *Please write to us if you need any other software or catalogs for different cars and trucks*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Wurth-WOW-5-00-12](https://forum.balabobbi.com/Thread-Wurth-WOW-5-00-12)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2139,9 +2139,9 @@ The main functions can be selected with the Top navigator and Left navigator. Th
   4. ... (truncated)
 
 Please write to us if you need any other software or catalogs for Doosan
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Doosan-Data-Monitoring-System-DMS-5-04-2024](https://forum.balabobbi.com/Thread-Doosan-Data-Monitoring-System-DMS-5-04-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2182,9 +2182,9 @@ Including setup :
 - DX22 Electronic Marine DCU [2024]
 
 *Please write to us if you need any other software or catalogs for Doosan*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Doosan-Diagnostic-Tool-DDT-2024](https://forum.balabobbi.com/Thread-Doosan-Diagnostic-Tool-DDT-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2206,9 +2206,9 @@ This video series demonstrates the programming process for the Volvo TRW ECU usi
 **Includes:** Volvo Trucks, Renault Trucks and Equipment and Machines (EMS 2.2, EMS 2.3 & 2.4)
 
 *Write to us if you need detailed list of models and&nbsp;engines*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-WinOLS-KTAG-Video-Course-How-to-SCR-AdBlue-OFF-on-Volvo-Renault-trucks](https://forum.balabobbi.com/Thread-WinOLS-KTAG-Video-Course-How-to-SCR-AdBlue-OFF-on-Volvo-Renault-trucks)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2239,9 +2239,9 @@ Book contents:
 **Detailed content`s list in the .txt**
 
 *Please write to us if you need any other software or catalogs for BMW*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-BMW-OEM-Diagnosis-Engineer-System-Training-Book](https://forum.balabobbi.com/Thread-BMW-OEM-Diagnosis-Engineer-System-Training-Book)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2255,9 +2255,9 @@ Book contents:
 ## ISUZU G-IDSS Global Export 07.2024
 
 [**ISUZU G-IDSS Global Export 07.2024**](<br><br>**Software Type:** Diagnostic Service System<br>**Languages:** **Interface:** multi / **Database:** Only English<br>**Region:** All Regions (except USA and Canada)<br>**Supported Hardware:** Isuzu IDSS MX2-T Adapter / JPRO DLA+ 2.0 / Nexiq USB link 2 / J2534 Passthru / Bosh M-VCI<br>**Operating system:** Windows 7 or Windows 10 x32 or x64<br><br>Isuzu Global Export G-IDSS Functions:* Service Information* Introduction* Mechanical* Troubleshooting (DTC)* ETM( Wiring Diagram)* Descyption* Diagnostics* Controller Programming* Saved Data* Utility Functions* Automatic Vehicle Recognition* Read & Clear Diagnostic Trouble Codes* Data List* Actuation Test* Reset Maintenance* Troubleshooting and repair manual* Repair documentation* Steering Sensor Calibration* Injector Registration* Pump Learning* Reset ECM..* Programming Key* Write VIN*Please write to us if you need any other software or catalogs for ISUZU
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-ISUZU-G-IDSS-Global-Export-07-2024](https://forum.balabobbi.com/Thread-ISUZU-G-IDSS-Global-Export-07-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2281,9 +2281,9 @@ E-IDSS (Isuzu Engine Diagnostic Service System) is specialized diagnostic softwa
 In addition to advanced diagnostic functions, the software provides users with an easy-to-use, intuitive interface that can be switched between different markets. E-IDSS also supports the search for repair documents, troubleshooting and repair guides, wiring diagrams, and manufacturer recommendations.
 
 **Please write to us if you need any other software or catalogs for ISUZU**
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-ISUZU-E-IDSS-Engine-Industrial-07-2024](https://forum.balabobbi.com/Thread-ISUZU-E-IDSS-Engine-Industrial-07-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2337,9 +2337,9 @@ Iveco Eltrac EASY (Electronic Advanced System) allows the diagnosis of various e
 - Tata-Daewoo Full
 
 ***Please write to us if you need any other software or catalogs for Iveco***
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Iveco-EASY-16-1-2023](https://forum.balabobbi.com/Thread-Iveco-EASY-16-1-2023)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2381,9 +2381,9 @@ With this service tool, you can:
 - ...
 
 ***Please write to us if you need any other software or catalogs for Iveco***
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Iveco-EASY-18-1-2024](https://forum.balabobbi.com/Thread-Iveco-EASY-18-1-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2427,9 +2427,9 @@ Wabco Toolbox 14.0 & ECAS CAN2 v3.00 – ABS And Hydraulic Power Brake (HPB) Dia
 
 *Please write to us if you need any other software or catalogs for Wabco*
 
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Wabco-Toolbox-Plus-14-0-2-12-2023](https://forum.balabobbi.com/Thread-Wabco-Toolbox-Plus-14-0-2-12-2023)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2479,9 +2479,9 @@ ZF Agricultural is an electronic parts catalog used for identifying and ordering
 - ZF - ESPANHA
 
 ***Please write to us if you need any other software or catalogs for ZF***
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-ZF-Agricultural-EPC-05-2024](https://forum.balabobbi.com/Thread-ZF-Agricultural-EPC-05-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2512,9 +2512,9 @@ Added new models:
 ***Detailed content's list in the .txt***
 
 ***Please write to us if you need any other software or catalogs for Yanmar***
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Yanmar-Smart-Assist-2-44-06-2024](https://forum.balabobbi.com/Thread-Yanmar-Smart-Assist-2-44-06-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2539,9 +2539,9 @@ Added new models:
 A software program called Wirtgen WIDiag (Wirtgen Diagnostic) is used to diagnose construction equipment owned by the Wirtgen Group, including road milling machines, cold recyclers, soil stabilizers, and other machinery.
 
 *Please write to us if you need any other software or catalogs for Wirtgen*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Wirtgen-WIDIAG-1-07-007-05-2022](https://forum.balabobbi.com/Thread-Wirtgen-WIDIAG-1-07-007-05-2022)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2570,9 +2570,9 @@ Is a complete collection of part manuals for all GAC Motor Trumpchi models relea
 - M8_Parts Manual_20210615_M8_零部件手册_20210615.pdf
 
 *Please write to us if you need any other software or catalogs*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-GAC-Motor-Trumpchi-Full-All-Model-Part-Manual-06-2021](https://forum.balabobbi.com/Thread-GAC-Motor-Trumpchi-Full-All-Model-Part-Manual-06-2021)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2599,9 +2599,9 @@ For diagnostic and coding for cars after 2021. Because Pathfinder doesn't work w
 Supports all JLR vehicles up to today.
 
 ***Please write to us if you need any other software or catalogs for&nbsp; Jaguar and Land Rover***
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-JLR-TOPIx-online-1-time-1-month-1-year](https://forum.balabobbi.com/Thread-JLR-TOPIx-online-1-time-1-month-1-year)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2625,9 +2625,9 @@ In order to use these files you will need to know How to Program DETROIT Control
 For use with DDDL Engineering level.
 
 ***Please write to us if you need any other software or catalogs for Detroit***
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Detroit-DD15-DPF-EGR-SCR-Performance-Tuning-Files-2010-2013](https://forum.balabobbi.com/Thread-Detroit-DD15-DPF-EGR-SCR-Performance-Tuning-Files-2010-2013)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2651,9 +2651,9 @@ Yanmar Heavy Equipment EPC Service & Part Manuals 2020 is an electronic parts ca
 *Detailed list in .txt*
 
 *Please write to us if you need any other software or catalogs for Yanmar*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Yanmar-Heavy-Equipment-EPC-Service-Part-Manuals-2020](https://forum.balabobbi.com/Thread-Yanmar-Heavy-Equipment-EPC-Service-Part-Manuals-2020)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2678,9 +2678,9 @@ Yanmar Heavy Equipment EPC Service & Part Manuals 2020 is an electronic parts ca
 Honda Diagnostic System (HDS) 3.105.034 is a diagnostic software used for diagnosing and programming Honda and Acura vehicles. This version allows users to read and clear diagnostic trouble codes (DTCs), view live data, perform various system tests, and reprogram control modules. It supports a wide range of Honda and Acura models and provides detailed information and functionalities for professional technicians.
 
 Interactive Honda Diagnostic System (I-HDS) 1.009.001 is another diagnostic tool designed specifically for Honda and Acura vehicles. It offers advanced diagnostic capabilities, including ECU reprogramming, immobilizer functions, and system initialization. I-HDS provides an intuitive interface for conducting comprehensive vehicle diagnostics, ensuring accurate and efficient service. This version includes updates and improvements to enhance diagnostic performance and compatibility with newer vehicle models.
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Honda-HDS-3-105-034-I-HDS-1-009-001](https://forum.balabobbi.com/Thread-Honda-HDS-3-105-034-I-HDS-1-009-001)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2717,9 +2717,9 @@ List:
 ***Detailed list on the .txt***
 
 ***Please write to us if you need any other software or catalogs for Volvo***
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Volvo-Penta-EPC-07-2024-Marine-Industrial-Engine](https://forum.balabobbi.com/Thread-Volvo-Penta-EPC-07-2024-Marine-Industrial-Engine)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2743,9 +2743,9 @@ List:
 Clark Forklift Parts Pro Plus EPC is an offline desktop software for Clark forklift electrical spare parts.This catalog includes parts and service documentation system for identifying OEM parts for Clark’s entire product offerings.
 
 ***Please write to us if you need any other software or catalogs for CLARK***
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-CLARK-ForkLift-PartsPro-Plus-EPC-07-2024](https://forum.balabobbi.com/Thread-CLARK-ForkLift-PartsPro-Plus-EPC-07-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2789,9 +2789,9 @@ The MUT-III Diagnostic Software is not just a tool; it's a comprehensive solutio
 The MUT-III Diagnostic Software is designed to support a wide range of Mitsubishi vehicles, making it an indispensable tool for mechanics and technicians in the Asia and Europe markets. The software's market coverage is extensive, ensuring that it can be used in various regions. The brand experience software aspect of the product provides additional value by offering online courses and resources to enhance the user's knowledge and skills. With its free car diagnostics courses online, the software not only serves as a diagnostic tool but also as a learning platform for those looking to expand their expertise in the field of heavy truck diagnostic software, jeep pcm programming software, and dodge diagnostic software.
 
 **Please write to us if you need any other software or catalogs for Mitsubishi**
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Mitsubishi-MUT-III-03-2024](https://forum.balabobbi.com/Thread-Mitsubishi-MUT-III-03-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2819,9 +2819,9 @@ And we’ve added cloud-based, fleetwide vehicle history to give you access to d
 Disclaimer: Product specifications and data are subject to change without notice to improve functionality, reliability, design, or otherwise. Availability of tests and configurable parameters is dependent on both the vehicle concerned and the module loaded.
 
 **_Please write to us if you need any other software or catalogs_**
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Nexiq-E-Technician-2-11-2024](https://forum.balabobbi.com/Thread-Nexiq-E-Technician-2-11-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2884,9 +2884,9 @@ DiagnosticLink 8.0x Features:
 - New VIM Throttle Panel for testing GHG14
 
 **_Please write to us if you need any other software or catalogs for Detroit _**
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Detroit-Diesel-Diagnostic-Link-DDDL-8-20-SP0-Level-10-10-10-2024](https://forum.balabobbi.com/Thread-Detroit-Diesel-Diagnostic-Link-DDDL-8-20-SP0-Level-10-10-10-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2928,9 +2928,9 @@ Diagnostic tools Bobcat is intended for programming, diagnostic, service log, an
 **Detailed list in .txt**
 
 *Please write to us if you need any other software or catalogs for Bobcat*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Bobcat-Service-Analyzer-92-10-Development-06-2024](https://forum.balabobbi.com/Thread-Bobcat-Service-Analyzer-92-10-Development-06-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -2959,9 +2959,9 @@ ZF Agricultural EPC&nbsp;is designed to provide information about spare parts fo
 ***Please write to us if you need any other software or catalogs for ZF***
 
 ***➡️ files + patch unlocked - write to us***
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-ZF-Agricultural-EPC-07-2024](https://forum.balabobbi.com/Thread-ZF-Agricultural-EPC-07-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -3000,9 +3000,9 @@ The TRU-Tech & TRU- View program enables the user to do the following:
 - Provide a security logon system controlled by a System Administrator
 
 *Please write to us if you need any other software or catalogs*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-CARRIER-TRU-TECH-v01-17-00-1000](https://forum.balabobbi.com/Thread-CARRIER-TRU-TECH-v01-17-00-1000)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -3028,9 +3028,9 @@ Toyota Forklift Quality Parts Arena is a comprehensive program that features a d
 **Detailed models list in .txt**
 
 *Please write to us if you need any other software or catalogs for Toyota*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Toyota-Forklift-Guality-Parts-Arena-v2-0-0](https://forum.balabobbi.com/Thread-Toyota-Forklift-Guality-Parts-Arena-v2-0-0)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -3079,9 +3079,9 @@ Electronic Parts Catalog for BT Forklift/Warehouse Equipment:
 - Very narrow aisle truck
 
 ***Please write to us if you need any other software or catalogs for BT or other forklifts***
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-BT-Forklift-Quality-PartsArena-5-0-0-06-2024](https://forum.balabobbi.com/Thread-BT-Forklift-Quality-PartsArena-5-0-0-06-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -3109,9 +3109,9 @@ Trucktool is a diagnostic software for Rocla, Rocla AGV, Mitsubishi, Caterpillar
 The pcan-usb adapter allows an easy connection to can networks. It's compact plastic housing makes it suitable for mobile applications.
 
 ***Please write to us if you need any other software or catalogs for forklifts***
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-TRUCKTOOL-v4-5-0-13-07-2024](https://forum.balabobbi.com/Thread-TRUCKTOOL-v4-5-0-13-07-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -3145,9 +3145,9 @@ Diamond Logic Builder has different tiered permission levels allowing for more a
 - Level 3 (Diagnostics, Parameter Programming and Advanced Logic)–  L3 access requires completion of Instructor Ledtrainingfor each user.  
 
 *Please write to us if you need any other software or catalogs for trucks*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-International-DLB-06-2024](https://forum.balabobbi.com/Thread-International-DLB-06-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -3192,9 +3192,9 @@ With the help of this catalog - you will get detailed information with pictures 
 - S – Saturn
 
 *Please write to us if you need any other software or catalogs for General Motors*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-General-Motors-GM-GMNA-EPC-05-2024-North-America](https://forum.balabobbi.com/Thread-General-Motors-GM-GMNA-EPC-05-2024-North-America)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -3222,9 +3222,9 @@ Hyundai Infracore E-Powerpack is a software tool designed for diagnosing and tro
 The software provides detailed diagnostic capabilities, including reading fault codes, real-time data monitoring, and performing system tests to ensure the machinery operates efficiently and reliably.
 
 *Please write to us if you need any other software or catalogs for Hyundai*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Hyundai-Infracore-E-Powerpack-v01-00-r1-05-2024](https://forum.balabobbi.com/Thread-Hyundai-Infracore-E-Powerpack-v01-00-r1-05-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -3258,9 +3258,9 @@ Updated models from January 2024 to May 2024
 **Detailed models list in .txt**
 
 *Please write to us if you need any other software or catalogs for Hyundai*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Hyundai-Heavy-Equipment-Operator-Manual-05-2024](https://forum.balabobbi.com/Thread-Hyundai-Heavy-Equipment-Operator-Manual-05-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -3288,9 +3288,9 @@ John Deere Service Advisor is software developed by John Deere for diagnosing an
 John Deere Service Advisor software is a complete source of all technical information for repair, problem diagnosis, as well as service repair manuals.
 
 ***Please write to us if you need any other software or catalogs for John Deere***
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-John-Deere-Service-Advisor-5-3-225-AG-CF-Data-05-2024](https://forum.balabobbi.com/Thread-John-Deere-Service-Advisor-5-3-225-AG-CF-Data-05-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -3313,9 +3313,9 @@ John Deere Service Advisor software is a complete source of all technical inform
 Kia Microcat is an EPC spare parts catalog, contains information about parts and accessories for Kia cars, buses and trucks. Manufactured for all markets (Australia, Canada, Europe, general, Middle east, USA). The Catalog presents the following vehicle types: passenger, R/V, and commercial
 
 *Please write to us if you need any other software or catalogs for Kia*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Kia-Microcat-EPC-v6-05-2024](https://forum.balabobbi.com/Thread-Kia-Microcat-EPC-v6-05-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -3338,9 +3338,9 @@ Kia Microcat is an EPC spare parts catalog, contains information about parts and
 This program has a new interface for catalog Microcat Hyundai, here you will find detailed information of parts and accessories for vehicles of Hyundai, trucks, buses, passenger vehicles for all regions, Australia, Europe, general, Middle east, Canada , USA.
 
 *Please write to us if you need any other software or catalogs for Hyundai*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Hyundai-Microcat-EPC-v6-06-2024](https://forum.balabobbi.com/Thread-Hyundai-Microcat-EPC-v6-06-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -3382,9 +3382,9 @@ Iveco Power EPC is a special electrical parts catalogue software for Iveco truck
 **Detailed models list in .txt**
 
 *Please write to us if you need any other software or catalogs for Iveco*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Iveco-Power-Trucks-and-Bus-EPC-Q1-2024-03-2024](https://forum.balabobbi.com/Thread-Iveco-Power-Trucks-and-Bus-EPC-Q1-2024-03-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -3434,9 +3434,9 @@ One of the key features of Prosis 2024 is its ability to allow users to easily s
 **Detailed models list in .txt**
 
 *Please write to us if you need any other software or catalogs for Volvo*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Volvo-Prosis-4-6-9-0-06-2024-Offline-Service-Information](https://forum.balabobbi.com/Thread-Volvo-Prosis-4-6-9-0-06-2024-Offline-Service-Information)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -3494,9 +3494,9 @@ You can use:
 - Wire Harness Repair Manual
 
 **_Please write to us if you need any other software or catalogs for Toyota and Lexus_**
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Toyota-Online-Subscriptions-1-day-1-week-1-month-1-year](https://forum.balabobbi.com/Thread-Toyota-Online-Subscriptions-1-day-1-week-1-month-1-year)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -3557,9 +3557,9 @@ Book contents:
 40. 222 equipped with electric tailgate COMAND (HU5) control unit coding
 
 ***Please write to us if you need any other software or catalogs for Mercedes***
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Mercedes-Vediamo-Engineer-System-Training-Book-for-real-special-functions](https://forum.balabobbi.com/Thread-Mercedes-Vediamo-Engineer-System-Training-Book-for-real-special-functions)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -3589,9 +3589,9 @@ Book contents:
 9. Symbolic trace: Record and track the file, after repeated viewing, analysis of fault logic point
 
 *Please write to us if you need any other software or catalogs for Mercedes*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Mercedes-DTS-Monaco-Engineer-Training-Book-for-real-special-functions](https://forum.balabobbi.com/Thread-Mercedes-DTS-Monaco-Engineer-Training-Book-for-real-special-functions)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -3627,9 +3627,9 @@ Parts Information: 1985-current.
 - Print high-quality text and illustrations
 
 **_Please write to us if you need any other software or catalogs for Chrysler & Fiat & Jeep_**
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Chrysler-Fiat-FCA-EPC5-02-2024-International](https://forum.balabobbi.com/Thread-Chrysler-Fiat-FCA-EPC5-02-2024-International)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -3661,9 +3661,9 @@ Models for EU:
 **Detailed models list in .txt**
 
 ***Please write to us if you need any other software or catalogs for Mitsubishi***
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-Mitsubishi-Forklift-Trucks-EPC-MCFE-EU-07-2024](https://forum.balabobbi.com/Thread-Mitsubishi-Forklift-Trucks-EPC-MCFE-EU-07-2024)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
@@ -3712,9 +3712,9 @@ VAG PETKA 8.3 EPC 06.2024 is an electronic parts catalog for vehicles of brands 
 - Caminhoes Onibus 07.2023 Spare Parts Catalog Software
 
 *Please write to us if you need any other software or catalogs for VAG*
-** Download link:
+### Download link:
 [https://forum.balabobbi.com/Thread-VAG-PETKA-8-3-EPC-07-2024--115](https://forum.balabobbi.com/Thread-VAG-PETKA-8-3-EPC-07-2024--115)
-**Contacts
+### Contacts
 
 | Platform | Contact               |
 |----------|-----------------------|
