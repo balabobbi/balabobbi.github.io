@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://balabobbi.gihub.io/sitemap.xml
