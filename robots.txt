@@ -1,5 +1,3 @@
 User-agent: *
 Allow: /
 Sitemap: https://balabobbi.github.io/sitemap.xml
-
-
