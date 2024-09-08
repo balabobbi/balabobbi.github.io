@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volvo Penta EPC 08.2024 (Marine &amp; Industrial Engine)</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download the Volvo Penta EPC 08.2024 for marine and industrial engine parts catalogue with multiple languages support.">
     <meta name="keywords" content="Volvo Penta EPC 08.2024 catalogue free download, Volvo Penta EPC marine engine parts, Volvo Penta EPC industrial engine catalogue, Volvo Penta parts catalog 2024 download free, Volvo Penta EPC 08.2024 download, Volvo Penta EPC 2024 high speed download, Volvo Penta EPC English, Volvo Penta EPC Russian, Volvo Penta EPC Ukrainian, Volvo Penta industrial engine parts, Volvo Penta marine engine parts, EPC Volvo Penta 08.2024, Volvo Penta spare parts catalogue, Volvo Penta EPC 2024 download free, Volvo Penta EPC 2024 PDF, Volvo Penta EPC 2024 PDF free download">
     <style>

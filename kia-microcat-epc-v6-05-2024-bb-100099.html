@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kia Microcat EPC v6 05.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Kia Microcat EPC v6 05.2024 catalog for spare parts and accessories for various Kia vehicles. Available for all regions and supports multiple languages.">
     <meta name="keywords" content="Kia Microcat EPC v6 05.2024, Microcat Kia epc, microcat epc 2024, Microcat Kia epc download, Microcat Kia epc download free, Kia Microcat EPC, Kia spare parts catalog, Kia parts and accessories, Kia EPC v6, Kia Microcat 2024, Kia parts catalog, Kia vehicle parts, Kia automotive catalog, Kia spare parts v6, Kia truck parts catalog, Kia bus parts catalog, Kia parts for Australia, Kia parts for USA, Kia parts for Europe, Kia commercial vehicle catalog, kia microcat epc, kia parts catalog, kia spare parts software, kia electronic parts catalogue, kia vehicle maintenance, kia car parts, kia bus parts, kia truck parts, kia accessories catalog, kia parts lookup, kia component search, automotive parts database, kia repair information, kia service manual, kia technical data, vehicle parts identification, kia parts numbers, automotive diagrams, kia component lookup, passenger vehicle parts, commercial vehicle parts, kia australia parts, kia canada parts, kia europe parts, kia middle east parts, kia usa parts, global automotive parts, kia vehicle compatibility, automotive fleet maintenance, kia parts cross-reference, vehicle repair software, kia diagnostics, automotive troubleshooting, kia parts ordering, vehicle maintenance schedules, kia service information, car repair database, bus maintenance software, truck parts catalog, kia oem parts, aftermarket parts lookup, kia vehicle systems, automotive technician tools, kia parts inventory, car component diagrams, commercial fleet parts, kia part specifications, vehicle repair solutions, kia r/v parts, kia commercial vehicle parts, kia запчасти каталог, kia эпк загрузить бесплатно, kia микро-каталог запчастей, каталог запчастей Киа 2024, kia каталог автомобилей, kia каталог запчастин, kia запчастини завантажити, kia электронный каталог запчастей, kia запасные части скачать бесплатно">
     <style>

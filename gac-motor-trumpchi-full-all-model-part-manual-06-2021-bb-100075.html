@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GAC Motor Trumpchi Full All Model Part Manual 06.2021</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Comprehensive parts manual for all GAC Motor Trumpchi models up to June 2021, featuring part numbers and installation info.">
     <meta name="keywords" content="GAC Motor Trumpchi parts manual, GAC Motor Trumpchi full manual, Trumpchi parts and installation guide, GAC Motor Trumpchi model parts, GAC Trumpchi complete parts manual, Trumpchi parts collection 2021, GAC Motor Trumpchi service manual, Trumpchi all models part numbers, GAC Trumpchi installation manual, GAC Motor Trumpchi repair guide, Trumpchi parts information June 2021, GAC Motor Trumpchi model details, Trumpchi comprehensive parts manual, GAC Motor Trumpchi model guide, Trumpchi parts, GAC Motor Trumpchi 2021 part manual, GAC Motor Trumpchi manual download, GAC Motor Trumpchi manual 06.2021, GAC Motor Trumpchi manual free download, GAC Motors June 2021 parts manual, Trumpchi model parts download, Trumpchi model parts manual 2021, GAC Motor Trumpchi parts manual free, GAC Trumpchi parts guide 2021, Трумпчи руководство по запчастям, Трумпчи руководство по запчастям скачать, Руководство по запчастям GAC Motor 2021, Руководство по запчастям GAC Motor скачать бесплатно, Запчасти GAC Motor 2021, GAC Motor Trumpchi руководство по запчастям, manual de piezas de GAC Motors Trumpchi, manual de piezas de GAC Motors Trumpchi descargar, manual de piezas de GAC Motors Trumpchi 2021, manual de piezas de Trumpchi junio 2021, руководство по ремонту GAC Motor Trumpchi, Руководство по установке GAC Trumpchi, GAC Motor Trumpchi manual de repuestos">
     <style>

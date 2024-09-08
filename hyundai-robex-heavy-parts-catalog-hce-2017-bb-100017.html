@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hyundai Robex Heavy Parts Catalog HCE 2017</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Get detailed information on Hyundai Robex Heavy Parts Catalog HCE 2017, including spare parts and accessories for crawler excavators, wheeled excavators, and more.">
     <meta name="keywords" content="Hyundai Robex Heavy Parts Catalog HCE 2017, Hyundai Robex parts catalog 2017, Robex parts catalog HCE 2017, Hyundai Heavy Industries parts catalog 2017, Hyundai Robex parts catalog download, Hyundai Robex parts catalog free download, Hyundai Robex Heavy Parts Catalog HCE 2017 pdf, Hyundai Robex Heavy Parts Catalog English Korean, Hyundai Robex Heavy Parts Catalog all regions, Hyundai Robex Heavy Parts Catalog Windows, Hyundai Robex e-catalogue 2017, Hyundai equipment parts catalog, Robex Heavy Parts Catalog HCE 2017, Hyundai Robex catalog 2017 high speed download, Hyundai Robex EPC free download, Hyundai parts catalog 2017, Hyundai Robex equipment parts, Hyundai spare parts catalog, Hyundai Robex replacement parts, Hyundai Robex e-catalogue download, Hyundai Robex parts book 2017, Hyundai Robex parts manual 2017, Hyundai Robex Heavy equipment parts, catalogue of Hyundai excavators, catalogue of Hyundai wheel loaders, Hyundai bulldozers parts catalog, Hyundai catalog maintenance manual, Hyundai Robex troubleshooting guide, Hyundai R290LC7A parts catalog, Hyundai R210LC9 manual, Hyundai R140LC9 parts">
     <style>

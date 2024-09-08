@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chrysler Fiat FCA EPC5 10.2023 (International)</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Download Chrysler Fiat FCA EPC5 10.2023, the international original electronic part catalog for Chrysler FCA vehicles. Multi-language support and VIN decoding included.">
     <meta name="keywords" content="Chrysler Fiat FCA EPC5 10.2023, Chrysler Fiat FCA EPC5 download, Chrysler Fiat EPC5 international, Chrysler FCA EPC5 2023, FCA EPC5 download, FCA EPC5 free download, Chrysler Fiat EPC5 free download, Chrysler EPC5 catalogue download, Fiat EPC5 catalogue download, Electronic part catalog Chrysler, Chrysler PAIS4 EPC5, FCA EPC5 2023 free download, Chrysler Fiat EPC5 international download, Крайслер Fiat FCA EPC5 10.2023, Крайслер Fiat FCA EPC5 скачать, Fiat EPC5 каталог запчастей скачать, Chrysler EPC5 каталог запчастей, Fiat EPC5 каталог запчастей 2023, Каталог деталей Chrysler Fiat FCA EPC5, Chrysler Fiat EPC5 каталог запчастей 2023, Fiat EPC5 каталог международный, Каталог запчастей Chrysler Fiat 2023, каталог запчастей Chrysler Fiat скачать, Fiat FCA EPC5  бесплатно скачать, Chrysler PAIS4 каталог скачать">
     <style>

